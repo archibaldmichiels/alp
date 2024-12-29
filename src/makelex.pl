@@ -769,6 +769,7 @@ noun(2, masc, murus, mur, class:common, ab:no, sem:[thing,loc],[]).
 noun(2, masc, nasus, nas,class:common, ab:no,  sem:[thing],[]).
 noun(2, masc, natus, nat,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, numerus, numer,class:common, ab:no,  sem:[abstract],[]).
+noun(2, masc, nuntius, nunti,class:common, ab:mm,  sem:[abstract],[]).     % nuntius meaning message
 noun(2, masc, oculus, ocul, class:common, ab:no, sem:[abstract, thing],[]).
 noun(2, masc, patronus, patron,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, pessimus, pessim,class:common, ab:no,  sem:[hum],[nb:pl]).

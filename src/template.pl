@@ -709,6 +709,11 @@ lexarg(audire,
                       object:[type:np,oblig:no,constraints:[case:acc]]]),
 
              ws(audio_hear_that,tr_cod,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      object:[type:np,oblig:yes,constraints:[case:acc]],
+                      object_cplt:[type:adjp,oblig:yes,constraints:[case:acc, type:std]]]),
+
+             ws(audio_hear_that,tr_cod,clause:[],mwuw:0,
                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                      object:[type:pred,oblig:yes,
                        constraints:[type:finite,gap:[],argbound:yes,subordinator:or([quod, quia, quoniam])]]])]).
@@ -1437,7 +1442,15 @@ lexarg(ferre,
        arglist:[ws(fero_bear,tr_cod,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[]],
                       object:[type:np,oblig:yes,constraints:[case:acc]],
-                      prep_cplt:[type:pp,oblig:no,constraints:[prep:ad]]])]).
+                      prep_cplt:[type:pp,oblig:no,constraints:[prep:ad]]]),
+
+                ws(fero_bear,tr_cod,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      i_object:[type:np,oblig:no,case:dat,constraints:[case:dat, sem:[hum]]],
+                      object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+                      
+
+
 	% REFERRE
 	% De re refertur.
 	lexarg(referre,
@@ -1678,7 +1691,7 @@ lexarg(iubere,
 
                 ws(iubeo_bid_goodday_IDIOM,tr_inf,clause:[],mwuw:2,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
-                      object:[type:pred,oblig:yes,constraints:[type:nonfinite, c_str:[vg:[selected_reading:salveo_be_well]]
+                      object:[type:pred,oblig:yes,constraints:[type:nonfinite, constituent_structure:[vg:[selected_reading:salveo_be_well]]
                      ]]])]).
 
 % IUDICARE (+acc_cum_inf)
