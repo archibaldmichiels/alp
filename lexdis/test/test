@@ -1,0 +1,24 @@
+[gun,pos:n,hunter].
+[gun,pos:n,hunger].
+
+[bread,pos:n,hunger].
+[bread,pos:n,gun].
+
+[cat,pos:n,dog].
+[cat,pos:n,fox].
+
+[serpent,pos:n,snake].
+[serpent,pos:n,bird].
+
+[pool,pos:n,water].
+[pool,pos:n,house].
+[pool,pos:n,football].
+[pool,pos:n,tennis].
+
+[pool,pos:n,football,pos:n,w:t,m:l].
+[pool,pos:n,water,pos:n,w:t,m:l].
+
+t(wear, tie, watch).
+
+nadamas.
+
