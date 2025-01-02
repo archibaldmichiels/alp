@@ -757,6 +757,13 @@ lexarg(cedere,
                  ws(cedo_yield,intr,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[]],
                       i_object:[type:np,oblig:yes,constraints:[case:dat]]]) ]).
+
+        % DISCEDERE
+        lexarg(discedere,
+               arglist:[ws(discedo_part_from,intr,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                       cplt:[type:pp,oblig:yes,constraints:[prep:ab]]])   ]).
+
 % CELEBRARE
 lexarg(celebrare,
        arglist:[
@@ -2141,6 +2148,16 @@ lexarg(pellere,
                       object:[type:np,oblig:yes,constraints:[sem:[hum],case:acc]],
                       cplt:[type:np,oblig:yes,constraints:[case:abl]] ])]).
 
+% EXPELLERE
+lexarg(expellere,
+       arglist:[
+             ws(expello_expulse,tr_cod,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[]],
+                      object:[type:np,oblig:yes,constraints:[sem:[hum],case:acc]],
+                      prep_cplt:[type:pp,oblig:no,constraints:[prep:ex]] ])]).
+
+            
+
 % PERDERE
 % Quos uult perdere.
 lexarg(perdere,
@@ -2174,6 +2191,14 @@ lexarg(petere,
                 ws(peto_consulatum_run_for_consul_IDIOM,tr_cod,clause:[],mwuw:2,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:np,oblig:yes,constraints:[case:acc,lex:consulatus]]])]).
+
+	% APPETERE
+
+      lexarg(appetere,
+       arglist:[ws(appeto_try_to_reach_or_get,tr_cod,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+
 % PLACARE
 lexarg(placare,
        arglist:[ws(placo_appease,tr_cod,clause:[],mwuw:0,
@@ -2315,7 +2340,7 @@ lexarg(quaerere,
                 ws(quaero_ask,tr_cod,clause:[],mwuw:0,
                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                      object:[type:pred,oblig:yes,
-                     constraints:[type:finite,gap:[],mood:subjunctive, checkint:yes]]])]).
+                     constraints:[type:finite,gap:[],mood:subjunctive,checkint:yes]]])]).
                        
 
 % QUATERE
@@ -2912,6 +2937,12 @@ lexarg(uocare,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:np,oblig:yes,constraints:[case:acc]],
                       object_cplt:[type:np,oblig:no,constraints:[case:acc]]]),
+
+                ws(uoco_call,tr_cod,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      object:[type:np,oblig:yes,constraints:[case:acc]],
+                      prep_cplt:[type:pp,oblig:yes,constraints:[prep:ad, case:acc]]]),
+                     
 
                 ws(uoco_call,tr_cod,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],

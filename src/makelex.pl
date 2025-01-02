@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-% Latest Update : December 2024
+% Latest Update : Jan 2025
 % © Archibald Michiels
 % amichiels@uliege.be
 
@@ -108,6 +108,7 @@ verb([v(cadere,3,cad,cecid,cas)],intr,std).
 verb([v(canere,3,can,cecin,cant)],tr_cod,std).
 verb([v(capere,5,cap,cep,capt)],tr_cod,std).
 verb([v(cedere,3,ced,cess,cess)],intr,std).
+verb([v(discedere,3,disced,discess,discess)],intr,std).
 verb([v(celebrare,1,celebr,celebrau,celebrat)],tr_cod,std).
 verb([v(cenare,1,cen,cenau,cenat)],intr,std).
 verb([v(censere,2,cense,censu,cens)],tr_cod,std).
@@ -251,12 +252,14 @@ verb([v(parare,1,par,parau,parat)],tr_cod,std).
 verb([v(parcere,3,parc,peperc,pars)],tr_cod,std).
 verb([v(pati,5,pat,pass)],tr_cod,dep).
 verb([v(pellere,3,pell,pepul,puls)],tr_cod,std).
+verb([v(expellere,3,expell,expepul,expuls)],tr_cod,std).
 verb([v(perdere,3,perd,perdid,perdit)],tr_cod,std).
 verb([v(perficere,5,perfic,perfec,perfect)],tr_cod,std).
 verb([v(perire,4,xxx,peri,perit)],intr,std).
 verb([v(perspicere,5,perspic,perspex,perspect)],tr_cod,std).
 verb([v(peruenire,4,peruen,peruen,peruent)],intr,std).
 verb([v(petere,3,pet,petiu,petit)],tr_cod,std).
+verb([v(appetere,3,appet,appetiu,appetit)],tr_cod,std).
 verb([v(placare,1,plac,placau,placat)],tr_cod,std).
 verb([v(placere,2,place,placu,placit)],tr_coi,std).
 verb([v(ponere,3,pon,posu,posit)],tr_cod,std).
@@ -706,7 +709,7 @@ noun(1,fem,roma,rom,class:common, ab:no, sem:[city,thing,hum],[nb:sg]).
 noun(1,fem,sapientia,sapienti,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,sardinia,sardini,class:common, ab:no, sem:[loc,thing],[nb:sg]).
 noun(1,fem,scientia,scienti,class:common, ab:mm, sem:[quality],[]).
-noun(1,fem,sententia,sententi,class:common, ab:no, sem:[abstract],[]).
+noun(1,fem,sententia,sententi,class:common, ab:mm, sem:[abstract],[]).
 noun(1,fem,serua,seru,class:common, ab:no, sem:[hum, thing],[]).
 noun(1,fem,sicilia,sicili,class:common, ab:no, sem:[country,thing],[nb:sg]).
 noun(1,fem,silua,silu,class:common, ab:no, sem:[thing,loc],[]).
@@ -737,6 +740,7 @@ noun(1,masc,nauta,naut,class:common, ab:no, sem:[hum],[]).
 
 noun(2, masc, alumnus, alumn,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, amicus, amic,class:common, ab:no,  sem:[hum],[]).
+noun(2, masc, angulus, angul, class:common, ab:no, sem:[loc,thing],[]).
 noun(2, masc, animus, anim, class:common, ab:mm, sem:[abstract, thing],[]).
 noun(2, masc, annus, ann,class:common, ab:time,  sem:[time, abstract],[]).
 % noun(2, masc, bonus, bon,class:common, ab:no,  sem:[hum],[nb:pl]).
@@ -1013,6 +1017,7 @@ noun(3,fem,plebs,pleb,um,class:common, ab:no, sem:[human,abstract],[nb:sg]).
 noun(3,fem,potestas,potestat,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,proditio,prodition,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,quies,quiet,um,class:common, ab:mm, sem:[abstract],[nb:sg]).
+noun(3,fem,requies,requiet,um,class:common, ab:mm, sem:[abstract],[nb:sg]).
 noun(3,fem,ratio,ration,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,regio,region,um,class:common, ab:no, sem:[thing,loc],[]).
 noun(3,fem,salus,salut,um,class:common, ab:no, sem:[quality],[]).
@@ -1158,6 +1163,7 @@ noun(1,masc,thrasea,thrase,class:proper,ab:no, sem:[male],[nb:sg]).
 
 
 noun(2,masc,alexander,alexandr,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,ariouistus,ariouist,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,fabullus,fabull,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,dionysius,dionysi,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,marcus,marc,class:proper,ab:no, sem:[male],[nb:sg]).
@@ -5479,7 +5485,7 @@ asserta(lex(FGennpls,adj,[pos:adj,txt:FGennpls,lex:FNmsg, type:Type,N, case:gen,
 % dative n pl
 asserta(lex(FDatnpls,adj,[pos:adj,txt:FDatnpls,lex:FNmsg, type:Type,N, case:dat, gender:neuter, number:pl, degree:sup,sem:Sem])),
 % adverb
-asserta(lex(FAdverb,adv,[lex:FAdverb,pos:adv,type:vpbound, degree:sup, sem:_])),
+asserta(lex(FAdverb,adv,[lex:FAdverb,pos:adv,type:vpbound, degree:sup, sem:manner])),
 % ablative n pl
 asserta(lex(FAblnpls,adj,[pos:adj,txt:FAblnpls,lex:FNmsg, type:Type,N, case:abl, gender:neuter, number:pl, degree:sup,sem:Sem])) )),
 
@@ -6433,6 +6439,10 @@ lex(antoni,noun,[pos:noun,txt:antoni,lex:antonius, case:voc, gender:masc, class:
 lex(animalia,noun,[pos:noun,txt:animalia,lex:animal, case:acc, gender:neuter, class:common, ab:no, number:pl,sem:[thing, hum]]).
 lex(animalia,noun,[pos:noun,txt:animalia,lex:animal, case:nom, gender:neuter, class:common, ab:no, number:pl,sem:[thing, hum]]).
 
+% requiem
+%%%%%%%%%
+
+lex(requiem, noun, [pos:noun, txt:requiem, lex:requies, case:acc, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
 
 
 
@@ -8220,14 +8230,14 @@ lex(omnia, prindef, [pos:prindef, txt:omnia, lex:omnis,gender:neuter,
 lex(omnia, prindef, [pos:prindef, txt:omnia, lex:omnis,gender:neuter,
                     case:nom, number:pl,person:3,sem:[thing, abstract],
                     function:[subject]]).
-lex(omnium, prindef, [pos:prindef, txt:omnium, lex:omnis,gender:or([masc,fem,neuter]),
-                    case:gen, number:pl,person:3,sem:[hum],
+lex(omnium, prindef, [pos:prindef, txt:omnium, lex:omnis,gender:neuter,
+                    case:gen, number:pl,person:3,sem:[thing, abstract],
                     function:[noun_cplt]]).
-lex(omnibus, prindef, [pos:prindef, txt:omnibus, lex:omnis,gender:or([masc,fem,neuter]),
-                    case:dat, number:pl,person:3,sem:[hum],
+lex(omnibus, prindef, [pos:prindef, txt:omnibus, lex:omnis,gender:neuter,
+                    case:dat, number:pl,person:3,sem:[thing, abstract],
                     function:[i_object]]).
-lex(omnibus, prindef, [pos:prindef, txt:omnibus, lex:omnis,gender:or([masc,fem,neuter]),
-                    case:abl, number:pl,person:3,sem:[hum],
+lex(omnibus, prindef, [pos:prindef, txt:omnibus, lex:omnis,gender:neuter,
+                    case:abl, number:pl,person:3,sem:[thing, abstract],
                     function:[prep_cplt]]).
 
 
@@ -8690,6 +8700,8 @@ lex(nondum,      adv,[lex:nondum,        pos:adv,type:vpbound, sem:time]).
 lex(nonnumquam,     adv,[lex:nonnumquam,       pos:adv,type:vpbound, sem:time]).
 lex(numquam,     adv,[lex:numquam,       pos:adv,type:vpbound, sem:time]).
 lex(nunquam,     adv,[lex:nunquam,       pos:adv,type:vpbound, sem:time]).
+lex(nusquam,     adv,[lex:nusquam,       pos:adv,type:vpbound, sem:place]).
+lex(nusquam_nisi,     adv,[lex:nusquam_nisi,       pos:adv,type:vpbound, sem:place]).   % purely ad hoc 'nusquam ... nisi in angulo cum libro'
 lex(nunc,     adv,[lex:nunc,       pos:adv,type:vpbound, sem:time]).
 lex(olim,     adv,[lex:olim,       pos:adv,type:vpbound, sem:time]).
 lex(paene,   adv,[lex:paene,     pos:adv,type:clausal, sem:eval]).
@@ -8837,13 +8849,15 @@ lex(ne,  neg, [lex:ne,  pos:neg, type:imp]).
 % PARTICLES
 %
 
+
 lex(ne_int, part,   [lex:ne_int,  type:int, value:open_orientation,     clausetype:_]).
 lex(num,    part,   [lex:num,     type:int, value:open_orientation,     clausetype:sub]). % in indirect questions
 lex(num,    part,   [lex:num,     type:int, value:negative_orientation, clausetype:main]). % in direct questions
 lex(nonne,  part,   [lex:num,     type:int, value:positive_orientation, clausetype:_]). % in direct questions
 
 lex(utinam, part,   [lex:utinam]).
-
+               
+ 
 % ADDRESS
 
 % lex(o, address,[lex:o]).
