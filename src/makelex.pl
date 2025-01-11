@@ -640,6 +640,7 @@ noun(1,fem,colonia,coloni,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,coma,com,class:common, ab:no, sem:[thing],[]).
 noun(1,fem,copiae,copi,class:common, ab:mm, sem:[hum],[nb:pl]). % pluralia tantum
 noun(1,fem,corona,coron,class:common, ab:no, sem:[thing],[]).
+noun(1,fem,creatura,creatur,class:common, ab:no, sem:[thing],[]).
 noun(1,fem,cura,cur,class:common, ab:mm, sem:[abstract],[]).
 noun(1,fem,curia,curi,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,dea,de,class:common, ab:no, sem:[hum],[]).
@@ -912,6 +913,7 @@ noun(3,masc,custos,custod,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,defensor,defensor,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,dolor,dolor,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,masc,dux,duc,um,class:common, ab:no, sem:[hum],[]).
+noun(3,masc,emptor,emptor,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,eques,equit,um,class:common, ab:mm, sem:[hum],[]).
 noun(3,masc,error,error,um,class:common, ab:no, sem:[abstract],[]).
 noun(3,masc,fautor,fautor,um,class:common, ab:no, sem:[hum],[]).
@@ -1014,6 +1016,7 @@ noun(3,fem,paupertas,paupertat,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,petitio,petition,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,pietas,pietat,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,plebs,pleb,um,class:common, ab:no, sem:[human,abstract],[nb:sg]).
+noun(3,fem,portio,portion,um,class:common, ab:no, sem:[abstract,thing,hum],[]).
 noun(3,fem,potestas,potestat,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,proditio,prodition,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,quies,quiet,um,class:common, ab:mm, sem:[abstract],[nb:sg]).
@@ -1083,12 +1086,6 @@ noun(3,neuter,tegmen,tegmin,um,class:common, ab:no, sem:[thing, loc],[]).
 noun(3,neuter,tempora,tempor,um,class:common, ab:no, sem:[thing],[nb:pl]).
 noun(3,neuter,tempus,tempor,um,class:common, ab:no, sem:[abstract,time],[]).
 noun(3,neuter,ulnus,ulner,um,class:common, ab:no, sem:[thing,abstract],[]).
-
-% special wordforms for MARE
-
-lex(mari,noun,[pos:noun,txt:mari,lex:mare, case:abl, gender:neuter, class:common, ab:no, number:sing,sem:[thing, loc]]).
-lex(maria,noun,[pos:noun,txt:maria,lex:mare, case:nom, gender:neuter, class:common, ab:no, number:pl,sem:[thing, loc]]).
-lex(maria,noun,[pos:noun,txt:maria,lex:mare, case:acc, gender:neuter, class:common, ab:no, number:pl,sem:[thing, loc]]).
 
 
 
@@ -6349,8 +6346,11 @@ macro_noun_4_mf.
 
 
 
+% special wordforms for MARE
 
-
+lex(mari,noun,[pos:noun,txt:mari,lex:mare, case:abl, gender:neuter, class:common, ab:no, number:sing,sem:[thing, loc]]).
+lex(maria,noun,[pos:noun,txt:maria,lex:mare, case:nom, gender:neuter, class:common, ab:no, number:pl,sem:[thing, loc]]).
+lex(maria,noun,[pos:noun,txt:maria,lex:mare, case:acc, gender:neuter, class:common, ab:no, number:pl,sem:[thing, loc]]).
 
 
 
@@ -8514,6 +8514,50 @@ lex(quas,  adj, [pos:adj, type:int,txt:quas, lex:quis,gender:fem,case:acc, numbe
 lex(quarum,adj, [pos:adj, type:int,txt:quarum, lex:quis,gender:fem,case:gen, number:pl]).
 
 
+% ALIQUI adj
+
+lex(aliqui,   adj, [pos:adj, type:tool,txt:aliqui, lex:aliqui,gender:masc,case:nom, number:sing]).
+lex(aliquem,  adj, [pos:adj, type:tool,txt:aliquem, lex:aliqui,gender:masc,case:acc, number:sing]).
+lex(alicuius,  adj, [pos:adj, type:tool,txt:alicuius, lex:aliqui,gender:masc,case:gen, number:sing]). 
+lex(alicui,   adj, [pos:adj, type:tool,txt:alicui, lex:aliqui,gender:masc,case:dat, number:sing]).
+lex(aliquo,  adj, [pos:adj, type:tool,txt:aliquo, lex:aliqui,gender:masc,case:abl, number:sing]).
+
+
+lex(aliqua,   adj, [pos:adj, type:tool,txt:aliqua, lex:aliqui,gender:fem,case:nom, number:sing]).
+lex(aliquam,  adj, [pos:adj, type:tool,txt:aliquam, lex:aliqui,gender:fem,case:acc, number:sing]).
+lex(alicuius,  adj, [pos:adj, type:tool,txt:alicuius, lex:aliqui,gender:fem,case:gen, number:sing]). 
+lex(alicui,   adj, [pos:adj, type:tool,txt:alicui, lex:aliqui,gender:fem,case:dat, number:sing]).
+lex(aliqua,  adj, [pos:adj, type:tool,txt:aliqua, lex:aliqui,gender:fem,case:abl, number:sing]).
+
+lex(aliquod,   adj, [pos:adj, type:tool,txt:aliquod, lex:aliqui,gender:neuter,case:nom, number:sing]).
+lex(aliquod,  adj, [pos:adj, type:tool,txt:aliquod, lex:aliqui,gender:neuter,case:acc, number:sing]).
+lex(alicuius,  adj, [pos:adj, type:tool,txt:alicuius, lex:aliqui,gender:neuter,case:gen, number:sing]). 
+lex(alicui,   adj, [pos:adj, type:tool,txt:alicui, lex:aliqui,gender:neuter,case:dat, number:sing]).
+lex(aliquo,  adj, [pos:adj, type:tool,txt:aliquo, lex:aliqui,gender:neuter,case:abl, number:sing]).
+
+
+
+lex(aliqui,   adj, [pos:adj, type:tool,txt:aliqui, lex:aliqui,gender:masc,case:nom, number:pl]).
+lex(aliquos,  adj, [pos:adj, type:tool,txt:aliquos, lex:aliqui,gender:masc,case:acc, number:pl]).
+lex(aliquorum,  adj, [pos:adj, type:tool,txt:aliquorum, lex:aliqui,gender:masc,case:gen, number:pl]). 
+lex(aliquibus,   adj, [pos:adj, type:tool,txt:aliquibus, lex:aliqui,gender:masc,case:dat, number:pl]).
+lex(aliquibus,  adj, [pos:adj, type:tool,txt:aliquibus, lex:aliqui,gender:masc,case:abl, number:pl]).
+
+
+lex(aliquae,   adj, [pos:adj, type:tool,txt:aliquae, lex:aliqui,gender:fem,case:nom, number:pl]).
+lex(aliquas,  adj, [pos:adj, type:tool,txt:aliquas, lex:aliqui,gender:fem,case:acc, number:pl]).
+lex(aliquarum,  adj, [pos:adj, type:tool,txt:aliquarum, lex:aliqui,gender:fem,case:gen, number:pl]). 
+lex(aliquibus,   adj, [pos:adj, type:tool,txt:aliquibus, lex:aliqui,gender:fem,case:dat, number:pl]).
+lex(aliquibus,  adj, [pos:adj, type:tool,txt:aliquibus, lex:aliqui,gender:fem,case:abl, number:pl]).
+
+
+lex(aliqua,   adj, [pos:adj, type:tool,txt:aliqua, lex:aliqui,gender:neuter,case:nom, number:pl]).
+lex(aliqua,  adj, [pos:adj, type:tool,txt:aliqua, lex:aliqui,gender:neuter,case:acc, number:pl]).
+lex(aliquorum,  adj, [pos:adj, type:tool,txt:aliquorum, lex:aliqui,gender:neuter,case:gen, number:pl]). 
+lex(aliquibus,   adj, [pos:adj, type:tool,txt:aliquibus, lex:aliqui,gender:neuter,case:dat, number:pl]).
+lex(aliquibus,  adj, [pos:adj, type:tool,txt:aliquibus, lex:aliqui,gender:neuter,case:abl, number:pl]).
+
+
 
 
 % QUISQUAM
@@ -8687,6 +8731,7 @@ lex(item,      adv,[lex:item,        pos:adv,type:clausal, sem:discourse]).
 lex(magis,      adv,[lex:magis,        pos:adv,type:clausal, sem:discourse]).
 lex(male,   adv,[lex:male,     pos:adv,type:vpbound, sem:eval]).
 lex(mane,   adv,[lex:mane,     pos:adv,type:vpbound, sem:time]).
+lex(mature,   adv,[lex:mature,     pos:adv,type:vpbound, sem:time]).
 lex(maxime,   adv,[lex:maxime,     pos:adv,type:clausal, sem:eval]).
 lex(meridie,   adv,[lex:meridie,     pos:adv,type:vpbound, sem:time]).
 lex(minus,      adv,[lex:minus,        pos:adv,type:clausal, sem:discourse]).
@@ -8792,6 +8837,8 @@ lex(nedum,       sub,[lex:nedum,      pos:sub, argbound:no,   mood:subjunctive])
 
 lex(donec,       sub,[lex:donec,      pos:sub, argbound:no,   mood:_]).
 lex(quoad,       sub,[lex:quoad,      pos:sub, argbound:no,   mood:_]).
+
+lex(ubi,       sub,[lex:ubi,          pos:sub, argbound:no,   mood:indicative, value:time]).
 
 lex(ut,        sub,[lex:ut,       pos:sub, argbound:no,   mood:subjunctive, value:or([purpose,consequence])]).
 lex(uti,       sub,[lex:ut,       pos:sub, argbound:no,   mood:subjunctive, value:or([purpose,consequence])]).
