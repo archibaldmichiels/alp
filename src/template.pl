@@ -4,6 +4,10 @@
 
 % template.pl
 
+% ALP 196
+
+% alp196 changes and additions to be marked by alp196 token
+
 
 % Latest Update : Jan 2025
 % © Archibald Michiels
@@ -565,7 +569,7 @@ lexarg(accipere,
      arglist:[ ws(adsum_assist,intr,clause:[],mwuw:0,
                  args:[subject:[type:np,oblig:yes,constraints:[]],
                        predicative:[type:np,oblig:no,constraints:[case:nom,class:common]],
-                       cplt:[type:np,oblig:no,constraints:[case:dat]]]),
+                       cplt:[type:np,oblig:yes,constraints:[case:dat]]]),
 
               ws(adsum_be_present,intr,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[]],
@@ -944,6 +948,12 @@ lexarg(concupiscere,
        arglist:[ws(concupisco_desire,tr_cod,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+% CONFICERE
+lexarg(conficere,
+       arglist:[ws(conficio_do,tr_cod,clause:[],mwuw:0,
+               args:[subject:[type:np,oblig:yes,constraints:[]],
+                     object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+
 % CONSCIRE
 lexarg(conscire,
        arglist:[ws(conscio_commit_suicide,tr_cod_coi,clause:[],mwuw:0,
@@ -1037,10 +1047,16 @@ lexarg(dare,
                       i_object:[type:np,oblig:no,constraints:[case:dat, sem:[hum]]],
                       object:[type:np,oblig:yes,constraints:[case:acc, sem:[thing]]]]),
 
+              ws(poenas_do_be_punished,tr_cod,clause:[],mwuw:2,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      object:[type:np,oblig:yes,constraints:[case:acc, lex:poena, number:pl]]]),
+                      
+
               ws(uela_do_set_sail,tr_cod,clause:[],mwuw:2,
                 args:[subject:[type:np,oblig:yes,constraints:[]],
                       object:[type:np,oblig:yes,constraints:[case:acc, lex:uelum, number:pl]],
                       prep_cplt:[type:pp,oblig:yes,constraints:[prep:or([in,ex,ab,ad])]]])]).
+
 % DEBERE
 lexarg(debere,
        arglist:[ws(debeo_owe,tr_cod,clause:[],mwuw:0,
@@ -1051,6 +1067,12 @@ lexarg(debere,
                args:[subject:[type:np,oblig:yes,constraints:[sem:Sem]], % attempt to catch subject semantics and pass it on
 									 % does NOT work
                       arg:[type:pred,oblig:yes,constraints:[sem:Sem,type:nonfinite_i]]])]).
+
+% DECLARE
+lexarg(declare,
+       arglist:[ws(declo_announce,tr_cod,clause:[],mwuw:0,
+               args:[subject:[type:np,oblig:yes,constraints:[]],
+                     object:[type:np,oblig:yes,constraints:[case:acc]]])]).
 
 % DEESSE
 lexarg(deesse,
@@ -1243,6 +1265,7 @@ lexarg(dubitare,
                 ws(dubito_hesitate,tr,clause:[[illocutionary_force:question]],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:pred,oblig:yes,constraints:[type:nonfinite_i]]])]).
+
 % DUCERE
 % Imperator legiones ad proelium duxit.
 lexarg(ducere,
@@ -1475,6 +1498,13 @@ lexarg(festinare,
        arglist:[ws(festino_hasten,tr_cod,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:np,oblig:no,constraints:[case:acc]]])]).
+
+% FINGERE
+lexarg(fingere,
+       arglist:[ws(fingo_invent,tr_cod,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+
 % FRANGERE
 lexarg(frangere,
        arglist:[
@@ -1678,6 +1708,13 @@ lexarg(ire,
                       cplt:[type:np,oblig:no,constraints:[index:i(_),case:acc,sem:[city]]],                   % index:i(_) avoids dummy_nps
                       cplt:[type:pred,oblig:no,constraints:[type:nonfinite_i, mood:supine]] ]),
 
+       % MWU : in sententiam alicuius pedibus ire 
+                 ws(in_sententiam_alicujus_pedibus_eo_take_sides_with_IDIOM,intr,clause:[],mwuw:2,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      prep_cplt:[type:pp,oblig:yes,constraints:[prep:in,lex:sententia, case:acc]],
+                      cplt:[type:np, oblig:yes, constraints:[case:abl, lex:pes, constituent_structure:pedibus]] ]), 
+                                           % c_str constraint to make sure the whole cplt boils down to 'pedibus'
+
         % MWU : obuiam ire + datif
                  ws(obuiam_eo_oppose_IDIOM,intr,clause:[],mwuw:2,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
@@ -1701,10 +1738,15 @@ lexarg(iubere,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:pred,oblig:yes,constraints:[type:nonfinite]]]),
 
+               ws(iubeo_order,tr_cod,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],    % simple order ALP 196
+                      object:[type:np,oblig:yes,constraints:[case:acc]]]),
+
                 ws(iubeo_bid_goodday_IDIOM,tr_inf,clause:[],mwuw:2,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:pred,oblig:yes,constraints:[type:nonfinite, constituent_structure:[vg:[selected_reading:salveo_be_well]]
                      ]]])]).
+
 
 % IUDICARE (+acc_cum_inf)
 % Iudico te optimum praetorem esse.
@@ -1741,7 +1783,10 @@ lexarg(iuuare,
 
 
 
-
+% LAETARI
+lexarg(laetari,
+       arglist:[ws(laetor_rejoice,intr,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]]])]).
 
 
 
@@ -1762,6 +1807,12 @@ lexarg(legere,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:np,oblig:no,constraints:[case:acc]],
                       i_object:[type:np,oblig:yes,constraints:[case:dat]]  ])]).
+
+% LENIRE
+lexarg(lenire,
+       arglist:[ws(lenio_soften,tr_cod,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[]],
+                      object:[type:np,oblig:yes,constraints:[case:acc]]])]).
 
 % LOQUI
 lexarg(loqui,
@@ -2065,6 +2116,12 @@ lexarg(occulere,
        arglist:[ws(occulo_conceal,tr_cod,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+% OCCUPARE
+lexarg(occupare,
+       arglist:[ws(occupo_invade,tr_cod,clause:[],mwuw:0,
+               args:[subject:[type:np,oblig:yes,constraints:[]],
+                     object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+
 % OCCURRERE
 lexarg(occurrere,
        arglist:[ws(occurro_occur,intr,clause:[],mwuw:0,
@@ -2127,7 +2184,7 @@ lexarg(parare,
        arglist:[
              ws(paro_prepare,tr_cod,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
-                      object:[type:np,oblig:no,constraints:[case:acc]],
+                      object:[type:np,oblig:yes,constraints:[case:acc]],
                       prep_cplt:[type:pp,oblig:no,constraints:[prep:ad]] ])]).
 % PARCERE
 lexarg(parcere,
@@ -2289,7 +2346,7 @@ lexarg(putare,
                        object_cplt:[type:adjp,oblig:yes,constraints:[case:acc, number:N,gender:G]]]),
 
 
-                ws(puto_deem,tr_cod_cplt,clause:[],mwuw:0,
+                ws(puto_deem,tr_cod_cplt,clause:[],mwuw:0,                                       % ALP 196
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                        object:[type:np,oblig:yes,constraints:[case:acc]],
                        object_cplt:[type:np,oblig:yes,constraints:[case:acc]]])]).
@@ -2548,20 +2605,31 @@ lexarg(segregare,
        arglist:[ws(segrego_separate,tr_cod,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[]],
                       object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+
+
 % SENTIRE
-lexarg(sentire,
+lexarg(sentire_1,
 arglist:[ws(sentio_perceive,tr_inf,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:pred,oblig:yes,constraints:[type:nonfinite]]]),
 
         ws(sentio_perceive,tr_cod,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
-                      object:[type:np,oblig:no,constraints:[case:acc]]]),
+                      object:[type:np,oblig:yes,constraints:[case:acc]]]),
 
         ws(sentio_perceive,tr_cod,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:pred,oblig:yes,
-                              constraints:[type:finite,gap:[],mood:subjunctive, checkint:yes]]])]).
+                        constraints:[type:finite,gap:[],mood:subjunctive, checkint:yes]]]) ]).
+
+
+% SENTIRE
+lexarg(sentire_2,                                                           % ALP 196
+arglist:[ws(sentio_judge,intr,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      prep_cplt:[type:pp,oblig:yes,constraints:[prep:de]]]) ]).
+
+
 % SEQUI I
 % Sequuntur caedes.
 lexarg(sequi_1,
@@ -2640,6 +2708,13 @@ lexarg(studere,
 lexarg(sudare,
        arglist:[ws(sudo_sweat,intr,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]]])]).
+
+% SUPPRIMERE                                                                        % ALP 196
+lexarg(supprimere,
+       arglist:[
+             ws(supprimo_stifle,tr_cod,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[]],
+                      object:[type:np,oblig:yes,constraints:[case:acc]]])]).
 
 % SUSPENDERE
 % Me tabula sacer votiva paries indicat uvida suspendisse potenti vestimenta maris deo.
