@@ -1,12 +1,12 @@
 
-% ALP, A Latin Parser v 196
+% ALP, A Latin Parser v 198
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % more specifically :
 % A data-driven feature-unification parser for a micro-subset of classical Latin
 
 
-% Latest Update : Jan 2025
+% Latest Update : Feb 2025
 % © Archibald Michiels
 % amichiels@uliege.be
 
@@ -14,7 +14,7 @@
 % https://www.swi-prolog.org/
 
 
-% alp196 changes and additions to be marked by alp196 token
+% alp196 changes and additions to be marked by alp198 token
 
 
 % Directions for use
@@ -2236,6 +2236,8 @@ ifthenelse(constraint([origin:adj],FS),
 
  Distance < 6 ,        % 5 is thus the maximum distance between adj and noun
 
+ % note diff with adj preceding noun : justified ???
+
  % we still have to exclude the occurrence, within the gap, of nouns to which the adjective could be
  % attached with priority, because they agree in the well-mapped agreement triplet
  ifthen(Distance=5, relaxedadjacent5_cgn([p(A,B)],Padj,CaseOut,Gender,Nb)),
@@ -2298,12 +2300,27 @@ ifthenelse(constraint([origin:adj],FS),
  ifthen(member(LexAdj,[is,tot,aliquot]), Distance=0),
  ifthen(Type=poss,Distance < 2),
 % ifthen(Type=tool, Distance < 2),    % *haec* mihi si dederis *commoda* miles ero... hence the remming
+                                      % nullum ........................... officium Tac Hist III XVII 1
  msort(Pnp, Sorted),
   \+dup(Sorted),
-  Distance < 6 ,
+  Distance < 10 ,
 
  % we still have to exclude the occurrence, within the gap, of nouns to which the adjective could be
  % attached with priority, because they agree in the well-mapped agreement triplet
+
+    ifthen(Distance=9, relaxedadjacent9_cgn(Padj,[p(A,B)],CaseOut,Gender,Nb)),
+                               % nine in between, neither of them a noun with relevant triplet
+
+
+   ifthen(Distance=8, relaxedadjacent8_cgn(Padj,[p(A,B)],CaseOut,Gender,Nb)),
+                               % eight in between, neither of them a noun with relevant triplet
+
+
+  ifthen(Distance=7, relaxedadjacent7_cgn(Padj,[p(A,B)],CaseOut,Gender,Nb)),
+                               % seven in between, neither of them a noun with relevant triplet
+
+ ifthen(Distance=6, relaxedadjacent6_cgn(Padj,[p(A,B)],CaseOut,Gender,Nb)),
+                               % six in between, neither of them a noun with relevant triplet
 
  ifthen(Distance=5, relaxedadjacent5_cgn(Padj,[p(A,B)],CaseOut,Gender,Nb)),
                                % five in between, neither of them a noun with relevant triplet
@@ -2926,6 +2943,7 @@ append(PL1,PL2,PL),
 
 
 
+
 % APPOSITION
 %%%%%%%%%%%%%
 
@@ -3331,10 +3349,14 @@ cleanc([H|T],[H|T1]) :-           cleanc(T,T1).
 [ mapped(relative_clause,FS2),
   constraint([number:Nb,gender:G,case:Case_in_Rel,pathlist:PL2,distance:[Distrel],gap:Gap,
              constraints:Constraints,w:W],FS2),
+  
 
   start(PL2,Y),
   Yminus is Y-1,
   Gap \= [],         % exclude ubi and cum-relatives  which feature no gap
+
+  
+  
 
  % we have a relative clause only, NO NP; therefore
  % we check that the relative is not (immediately) preceded by a noun which could serve as antecedent
@@ -3345,25 +3367,25 @@ cleanc([H|T],[H|T1]) :-           cleanc(T,T1).
               fail,true),
 
 
-   constraint([case:Case_in_Rel],[case:or([nom,acc,dat])]),    % restrictions on case
+   constraint([case:Case_in_Rel],[case:or([nom,acc,dat,abl])]),    % restrictions on case
                 % ablative should not be excluded, in fact
                                                                % quibus utitur civitas illa
 
    constraint([index:dummy_np],FS2),             % index sharing with the NP to be built
 
-  %  constraint([case:Case_NP],[case:or([nom,acc,dat])]),        % same case restrictions -
-                     % but NOT necessarily same case as in the relative
-
-   
- %  (Case_NP=Case_in_Rel; Case_NP=nom; Case_NP=acc),     % much more reasonable constraint ALP 196
+    
+    % reasonable constraint ALP 196:
   
-  constraint([case:Case_NP],[case:or([nom,acc,Case_in_Rel])]),
+  constraint([case:Case_NP],[case:or([nom,acc,abl,Case_in_Rel])]),
 
+   % abl abs : caesis qui restiterant Tac Ann
+
+ 
    cleanc(Constraints,CC),        % the Constraints should not include case:Case (to be removed - other constraints to be kept)
    ifthen(CC\=[],constraint(CC,[cat:np,type:full,class:common,index:_,
                                 number:Nb,gender:G,sem:SemNP,person:3])),
    % register the constraints, e.g. semantic constraints passed on to the antecedent noun
-
+   
 
    % mapping the NP:
    map(np,[pathlist:PL2,hp:[],distance:[Distrel],
@@ -3372,7 +3394,7 @@ cleanc([H|T],[H|T1]) :-           cleanc(T,T1).
                       % to spot this fabricated NP
              lex:dummy_np,w:W,
              constituent_structure:[head:[lex:dummy_np, number:Nb,gender:G,person:3,index:_,
-                          constraints_to_be_met:Constraints],         % specified for the sake of the reader of the parse tree
+                                    constraints_to_be_met:Constraints],         % specified for the sake of the reader of the parse tree
                     rel_clause:FS2]])].
 
 
@@ -3970,7 +3992,7 @@ map(adjunct,[pathlist:PL,distance:Dist,
  ifthen(Ab=mm, About=manner_means),
  ifthen(Lex=urbs,PL=[One,Two|R]),    % not 'urbe' alone tota or media urbe are OK
  ifthen(Ab=time,PL=[One,Two|R]),     % single time words to be entered as time adverbs  % ALP 194
- map(adjunct,[pathlist:PL,distance:Dist,class:adjunct,value:About,type:Type,w:Weight,constituent_structure:C_str])].
+ map(adjunct,[pathlist:PL,distance:Dist,class:adjunct,value:About,type:Type,w:0.5,constituent_structure:C_str])]. % 0.5 ALP 197
 
 
 
@@ -5163,9 +5185,10 @@ lex(procurandi, v, [pos:v, class:tr_cod, type:gerund, lex:procurare, txt:procura
    myplus(TotWeight,WExpandN,TW),
    myplus(TW,Bonus1,TW1),
    myplus(TW1,Bonus2,TW2),
+   myplus(TW2,2,TW3),                              % ALP 197
    map(aa,[  pathlist:Path_aa,
                distance:[NDistance],
-               w:TW2,
+               w:TW3,                              % ALP 197
                constituent_structure:[lex:Lex,FSpp,NST,object:FSnp]])].
 
 
@@ -7731,7 +7754,9 @@ Fadj1 \= Fadj2,
 
  Xminus1 is X-1,
 
- ( extremity(Path1,X); extremity(Path1,Xminus1) ), % multas res et magnas (Cic, Pro Murena VIII 20)
+ extremity(Path1,X),  % ALP 197
+
+% ( extremity(Path1,X); extremity(Path1,Xminus1) ), % multas res et magnas (Cic, Pro Murena VIII 20)
 
 
 
@@ -8030,6 +8055,9 @@ map(flags,nocoord2)].
             append([p(AAA,PL1Start)],PL1new, PL1new2), % append it to the path
             PL1new2=PL1new),
 
+% length(PL1,PL1L),                                                 % ALP 197
+% length(PL2,PL2L),                                                 % ALP 197
+%  ifthenelse(PL1L=PL2L, BonusBalance=1, BonusBalance=0),            % ALP 197
 
  append(PL1new2,PL2,PL),
  msort(PL, Sorted),
@@ -8043,16 +8071,36 @@ map(flags,nocoord2)].
 
  % Weight is W1+W2,
  myplus(W1,W2,Weight),
+ % myplus(Weight,BonusBalance,FWeight),                             % ALP 197
 
 ifthenelse(contiguous(Sorted),NUMBER=pl,NUMBER=NUMBER1),
        % if the two are together, plural; otherwise, number of the first conjunct
        % pater et mater amant filiam
        % pater amat filiam et mater
 
-map(np,[pathlist:Sorted, hp:HL1,index:i(HL),distance:[Distance],
+
+ifthenelse( Case=gen,
+
+            (map(np,[pathlist:Sorted, hp:HL1,index:i(HL),distance:[Distance],    % two hp features                      
            sem:Sem,class:common,lex:Lexnp1,lextype:full,type:core,
-           number:NUMBER, person:3, gender:Gout,case:Case,w:Weight,coord:yes,
+           number:NUMBER, person:3, gender:Gout,case:gen,w:Weight,coord:yes,            
            constituent_structure:[head:Fnp1,coord:Coord, head:Fnp2]]),
+
+           map(np,[pathlist:Sorted, hp:HL2,index:i(HL),distance:[Distance],             % ALP 197 : HL2 as alternative HeadPath for the measure of
+           sem:Sem,class:common,lex:Lexnp1,lextype:full,type:core,           % distance between head NPs and  genitive cplts (right or left)
+           number:NUMBER, person:3, gender:Gout,case:gen,w:Weight,coord:yes,  % ALP 197
+           constituent_structure:[head:Fnp1,coord:Coord, head:Fnp2]])
+            ),
+
+
+           map(np,[pathlist:Sorted, hp:HL,index:i(HL),distance:[Distance],                   
+           sem:Sem,class:common,lex:Lexnp1,lextype:full,type:core,
+           number:NUMBER, person:3, gender:Gout,case:Case,w:Weight,coord:yes,            
+           constituent_structure:[head:Fnp1,coord:Coord, head:Fnp2]])
+           ),
+
+
+
 map(flags,nocoord2)].
 
 
@@ -9156,7 +9204,7 @@ relaxedadjacent5_cgn(PL1,PL2,Case,Gender,Nb) :- member(p(_,A),PL1), member(p(F,_
                                                              constraint([case:Case,gender:Gender,number:Nb],FSnoun3));
                                                              (mapped(noun,[from:D,to:E|FSnoun4]),
                                                              constraint([case:Case,gender:Gender,number:Nb],FSnoun4));
-                (mapped(noun,[from:E,to:F|FSnoun5]),
+                                                             (mapped(noun,[from:E,to:F|FSnoun5]),
                                                              constraint([case:Case,gender:Gender,number:Nb],FSnoun5))
 
 
@@ -9164,6 +9212,100 @@ relaxedadjacent5_cgn(PL1,PL2,Case,Gender,Nb) :- member(p(_,A),PL1), member(p(F,_
                                                 !, fail.
 
 relaxedadjacent5_cgn(_,_,_,_,_).
+
+
+relaxedadjacent6_cgn(PL1,PL2,Case,Gender,Nb) :- member(p(_,A),PL1), member(p(G,_),PL2),
+                                                succ(A,B),succ(B,C),succ(C,D),succ(D,E),succ(E,F),succ(F,G),
+                                                ( (mapped(noun,[from:A,to:B|FSnoun1]),
+                                                   constraint([case:Case,gender:Gender,number:Nb],FSnoun1)) ;
+                                                          ( (mapped(noun,[from:B,to:C|FSnoun2]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun2));
+                                                             (mapped(noun,[from:C,to:D|FSnoun3]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun3));
+                                                             (mapped(noun,[from:D,to:E|FSnoun4]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun4));
+                                                             (mapped(noun,[from:E,to:F|FSnoun5]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun5));
+                                                             (mapped(noun,[from:F,to:G|FSnoun6]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun6))
+
+                                                 )),
+                                                !, fail.
+
+relaxedadjacent6_cgn(_,_,_,_,_).
+
+relaxedadjacent7_cgn(PL1,PL2,Case,Gender,Nb) :- member(p(_,A),PL1), member(p(H,_),PL2),
+                                                succ(A,B),succ(B,C),succ(C,D),succ(D,E),succ(E,F),succ(F,G),succ(G,H),
+                                                ( (mapped(noun,[from:A,to:B|FSnoun1]),
+                                                   constraint([case:Case,gender:Gender,number:Nb],FSnoun1)) ;
+                                                          ( (mapped(noun,[from:B,to:C|FSnoun2]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun2));
+                                                             (mapped(noun,[from:C,to:D|FSnoun3]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun3));
+                                                             (mapped(noun,[from:D,to:E|FSnoun4]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun4));
+                                                             (mapped(noun,[from:E,to:F|FSnoun5]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun5));
+                                                             (mapped(noun,[from:F,to:G|FSnoun6]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun6));
+                                                             (mapped(noun,[from:G,to:H|FSnoun7]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun7))
+                                                 )),
+                                                !, fail.
+
+relaxedadjacent7_cgn(_,_,_,_,_).
+
+relaxedadjacent8_cgn(PL1,PL2,Case,Gender,Nb) :- member(p(_,A),PL1), member(p(I,_),PL2),
+                                                succ(A,B),succ(B,C),succ(C,D),succ(D,E),succ(E,F),succ(F,G),succ(G,H),
+                                                succ(H,I),
+                                                ( (mapped(noun,[from:A,to:B|FSnoun1]),
+                                                   constraint([case:Case,gender:Gender,number:Nb],FSnoun1)) ;
+                                                          ( (mapped(noun,[from:B,to:C|FSnoun2]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun2));
+                                                             (mapped(noun,[from:C,to:D|FSnoun3]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun3));
+                                                             (mapped(noun,[from:D,to:E|FSnoun4]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun4));
+                                                             (mapped(noun,[from:E,to:F|FSnoun5]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun5));
+                                                             (mapped(noun,[from:F,to:G|FSnoun6]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun6));
+                                                             (mapped(noun,[from:G,to:H|FSnoun7]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun7));
+                                                             (mapped(noun,[from:H,to:I|FSnoun8]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun8))                                           
+                                                    )),
+                                                !, fail.
+
+relaxedadjacent8_cgn(_,_,_,_,_).
+
+relaxedadjacent9_cgn(PL1,PL2,Case,Gender,Nb) :- member(p(_,A),PL1), member(p(J,_),PL2),
+                                                succ(A,B),succ(B,C),succ(C,D),succ(D,E),succ(E,F),succ(F,G),succ(G,H),
+                                                succ(H,I),succ(I,J),
+                                                ( (mapped(noun,[from:A,to:B|FSnoun1]),
+                                                   constraint([case:Case,gender:Gender,number:Nb],FSnoun1)) ;
+                                                          ( (mapped(noun,[from:B,to:C|FSnoun2]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun2));
+                                                             (mapped(noun,[from:C,to:D|FSnoun3]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun3));
+                                                             (mapped(noun,[from:D,to:E|FSnoun4]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun4));
+                                                             (mapped(noun,[from:E,to:F|FSnoun5]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun5));
+                                                             (mapped(noun,[from:F,to:G|FSnoun6]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun6));
+                                                             (mapped(noun,[from:G,to:H|FSnoun7]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun7));
+                                                             (mapped(noun,[from:H,to:I|FSnoun8]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun8));      
+                                                             (mapped(noun,[from:I,to:J|FSnoun9]),
+                                                             constraint([case:Case,gender:Gender,number:Nb],FSnoun9))                                       
+                                                   
+                                                 )),
+                                                !, fail.
+
+relaxedadjacent9_cgn(_,_,_,_,_).
+
 
 
 

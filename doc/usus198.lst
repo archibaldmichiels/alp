@@ -2,7 +2,7 @@ Settings: [number_of_parses,1] [depth,1] [type_of_structures,1] [current,DEFAULT
 
 
 [0/accepi,1/litteras,2/a,3/patre,endpos(4)]
-cputime : 0.03125
+cputime : 0.046875
 
 4.99--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:accipio_receive,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_40422,w:0,pos:v,class:tr_cod,type:finite,lex:accipere,voice:act,txt:accepi,tense:perfect,kind:std,mood:indicative,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[thing,abstract],class:common,lextype:full,origin:noun,number:pl,person:3,gender:fem,type:core,lex:litterae,txt:litteras,case:acc,w:1,constituent_structure:litteras],prep_cplt:[pathlist:[p(2,3),p(3,4)],hp:[p(3,4)],distance:[0],index:i(p(3,4)),case:abl,prep:ab,sem:[hum],lex:pater,w:1,type:core,cat:pp,constituent_structure:[prep:ab,head:[pathlist:[p(3,4)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,sem:[hum],class:common,lextype:full,origin:noun,number:sing,person:3,gender:masc,type:core,lex:pater,txt:patre,case:abl,w:1,constituent_structure:patre]]]]
@@ -71,7 +71,7 @@ cputime : 0.03125
 cputime : 0.078125
 
 2--->
-[illocutionary_force:statement,distance:[0],vg:[selected_reading:ago_do,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_43794,w:0,pos:v,class:tr_cod,type:finite,lex:agere,voice:act,txt:age,tense:present,kind:std,mood:imperative,number:sing,person:2],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[pathlist:[p(1,2),p(2,3)],hp:[],distance:[0],cat:np,type:full,class:common,index:dummy_np,number:sing,gender:neuter,sem:_44290,person:3,case:or([nom,acc,acc]),lex:dummy_np,w:1,constituent_structure:[head:[lex:dummy_np,number:sing,gender:neuter,person:3,index:_44444,constraints_to_be_met:[case:acc]],rel_clause:[pathlist:[p(1,2),p(2,3)],distance:[0],gap:[gap:[type:np,index:dummy_np,function:object,object:[e:dummy_np],constraints:[case:acc]]],index:dummy_np,number:sing,gender:neuter,case:acc,person:_44666,reltype:restrictive,type:finite,mood:indicative,tense:present,constraints:[case:acc],w:1,constituent_structure:[illocutionary_force:statement,distance:[0],vg:[selected_reading:ago_do,polarity:pos,cat:vg,pathlist:[p(2,3)],hp:[p(2,3)],gender:_44882,w:0,pos:v,class:tr_cod,type:finite,lex:agere,voice:act,txt:agis,tense:present,kind:std,mood:indicative,number:sing,person:2],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[e:dummy_np]]]]]]
+[illocutionary_force:statement,distance:[0],vg:[selected_reading:ago_do,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_43794,w:0,pos:v,class:tr_cod,type:finite,lex:agere,voice:act,txt:age,tense:present,kind:std,mood:imperative,number:sing,person:2],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[pathlist:[p(1,2),p(2,3)],hp:[],distance:[0],cat:np,type:full,class:common,index:dummy_np,number:sing,gender:neuter,sem:_44290,person:3,case:or([nom,acc,abl,acc]),lex:dummy_np,w:1,constituent_structure:[head:[lex:dummy_np,number:sing,gender:neuter,person:3,index:_44450,constraints_to_be_met:[case:acc]],rel_clause:[pathlist:[p(1,2),p(2,3)],distance:[0],gap:[gap:[type:np,index:dummy_np,function:object,object:[e:dummy_np],constraints:[case:acc]]],index:dummy_np,number:sing,gender:neuter,case:acc,person:_44672,reltype:restrictive,type:finite,mood:indicative,tense:present,constraints:[case:acc],w:1,constituent_structure:[illocutionary_force:statement,distance:[0],vg:[selected_reading:ago_do,polarity:pos,cat:vg,pathlist:[p(2,3)],hp:[p(2,3)],gender:_44888,w:0,pos:v,class:tr_cod,type:finite,lex:agere,voice:act,txt:agis,tense:present,kind:std,mood:indicative,number:sing,person:2],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[e:dummy_np]]]]]]
 
     illocutionary_force:statement
     vg
@@ -102,7 +102,7 @@ cputime : 0.078125
         number:sing
         gender:neuter
         person:3
-        case:or([nom,acc,acc])
+        case:or([nom,acc,abl,acc])
         lex:dummy_np
         constituent_structure
             head
@@ -412,7 +412,7 @@ cputime : 0.015625
 
 
 [0/angebat,1/hamilcarem,2/amissa,3/sicilia,endpos(4)]
-cputime : 0.109375
+cputime : 0.078125
 
 4--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:ango_torment,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_59346,w:0,pos:v,class:tr_cod,type:finite,lex:angere,voice:act,txt:angebat,tense:imperfect,kind:std,mood:indicative,number:sing,person:3],subject:[number:sing,gender:fem,pathlist:[p(2,3),p(3,4)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,class:pc2np,sem:[country,thing],person:3,type:core,lex:sicilia,lextype:full,case:nom,w:2,type_pp:ppcentered,constituent_structure:[head:[pathlist:[p(3,4)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,sem:[country,thing],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:sicilia,txt:sicilia,case:nom,w:1,constituent_structure:sicilia],participle_clause:[pathlist:[p(2,3)],hp:[p(2,3)],distance:[0],cat:ppclause,w:0,type:ppcentered,number:sing,gender:fem,lex:amitto_let_go,case:nom,constituent_structure:[past_participle,amitto_let_go,[]]]]],object:[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[male],class:proper,lex:hamilcar,lextype:full,number:sing,person:3,gender:masc,type:core,case:acc,w:1,constituent_structure:hamilcar]]
@@ -480,10 +480,10 @@ cputime : 0.109375
 
 
 [0/angebant,1/ingentis,2/spiritus,3/uirum,4/sicilia,5/que,6/sardinia,7/amissae,endpos(8)]
-cputime : 0.859375
+cputime : 0.671875
 
 9--->
-[illocutionary_force:statement,distance:[1],vg:[selected_reading:ango_torment,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_69016,w:0,pos:v,class:tr_cod,type:finite,lex:angere,voice:act,txt:angebant,tense:imperfect,kind:std,mood:indicative,number:pl,person:3],subject:[number:pl,gender:fem,pathlist:[p(4,5),p(5,6),p(6,7),p(7,8)],hp:[p(4,5)],index:i([p(4,5),p(6,7)]),distance:[1],sem:[country,thing],class:common,lex:sicilia,lextype:full,type:core,person:3,case:nom,w:5,coord:yes,constituent_structure:[head:[pathlist:[p(4,5)],hp:[p(4,5)],index:i(p(4,5)),distance:[0],cat:np,sem:[country,thing],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:sicilia,txt:sicilia,case:nom,w:1,constituent_structure:sicilia],coord:que,head:[pathlist:[p(6,7),p(7,8)],hp:[p(6,7)],index:i([p(6,7)]),distance:[0],sem:[loc,thing],number:sing,person:3,cat:np,lex:sardinia,lextype:full,gender:fem,type:full,case:nom,class:common,w:4,constituent_structure:[head:[pathlist:[p(6,7)],hp:[p(6,7)],index:i(p(6,7)),distance:[0],cat:np,sem:[loc,thing],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:sardinia,txt:sardinia,case:nom,w:1,constituent_structure:sardinia],noun_cplt:[pathlist:[p(7,8)],hp:[p(7,8)],index:i(p(7,8)),distance:[0],cat:np,class:pc2np,sem:[hum],number:sing,person:_70404,gender:fem,type:clausal,lex:amitto_let_go,lextype:full,case:gen,w:0,constituent_structure:[past_participle,amitto_let_go,[]]]]]]],object:[pathlist:[p(1,2),p(2,3),p(3,4)],hp:[p(3,4)],index:i([p(3,4)]),distance:[0],sem:[male],number:sing,person:3,cat:np,lex:uir,lextype:full,gender:masc,type:full,case:acc,class:common,w:4,constituent_structure:[head:[pathlist:[p(3,4)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,sem:[male],class:common,lextype:full,origin:noun,number:sing,person:3,gender:masc,type:core,lex:uir,txt:uirum,case:acc,w:1,constituent_structure:uirum],noun_cplt:[pathlist:[p(1,2),p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,class:common,sem:[abstract],number:sing,person:3,gender:masc,type:core,lex:spiritus,lextype:full,case:gen,w:2,constituent_structure:[head:[pathlist:[p(2,3)],pos:noun,txt:spiritus,lex:spiritus,case:gen,gender:masc,class:common,ab:mm,number:sing,sem:[abstract]],adjp:[cat:adjp,pathlist:[p(1,2)],distance:[0],hp:[p(1,2)],case:gen,number:sing,gender:masc,lex:ingens,type:std,w:1,constituent_structure:ingens]]]]]]
+[illocutionary_force:statement,distance:[1],vg:[selected_reading:ango_torment,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_66266,w:0,pos:v,class:tr_cod,type:finite,lex:angere,voice:act,txt:angebant,tense:imperfect,kind:std,mood:indicative,number:pl,person:3],subject:[number:pl,gender:fem,pathlist:[p(4,5),p(5,6),p(6,7),p(7,8)],hp:[p(4,5),p(6,7)],index:i([p(4,5),p(6,7)]),distance:[1],sem:[country,thing],class:common,lex:sicilia,lextype:full,type:core,person:3,case:nom,w:5,coord:yes,constituent_structure:[head:[pathlist:[p(4,5)],hp:[p(4,5)],index:i(p(4,5)),distance:[0],cat:np,sem:[country,thing],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:sicilia,txt:sicilia,case:nom,w:1,constituent_structure:sicilia],coord:que,head:[pathlist:[p(6,7),p(7,8)],hp:[p(6,7)],index:i([p(6,7)]),distance:[0],sem:[loc,thing],number:sing,person:3,cat:np,lex:sardinia,lextype:full,gender:fem,type:full,case:nom,class:common,w:4,constituent_structure:[head:[pathlist:[p(6,7)],hp:[p(6,7)],index:i(p(6,7)),distance:[0],cat:np,sem:[loc,thing],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:sardinia,txt:sardinia,case:nom,w:1,constituent_structure:sardinia],noun_cplt:[pathlist:[p(7,8)],hp:[p(7,8)],index:i(p(7,8)),distance:[0],cat:np,class:pc2np,sem:[hum],number:sing,person:_67654,gender:fem,type:clausal,lex:amitto_let_go,lextype:full,case:gen,w:0,constituent_structure:[past_participle,amitto_let_go,[]]]]]]],object:[pathlist:[p(1,2),p(2,3),p(3,4)],hp:[p(3,4)],index:i([p(3,4)]),distance:[0],sem:[male],number:sing,person:3,cat:np,lex:uir,lextype:full,gender:masc,type:full,case:acc,class:common,w:4,constituent_structure:[head:[pathlist:[p(3,4)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,sem:[male],class:common,lextype:full,origin:noun,number:sing,person:3,gender:masc,type:core,lex:uir,txt:uirum,case:acc,w:1,constituent_structure:uirum],noun_cplt:[pathlist:[p(1,2),p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,class:common,sem:[abstract],number:sing,person:3,gender:masc,type:core,lex:spiritus,lextype:full,case:gen,w:2,constituent_structure:[head:[pathlist:[p(2,3)],pos:noun,txt:spiritus,lex:spiritus,case:gen,gender:masc,class:common,ab:mm,number:sing,sem:[abstract]],adjp:[cat:adjp,pathlist:[p(1,2)],distance:[0],hp:[p(1,2)],case:gen,number:sing,gender:masc,lex:ingens,type:std,w:1,constituent_structure:ingens]]]]]]
 
     illocutionary_force:statement
     distance:[1]
@@ -659,7 +659,7 @@ cputime : 0.0
 
 
 [0/credit,1/se,2/esse,3/beatum,endpos(4)]
-cputime : 0.109375
+cputime : 0.09375
 
 3.4000000000000004--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:credo_believe_that,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_59144,w:0,pos:v,class:tr_inf,type:finite,lex:credere,voice:act,txt:credit,tense:present,kind:std,mood:indicative,number:sing,person:3],subject:[source:context_retrievable,number:sing,gender:masc,person:3,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w: -3],object:[cat:pred,type:nonfinite,mood:infinitive,tense:present,class:m,pathlist:[p(1,2),p(2,3),p(3,4)],distance:[0],number:sing,gender:neuter,case:or([nom,acc]),person:3,polarity:pos,argbound:no,gap:_59700,w:5.4,flagint:no,constituent_structure:[vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(2,3)],hp:[p(2,3)],gender:masc,w:0,pos:v,class:v_esse,type:nonfinite,lex:esse,voice:act,txt:esse,tense:present,kind:std,mood:infinitive,number:sing,person:_59988],subject:[number:sing,gender:masc,pathlist:[p(1,2)],hp:[p(1,2)],index:i(0,0),distance:[0],cat:np,sem:[hum],class:proper,lex:pp3refl,emphasis:no,person:3,type:core,case:acc,w:0.4,constituent_structure:pp3refl],predicative:[cat:adjp,pathlist:[p(3,4)],distance:[0],hp:[p(3,4)],case:acc,number:sing,gender:masc,lex:beatus,type:std,w:1,constituent_structure:beatus]]]]
@@ -944,7 +944,7 @@ cputime : 0.125
 
 
 [0/amo,1/magistros,2/cupidos,3/legendi,4/historiam,endpos(5)]
-cputime : 0.21875
+cputime : 0.1875
 
 9--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:amo_love,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_62052,w:0,pos:v,class:tr_cod,type:finite,lex:amare,voice:act,txt:amo,tense:present,kind:std,mood:indicative,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[pathlist:[p(1,2),p(2,3),p(3,4),p(4,5)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,class:common,sem:[hum],number:pl,person:3,gender:masc,type:core,lex:magister,lextype:full,case:acc,w:7,constituent_structure:[head:[pathlist:[p(1,2)],pos:noun,txt:magistros,lex:magister,case:acc,gender:masc,class:common,ab:no,number:pl,sem:[hum]],adjp:[pathlist:[p(2,3),p(3,4),p(4,5)],hp:[p(2,3)],distance:[0],cat:adjp,w:6,type:std,number:pl,gender:masc,lex:cupidus,case:acc,constituent_structure:[head:[cat:adjp,pathlist:[p(2,3)],distance:[0],hp:[p(2,3)],case:acc,number:pl,gender:masc,lex:cupidus,type:std,w:1,constituent_structure:cupidus],arg:[cat:pred,type:gerund,case:_63200,mood:gerund,local_case:gen,class:m,number:sing,person:3,gender:neuter,pathlist:[p(3,4),p(4,5)],distance:[0],gap:[],w:2,constituent_structure:[vg:[selected_reading:lego_read,pos:v,class:tr_cod,type:gerund,lex:legere,txt:legendi,kind:std,mood:gerund,person:3,case:gen],object:[pathlist:[p(4,5)],hp:[p(4,5)],index:i(p(4,5)),distance:[0],cat:np,sem:[abstract],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:historia,txt:historiam,case:acc,w:1,constituent_structure:historiam]]]]]]]]
@@ -1040,7 +1040,7 @@ cputime : 0.21875
 
 
 [0/amo,1/magistros,2/cupidos,3/legendae,4/historiae,endpos(5)]
-cputime : 5.546875000000001
+cputime : 5.031250000000001
 
 11--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:amo_love,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_74020,w:0,pos:v,class:tr_cod,type:finite,lex:amare,voice:act,txt:amo,tense:present,kind:std,mood:indicative,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[pathlist:[p(1,2),p(2,3),p(3,4),p(4,5)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,class:common,sem:[hum],number:pl,person:3,gender:masc,type:core,lex:magister,lextype:full,case:acc,w:9,constituent_structure:[head:[pathlist:[p(1,2)],pos:noun,txt:magistros,lex:magister,case:acc,gender:masc,class:common,ab:no,number:pl,sem:[hum]],adjp:[pathlist:[p(2,3),p(3,4),p(4,5)],hp:[p(2,3)],distance:[0],cat:adjp,w:8,type:std,number:pl,gender:masc,lex:cupidus,case:acc,constituent_structure:[head:[cat:adjp,pathlist:[p(2,3)],distance:[0],hp:[p(2,3)],case:acc,number:pl,gender:masc,lex:cupidus,type:std,w:1,constituent_structure:cupidus],arg:[cat:pred,type:gerund,subtype:gerundive,case:gen,mood:gerund,class:m,local_case:gen,number:sing,person:3,gender:neuter,pathlist:[p(3,4),p(4,5)],distance:[0],gap:[],w:4,constituent_structure:[vg:[selected_reading:lego_choose,pos:gdiv,txt:legendae,case:gen,gender:fem,number:sing,lex:legere,class:tr_cod,type:gdiv,kind:std,mood:gerund,person:3],i_object:[pathlist:[p(4,5)],hp:[p(4,5)],index:i(p(4,5)),distance:[0],cat:np,sem:[abstract],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:historia,txt:historiae,case:dat,w:1,constituent_structure:historiae]]]]]]]]
@@ -1233,7 +1233,7 @@ cputime : 5.546875000000001
 
 
 [0/cicerone,1/consule,2/omnes,3/magistri,4/insaniuere,endpos(5)]
-cputime : 0.09375
+cputime : 0.078125
 
 2--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:insanio_be_mad,polarity:pos,cat:vg,pathlist:[p(4,5)],hp:[p(4,5)],gender:_62060,w:0,pos:v,class:intr,type:finite,lex:insanire,voice:act,txt:insaniuere,tense:perfect,kind:std,mood:indicative,number:pl,person:3],subject:[number:pl,gender:masc,pathlist:[p(2,3),p(3,4)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,class:common,sem:[hum],person:3,type:core,lex:magister,lextype:full,case:nom,w:2,constituent_structure:[head:[pathlist:[p(3,4)],pos:noun,txt:magistri,lex:magister,case:nom,gender:masc,class:common,ab:no,number:pl,sem:[hum]],adjp:[cat:adjp,pathlist:[p(2,3)],distance:[0],hp:[p(2,3)],case:nom,number:pl,gender:or([masc,fem]),lex:omnis,type:tool,w:1,constituent_structure:omnis]]],ablative_absolute:[pathlist:[p(0,1),p(1,2)],distance:[0],w:0,constituent_structure:[[pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:[male],class:proper,lex:cicero,lextype:full,number:sing,person:3,gender:masc,type:core,case:abl,w:1,constituent_structure:cicero],[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[hum],class:common,lextype:full,origin:noun,number:sing,person:3,gender:masc,type:core,lex:consul,txt:consule,case:abl,w:1,constituent_structure:consule]]]]
@@ -1309,7 +1309,7 @@ cputime : 0.09375
 
 
 [0/dicunt,1/homerum,2/caecum,3/fuisse,endpos(4)]
-cputime : 0.125
+cputime : 0.109375
 
 4--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:dico_say_that,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_59250,w:0,pos:v,class:tr_inf,type:finite,lex:dicere,voice:act,txt:dicunt,tense:present,kind:std,mood:indicative,number:pl,person:3],subject:[source:context_retrievable,number:pl,gender:_59442,person:3,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w: -3],object:[cat:pred,type:nonfinite,mood:infinitive,tense:past,class:m,pathlist:[p(1,2),p(2,3),p(3,4)],distance:[0],number:sing,gender:neuter,case:or([nom,acc]),person:3,polarity:pos,argbound:no,gap:_59806,w:6,flagint:no,constituent_structure:[vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(3,4)],hp:[p(3,4)],gender:masc,w:0,pos:v,class:v_esse,type:nonfinite,lex:esse,voice:act,txt:fuisse,tense:past,kind:std,mood:infinitive,number:sing,person:_60088],subject:[number:sing,gender:masc,pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[male],class:proper,lex:homerus,lextype:full,person:3,type:core,case:acc,w:1,constituent_structure:homerus],predicative:[cat:adjp,pathlist:[p(2,3)],distance:[0],hp:[p(2,3)],case:acc,number:sing,gender:masc,lex:caecus,type:std,w:1,constituent_structure:caecus]]]]
@@ -1440,7 +1440,7 @@ cputime : 0.015625
 
 
 [0/est,1/doctior,2/petro,endpos(3)]
-cputime : 0.078125
+cputime : 0.0625
 
 1--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_58072,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:est,tense:present,kind:std,mood:indicative,number:sing,person:3],subject:[source:context_retrievable,number:sing,gender:fem,person:3,cat:np,index:i(0,0),constraints_to_be_met:[number:sing,gender:fem,case:nom],distance:[0],pathlist:[],case:nom,w: -3],predicative:[cat:adjp,pathlist:[p(1,2),p(2,3)],distance:[0],hp:[p(1,2)],case:nom,number:sing,gender:fem,degree:comp,lex:doctus,type:std,w:2,constituent_structure:[doctus,comp_cplt:[pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[male],class:proper,lex:petrus,lextype:full,number:sing,person:3,gender:masc,type:core,case:abl,w:1,constituent_structure:petrus]]]]
@@ -1541,7 +1541,7 @@ cputime : 0.078125
 
 
 [0/est,1/doctior,2/quam,3/petrus,endpos(4)]
-cputime : 0.421875
+cputime : 0.34375
 
 0.98--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_59124,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:est,tense:present,kind:std,mood:indicative,number:sing,person:3],subject:[source:context_retrievable,number:sing,gender:fem,person:3,cat:np,index:i(0,0),constraints_to_be_met:[number:sing,gender:fem,case:nom],distance:[0],pathlist:[],case:nom,w: -3],predicative:[cat:adjp,pathlist:[[p(1,2)],[p(2,3)],p(3,4)],distance:[0],hp:[p(1,2)],case:nom,number:sing,gender:fem,degree:comp,lex:doctus,type:std,w:2,constituent_structure:[doctus,comp_cplt:[pathlist:[p(3,4)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,sem:[male],class:proper,lex:petrus,lextype:full,number:sing,person:3,gender:masc,type:core,case:nom,w:1,constituent_structure:petrus]]]]
@@ -1693,7 +1693,7 @@ cputime : 0.03125
 
 
 [0/eo,1/lutetiam,endpos(2)]
-cputime : 0.03125
+cputime : 0.015625
 
 2--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:eo_go,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_57002,w:0,pos:v,class:v_ire,type:finite,lex:ire,voice:act,txt:eo,tense:present,kind:std,mood:indicative,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],cplt:[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[city,thing],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:lutetia,txt:lutetiam,case:acc,w:1,constituent_structure:lutetiam]]
@@ -1857,7 +1857,7 @@ cputime : 0.0625
 
 
 [0/haec,1/est,2/inuidia,endpos(3)]
-cputime : 0.125
+cputime : 0.109375
 
 4--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(1,2)],hp:[p(1,2)],gender:_58042,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:est,tense:present,kind:std,mood:indicative,number:sing,person:3],subject:[number:sing,gender:fem,pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:_58334,class:dem,lex:prdemnomfemsing,person:3,type:core,case:nom,w:1,constituent_structure:prdemnomfemsing],predicative:[pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[quality],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:inuidia,txt:inuidia,case:nom,w:1,constituent_structure:inuidia]]
@@ -1903,7 +1903,7 @@ cputime : 0.125
 
 
 [0/homerus,1/dicitur,2/caecus,3/fuisse,endpos(4)]
-cputime : 0.0625
+cputime : 0.03125
 
 4--->
 [vg:[polarity:pos,cat:vg,pathlist:[p(1,2)],hp:[p(1,2)],gender:_79612,w:0,pos:v,class:tr_inf,type:finite,lex:dicere,voice:pass,txt:dicitur,tense:present,kind:std,mood:indicative,number:sing,person:3],pred:[subject:[pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:[male],class:proper,lex:homerus,lextype:full,number:sing,person:3,gender:masc,type:core,case:nom,w:1,constituent_structure:homerus],pred:[vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(3,4)],hp:[p(3,4)],gender:_80138,w:0,pos:v,class:v_esse,type:nonfinite,lex:esse,voice:act,txt:fuisse,tense:past,kind:std,mood:infinitive,number:_80270,person:_80282],predicative:[cat:adjp,pathlist:[p(2,3)],distance:[0],hp:[p(2,3)],case:nom,number:sing,gender:masc,lex:caecus,type:std,w:1,constituent_structure:caecus]]]]
@@ -2141,7 +2141,7 @@ cputime : 0.03125
 
 
 [0/litterae,1/quas,2/scripsisti,3/mihi,4/iucundissimae,5/fuerunt,endpos(6)]
-cputime : 1.09375
+cputime : 1.046875
 
 12--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(5,6)],hp:[p(5,6)],gender:_90244,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:fuerunt,tense:perfect,kind:std,mood:indicative,number:pl,person:3],subject:[number:pl,gender:fem,pathlist:[p(0,1),p(1,2),p(2,3),p(3,4)],hp:[p(0,1)],distance:[0],cat:np,type:full,class:common,lextype:full,index:i(p(0,1)),sem:[thing,abstract],person:3,case:nom,lex:litterae,w:9,constituent_structure:[head:litterae,rel_clause:[pathlist:[p(1,2),p(2,3),p(3,4)],distance:[0],gap:[gap:[type:np,index:i(p(0,1)),function:object,object:[e:i(p(0,1))],constraints:[case:acc]]],index:i(p(0,1)),number:pl,gender:fem,case:acc,person:3,reltype:restrictive,type:finite,mood:indicative,tense:perfect,constraints:[case:acc],w:3,constituent_structure:[illocutionary_force:statement,distance:[0],vg:[selected_reading:scribo_write,polarity:pos,cat:vg,pathlist:[p(2,3)],hp:[p(2,3)],gender:_91136,w:0,pos:v,class:tr_cod,type:finite,lex:scribere,voice:act,txt:scripsisti,tense:perfect,kind:std,mood:indicative,number:sing,person:2],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[e:i(p(0,1))],i_object:[pathlist:[p(3,4)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,sem:[hum],class:proper,lex:pp1sg,number:sing,person:1,gender:or([masc,fem]),type:core,case:dat,w:1,constituent_structure:pp1sg]]]]],predicative:[cat:adjp,pathlist:[p(4,5)],distance:[0],hp:[p(4,5)],case:nom,number:pl,gender:fem,lex:iucundus,type:std,w:1,constituent_structure:iucundus]]
@@ -2233,7 +2233,7 @@ cputime : 1.09375
 
 
 [0/magna,1/uoce,2/clamat,endpos(3)]
-cputime : 0.125
+cputime : 0.171875
 
 1.4900000000000002--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:clamo_call,polarity:pos,cat:vg,pathlist:[p(2,3)],hp:[p(2,3)],gender:_83116,w:0,pos:v,class:tr_cod,type:finite,lex:clamare,voice:act,txt:clamat,tense:present,kind:std,mood:indicative,number:sing,person:3],subject:[source:context_retrievable,number:sing,gender:_83308,person:3,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w: -3],object:[pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:[abstract,thing],class:common,lextype:full,origin:adj,number:pl,person:3,gender:neuter,type:core,lex:magnus,txt:magna,case:acc,w:0.5,constituent_structure:magna],adjunct:[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[abstract],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:uox,txt:uoce,case:abl,w:1,constituent_structure:uoce]]
@@ -2288,7 +2288,7 @@ cputime : 0.125
 
 
 [0/me,1/paenitet,2/erroris,3/mei,endpos(4)]
-cputime : 0.0625
+cputime : 0.078125
 
 7--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:paenitet_regret,polarity:pos,cat:vg,pathlist:[p(1,2)],hp:[p(1,2)],gender:_84184,w:0,pos:v,class:vimp,type:finite,lex:paenitet,voice:act,txt:paenitet,tense:present,kind:std,mood:indicative,number:_84316,person:_84328],cplt:[pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:[hum],class:proper,lex:pp1sg,number:sing,person:1,gender:or([masc,fem]),type:core,case:acc,w:1,constituent_structure:pp1sg],cplt:_84594,arg:[pathlist:[p(2,3),p(3,4)],hp:[p(2,3)],index:i([p(2,3)]),distance:[0],sem:[abstract],number:sing,person:3,cat:np,lex:error,lextype:full,gender:masc,type:full,case:gen,class:common,w:4,constituent_structure:[head:[pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[abstract],class:common,lextype:full,origin:noun,number:sing,person:3,gender:masc,type:core,lex:error,txt:erroris,case:gen,w:1,constituent_structure:erroris],noun_cplt:[pathlist:[p(3,4)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,sem:[hum],class:proper,lex:pp1sg,number:sing,person:1,gender:or([masc,fem]),type:core,case:gen,w:1,constituent_structure:pp1sg]]]]
@@ -2412,7 +2412,7 @@ cputime : 0.140625
 
 
 [0/mihi,1/est,2/libellus,3/impudicus,endpos(4)]
-cputime : 0.109375
+cputime : 0.09375
 
 6--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:est_alicui_possess_IDIOM,polarity:pos,cat:vg,pathlist:[p(1,2)],hp:[p(1,2)],gender:_86566,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:est,tense:present,kind:std,mood:indicative,number:sing,person:3],subject:[number:sing,gender:masc,pathlist:[p(2,3),p(3,4)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,class:common,sem:[abstract,thing],person:3,type:core,lex:libellus,lextype:full,case:nom,w:2,constituent_structure:[head:[pathlist:[p(2,3)],pos:noun,txt:libellus,lex:libellus,case:nom,gender:masc,class:common,ab:no,number:sing,sem:[abstract,thing]],adjp:[cat:adjp,pathlist:[p(3,4)],distance:[0],hp:[p(3,4)],case:nom,number:sing,gender:masc,lex:impudicus,type:std,w:1,constituent_structure:impudicus]]],i_object:[pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:[hum],class:proper,lex:pp1sg,number:sing,person:1,gender:or([masc,fem]),type:core,case:dat,w:1,constituent_structure:pp1sg]]
@@ -2475,7 +2475,7 @@ cputime : 0.109375
 
 
 [0/misit,1/legatos,2/qui,3/pacem,4/peterent,endpos(5)]
-cputime : 0.1875
+cputime : 0.140625
 
 9--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:mitto_send,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_85292,w:0,pos:v,class:tr_cod_coi,type:finite,lex:mittere,voice:act,txt:misit,tense:perfect,kind:std,mood:indicative,number:sing,person:3],subject:[source:context_retrievable,number:sing,gender:_85484,person:3,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w: -3],object:[pathlist:[p(1,2),p(2,3),p(3,4),p(4,5)],hp:[p(1,2)],distance:[0],cat:np,type:full,class:common,lextype:full,index:i(p(1,2)),number:pl,gender:masc,sem:[hum],person:3,case:acc,lex:legatus,w:10,constituent_structure:[head:legatos,rel_clause:[pathlist:[p(2,3),p(3,4),p(4,5)],distance:[0],gap:[gap:[type:np,index:i(p(1,2)),function:subject,subject:[e:i(p(1,2))],constraints:[number:pl,gender:masc,person:3,case:nom,index:i(p(1,2)),sem:[hum]]]],index:i(p(1,2)),number:pl,gender:masc,case:nom,person:3,reltype:restrictive,type:finite,mood:subjunctive,tense:imperfect,constraints:[number:pl,gender:masc,person:3,case:nom,index:i(p(1,2)),sem:[hum]],w:4,constituent_structure:[illocutionary_force:statement,distance:[0],vg:[selected_reading:peto_try_to_reach_or_get,polarity:pos,cat:vg,pathlist:[p(4,5)],hp:[p(4,5)],gender:_86418,w:0,pos:v,class:tr_cod,type:finite,lex:petere,voice:act,txt:peterent,tense:imperfect,kind:std,mood:subjunctive,number:pl,person:3],subject:[index:i(p(1,2))],object:[pathlist:[p(3,4)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,sem:[quality],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:pax,txt:pacem,case:acc,w:1,constituent_structure:pacem]]]]]]
@@ -2557,7 +2557,7 @@ cputime : 0.1875
 
 
 [0/ne,1/hoc,2/faciamus,endpos(3)]
-cputime : 0.046875
+cputime : 0.03125
 
 5--->
 [illocutionary_force:prohibition,[illocutionary_force:statement,distance:[0],vg:[selected_reading:facio_make,polarity:pos,cat:vg,pathlist:[p(2,3)],hp:[p(2,3)],gender:_83032,w:0,pos:v,class:tr_cod,type:finite,lex:facere,voice:act,txt:faciamus,tense:present,kind:std,mood:subjunctive,number:pl,person:1],subject:[source:context_retrievable,number:pl,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[],distance:[0],pathlist:[],case:nom,w:0],object:[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:_83472,class:dem,lex:prdemnomaccneutersing,number:sing,person:3,gender:neuter,type:core,case:acc,w:1,constituent_structure:prdemnomaccneutersing]]]
@@ -2643,7 +2643,7 @@ cputime : 0.046875
 
 
 [0/ne,1/mortem,2/timueritis,endpos(3)]
-cputime : 0.015625
+cputime : 0.03125
 
 5--->
 [illocutionary_force:prohibition,[illocutionary_force:statement,distance:[0],vg:[selected_reading:timeo_fear,polarity:pos,cat:vg,pathlist:[p(2,3)],hp:[p(2,3)],gender:_83134,w:0,pos:v,class:tr_cod,type:finite,lex:timere,voice:act,txt:timueritis,tense:perfect,kind:std,mood:subjunctive,number:pl,person:2],subject:[source:context_retrievable,number:pl,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[abstract,thing,hum],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:mors,txt:mortem,case:acc,w:1,constituent_structure:mortem]]]
@@ -2688,7 +2688,7 @@ cputime : 0.015625
 
 
 [0/noli,1/hoc,2/facere,endpos(3)]
-cputime : 0.03125
+cputime : 0.046875
 
 6--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:facio_make,polarity:pos,cat:vg,aux:nolle,value:negative_will,type:finite,pathlist:[p(0,1),p(2,3)],hp:[p(2,3)],lex:facere,person:2,mood:imperative,tense:present,voice:act,number:sing,gender:_83206,w:3],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[],distance:[0],pathlist:[],case:nom,w:0],object:[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:_83514,class:dem,lex:prdemnomaccneutersing,number:sing,person:3,gender:neuter,type:core,case:acc,w:1,constituent_structure:prdemnomaccneutersing]]
@@ -2827,7 +2827,7 @@ cputime : 0.0
 
 
 [0/orat,1/te,2/pater,3/ut,4/ad,5/se,6/uenias,endpos(7)]
-cputime : 0.2812499999999982
+cputime : 0.234375
 
 11.38--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:oro_ask,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_87124,w:0,pos:v,class:tr_cod,type:finite,lex:orare,voice:act,txt:orat,tense:present,kind:std,mood:indicative,number:sing,person:3],subject:[number:sing,gender:masc,pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[hum],class:common,lextype:full,origin:noun,person:3,type:core,lex:pater,txt:pater,case:nom,w:1,constituent_structure:pater],object:[cat:pred,type:finite,pathlist:[p(3,4),p(4,5),p(5,6),p(6,7)],distance:[0],gap:[],class:m,number:_87692,person:_87704,gender:_87716,case:_87728,mood:subjunctive,tense:present,w:7.4,subordinator:ut,argbound:yes,constituent_structure:[illocutionary_force:statement,distance:[0],vg:[selected_reading:uenio_come,polarity:pos,cat:vg,pathlist:[p(6,7)],hp:[p(6,7)],gender:_87938,w:0,pos:v,class:intr,type:finite,lex:uenire,voice:act,txt:uenias,tense:present,kind:std,mood:subjunctive,number:sing,person:2],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],prep_cplt:[pathlist:[p(4,5),p(5,6)],hp:[p(5,6)],distance:[0],index:i(0,0),case:acc,prep:ad,sem:[hum],lex:pp3refl,w:0.4,type:core,cat:pp,constituent_structure:[prep:ad,head:[pathlist:[p(5,6)],hp:[p(5,6)],index:i(0,0),distance:[0],cat:np,sem:[hum],class:proper,lex:pp3refl,emphasis:no,number:sing,person:3,gender:or([masc,fem]),type:core,case:acc,w:0.4,constituent_structure:pp3refl]]]]],i_object:[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[hum],class:proper,lex:pp2sg,number:sing,person:2,gender:or([masc,fem]),type:core,case:acc,w:1,constituent_structure:pp2sg]]
@@ -2927,7 +2927,7 @@ cputime : 0.2812499999999982
 
 
 [0/orat,1/te,2/mater,3/ut,4/filio,5/ignoscas,6/suo,endpos(7)]
-cputime : 0.53125
+cputime : 0.515625
 
 11.98--->
 [illocutionary_force:statement,distance:[1],vg:[selected_reading:oro_ask,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_89398,w:0,pos:v,class:tr_cod,type:finite,lex:orare,voice:act,txt:orat,tense:present,kind:std,mood:indicative,number:sing,person:3],subject:[number:sing,gender:fem,pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[hum],class:common,lextype:full,origin:noun,person:3,type:core,lex:mater,txt:mater,case:nom,w:1,constituent_structure:mater],object:[cat:pred,type:finite,pathlist:[p(3,4),p(4,5),p(5,6),p(6,7)],distance:[1],gap:[],class:m,number:_89966,person:_89978,gender:_89990,case:_90002,mood:subjunctive,tense:present,w:9,subordinator:ut,argbound:yes,constituent_structure:[illocutionary_force:statement,distance:[1],vg:[selected_reading:ignosco_pardon,polarity:pos,cat:vg,pathlist:[p(5,6)],hp:[p(5,6)],gender:_90206,w:0,pos:v,class:tr_cod,type:finite,lex:ignoscere,voice:act,txt:ignoscas,tense:present,kind:std,mood:subjunctive,number:sing,person:2],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],i_object:[pathlist:[p(4,5),p(6,7)],hp:[p(4,5)],index:i(p(4,5)),distance:[1],cat:np,class:common,sem:[hum],number:sing,person:3,gender:masc,type:core,lex:filius,lextype:full,case:dat,w:2,constituent_structure:[head:[pathlist:[p(4,5)],pos:noun,txt:filio,lex:filius,case:dat,gender:masc,class:common,ab:no,number:sing,sem:[hum]],adjp:[cat:adjp,pathlist:[p(6,7)],distance:[0],hp:[p(6,7)],case:dat,number:sing,gender:masc,lex:suus,type:poss,w:1,constituent_structure:suus]]]]],i_object:[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[hum],class:proper,lex:pp2sg,number:sing,person:2,gender:or([masc,fem]),type:core,case:acc,w:1,constituent_structure:pp2sg]]
@@ -3036,10 +3036,10 @@ cputime : 0.53125
 
 
 [0/partibus,1/factis,2/uerba,3/facit,4/leo,endpos(5)]
-cputime : 1.390625
+cputime : 1.2812499999999982
 
-5--->
-[illocutionary_force:statement,distance:[0],vg:[selected_reading:uerba_facio_speak_IDIOM,polarity:pos,cat:vg,pathlist:[p(3,4)],hp:[p(3,4)],gender:_85304,w:0,pos:v,class:tr_cod,type:finite,lex:facere,voice:act,txt:facit,tense:present,kind:std,mood:indicative,number:sing,person:3],subject:[number:sing,gender:masc,pathlist:[p(4,5)],hp:[p(4,5)],index:i(p(4,5)),distance:[0],cat:np,sem:[thing,hum],class:common,lextype:full,origin:noun,person:3,type:core,lex:leo,txt:leo,case:nom,w:1,constituent_structure:leo],object:[pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[abstract],class:common,lextype:full,origin:noun,number:pl,person:3,gender:neuter,type:core,lex:uerbum,txt:uerba,case:acc,w:1,constituent_structure:uerba],ablative_absolute:[pathlist:[p(0,1),p(1,2)],distance:[0],w:0,constituent_structure:[lex:facio_make,[pos:p_p,txt:factis,case:abl,gender:fem,number:pl,lex:facere,class:tr_cod,type:p_p,kind:std,mood:participle,person:3],[],object:[pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:[abstract,thing,hum,loc],class:common,lextype:full,origin:noun,number:pl,person:3,gender:fem,type:core,lex:pars,txt:partibus,case:abl,w:1,constituent_structure:partibus]]]]
+6--->
+[illocutionary_force:statement,distance:[0],vg:[selected_reading:uerba_facio_speak_IDIOM,polarity:pos,cat:vg,pathlist:[p(3,4)],hp:[p(3,4)],gender:_85304,w:0,pos:v,class:tr_cod,type:finite,lex:facere,voice:act,txt:facit,tense:present,kind:std,mood:indicative,number:sing,person:3],subject:[number:sing,gender:masc,pathlist:[p(4,5)],hp:[p(4,5)],index:i(p(4,5)),distance:[0],cat:np,sem:[thing,hum],class:common,lextype:full,origin:noun,person:3,type:core,lex:leo,txt:leo,case:nom,w:1,constituent_structure:leo],object:[pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[abstract],class:common,lextype:full,origin:noun,number:pl,person:3,gender:neuter,type:core,lex:uerbum,txt:uerba,case:acc,w:1,constituent_structure:uerba],ablative_absolute:[pathlist:[p(0,1),p(1,2)],distance:[0],w:2,constituent_structure:[lex:facio_make,[pos:p_p,txt:factis,case:abl,gender:fem,number:pl,lex:facere,class:tr_cod,type:p_p,kind:std,mood:participle,person:3],[],object:[pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:[abstract,thing,hum,loc],class:common,lextype:full,origin:noun,number:pl,person:3,gender:fem,type:core,lex:pars,txt:partibus,case:abl,w:1,constituent_structure:partibus]]]]
 
     illocutionary_force:statement
     vg
@@ -3150,10 +3150,10 @@ cputime : 0.046875
 
 
 [0/pater,1/et,2/mater,3/sunt,4/boni,endpos(5)]
-cputime : 0.140625
+cputime : 0.109375
 
 4--->
-[illocutionary_force:statement,distance:[1],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(3,4)],hp:[p(3,4)],gender:_87850,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:sunt,tense:present,kind:std,mood:indicative,number:pl,person:3],subject:[number:pl,gender:masc,pathlist:[p(0,1),p(1,2),p(2,3)],hp:[p(0,1)],index:i([p(0,1),p(2,3)]),distance:[1],sem:[hum],class:common,lex:pater,lextype:full,type:core,person:3,case:nom,w:2,coord:yes,constituent_structure:[head:[pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:[hum],class:common,lextype:full,origin:noun,number:sing,person:3,gender:masc,type:core,lex:pater,txt:pater,case:nom,w:1,constituent_structure:pater],coord:et,head:[pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[hum],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:mater,txt:mater,case:nom,w:1,constituent_structure:mater]]],predicative:[cat:adjp,pathlist:[p(4,5)],distance:[0],hp:[p(4,5)],case:nom,number:pl,gender:masc,lex:bonus,type:std,w:1,constituent_structure:bonus]]
+[illocutionary_force:statement,distance:[1],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(3,4)],hp:[p(3,4)],gender:_87850,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:sunt,tense:present,kind:std,mood:indicative,number:pl,person:3],subject:[number:pl,gender:masc,pathlist:[p(0,1),p(1,2),p(2,3)],hp:[p(0,1),p(2,3)],index:i([p(0,1),p(2,3)]),distance:[1],sem:[hum],class:common,lex:pater,lextype:full,type:core,person:3,case:nom,w:2,coord:yes,constituent_structure:[head:[pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:[hum],class:common,lextype:full,origin:noun,number:sing,person:3,gender:masc,type:core,lex:pater,txt:pater,case:nom,w:1,constituent_structure:pater],coord:et,head:[pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[hum],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:mater,txt:mater,case:nom,w:1,constituent_structure:mater]]],predicative:[cat:adjp,pathlist:[p(4,5)],distance:[0],hp:[p(4,5)],case:nom,number:pl,gender:masc,lex:bonus,type:std,w:1,constituent_structure:bonus]]
 
     illocutionary_force:statement
     distance:[1]
@@ -3220,7 +3220,7 @@ cputime : 0.140625
 
 
 [0/est,1/marcus,2/peritus,3/belli,endpos(4)]
-cputime : 0.078125
+cputime : 0.0625
 
 7.99--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_84210,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:est,tense:present,kind:std,mood:indicative,number:sing,person:3],subject:[number:sing,gender:masc,pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[male],class:proper,lex:marcus,lextype:full,person:3,type:core,case:nom,w:1,constituent_structure:marcus],predicative:[pathlist:[p(2,3),p(3,4)],hp:[p(2,3)],distance:[0],cat:adjp,w:5,type:std,number:sing,gender:masc,lex:peritus,case:nom,constituent_structure:[head:[cat:adjp,pathlist:[p(2,3)],distance:[0],hp:[p(2,3)],case:nom,number:sing,gender:masc,lex:peritus,type:std,w:1,constituent_structure:peritus],arg:[pathlist:[p(3,4)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,sem:[thing],class:common,lextype:full,origin:noun,number:sing,person:3,gender:neuter,type:core,lex:bellum,txt:belli,case:gen,w:1,constituent_structure:belli]]]]
@@ -3284,7 +3284,7 @@ cputime : 0.078125
 
 
 [0/pugnandum,1/est,endpos(2)]
-cputime : 0.015625
+cputime : 0.0
 
 3--->
 [vg:[selected_reading:pugno_fight,polarity:pos,cat:vg,type:finite,pathlist:[p(0,1),p(1,2)],hp:[p(0,1)],lex:pugnare,person:3,mood:indicative,tense:present,voice:middle,number:sing,gender:neuter,value:obligation,w:3]]
@@ -3329,7 +3329,7 @@ cputime : 0.0
 
 
 [0/quaero,1/num,2/pater,3/tuus,4/uenerit,endpos(5)]
-cputime : 0.0625
+cputime : 0.078125
 
 9--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:quaero_ask,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_85202,w:0,pos:v,class:tr_cod,type:finite,lex:quaerere,voice:act,txt:quaero,tense:present,kind:std,mood:indicative,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[cat:pred,type:finite,pathlist:[p(1,2),p(2,3),p(3,4),p(4,5)],distance:[0],gap:[],class:m,number:sing,person:3,gender:neuter,case:_85722,mood:subjunctive,tense:perfect,w:8,argbound:yes,flagint:yes_no_question,checkint:yes,constituent_structure:[illocutionary_force:statement,distance:[0],vg:[selected_reading:uenio_come,polarity:pos,cat:vg,pathlist:[p(4,5)],hp:[p(4,5)],gender:_85938,w:0,pos:v,class:intr,type:finite,lex:uenire,voice:act,txt:uenerit,tense:perfect,kind:std,mood:subjunctive,number:sing,person:3],subject:[number:sing,gender:masc,pathlist:[p(2,3),p(3,4)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,class:common,sem:[hum],person:3,type:core,lex:pater,lextype:full,case:nom,w:2,constituent_structure:[head:[pathlist:[p(2,3)],pos:noun,txt:pater,lex:pater,case:nom,gender:masc,class:common,ab:no,number:sing,sem:[hum]],adjp:[cat:adjp,pathlist:[p(3,4)],distance:[0],hp:[p(3,4)],case:nom,number:sing,gender:masc,lex:tuus,type:poss,w:1,constituent_structure:tuus]]]]]]
@@ -3412,7 +3412,7 @@ cputime : 0.0625
 
 
 [0/quaero,1/ne_int,2/uenerit,3/pater,4/tuus,endpos(5)]
-cputime : 0.109375
+cputime : 0.09375
 
 9--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:quaero_ask,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_84264,w:0,pos:v,class:tr_cod,type:finite,lex:quaerere,voice:act,txt:quaero,tense:present,kind:std,mood:indicative,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[cat:pred,type:finite,pathlist:[p(1,2),p(2,3),p(3,4),p(4,5)],distance:[0],gap:[],class:m,number:sing,person:3,gender:neuter,case:_84784,mood:subjunctive,tense:perfect,w:8,argbound:yes,flagint:yes_no_question,checkint:yes,constituent_structure:[illocutionary_force:statement,distance:[0],vg:[selected_reading:uenio_come,polarity:pos,cat:vg,pathlist:[p(2,3)],hp:[p(2,3)],gender:_85000,w:0,pos:v,class:intr,type:finite,lex:uenire,voice:act,txt:uenerit,tense:perfect,kind:std,mood:subjunctive,number:sing,person:3],subject:[number:sing,gender:masc,pathlist:[p(3,4),p(4,5)],hp:[p(3,4)],index:i(p(3,4)),distance:[0],cat:np,class:common,sem:[hum],person:3,type:core,lex:pater,lextype:full,case:nom,w:2,constituent_structure:[head:[pathlist:[p(3,4)],pos:noun,txt:pater,lex:pater,case:nom,gender:masc,class:common,ab:no,number:sing,sem:[hum]],adjp:[cat:adjp,pathlist:[p(4,5)],distance:[0],hp:[p(4,5)],case:nom,number:sing,gender:masc,lex:tuus,type:poss,w:1,constituent_structure:tuus]]]]]]
@@ -3630,7 +3630,7 @@ cputime : 0.0625
 
 
 [0/scio,1/uitam,2/esse,3/breuem,endpos(4)]
-cputime : 0.109375
+cputime : 0.09375
 
 7--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:scio_know_that,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_84192,w:0,pos:v,class:tr_inf,type:finite,lex:scire,voice:act,txt:scio,tense:present,kind:std,mood:indicative,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[cat:pred,type:nonfinite,mood:infinitive,tense:present,class:m,pathlist:[p(1,2),p(2,3),p(3,4)],distance:[0],number:sing,gender:neuter,case:or([nom,acc]),person:3,polarity:pos,argbound:no,gap:_84764,w:6,flagint:no,constituent_structure:[vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(2,3)],hp:[p(2,3)],gender:fem,w:0,pos:v,class:v_esse,type:nonfinite,lex:esse,voice:act,txt:esse,tense:present,kind:std,mood:infinitive,number:sing,person:_85046],subject:[number:sing,gender:fem,pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[thing,abstract,time],class:common,lextype:full,origin:noun,person:3,type:core,lex:uita,txt:uitam,case:acc,w:1,constituent_structure:uitam],predicative:[cat:adjp,pathlist:[p(3,4)],distance:[0],hp:[p(3,4)],case:acc,number:sing,gender:fem,lex:breuis,type:std,w:1,constituent_structure:breuis]]]]
@@ -3706,7 +3706,7 @@ cputime : 0.109375
 
 
 [0/scripturus,1/sum,endpos(2)]
-cputime : 0.03125
+cputime : 0.0
 
 10--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:scribo_write,polarity:pos,cat:vg,type:finite,pathlist:[p(0,1),p(1,2)],hp:[p(0,1)],lex:scribere,person:1,mood:indicative,tense:periphrastic_future,voice:active,number:sing,gender:masc,w:10],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0]]
@@ -3837,7 +3837,7 @@ cputime : 0.28125
 
 
 [0/si,1/hunc,2/librum,3/legeris,4/(','),5/laetus,6/ero,endpos(7)]
-cputime : 0.796875
+cputime : 0.71875
 
 9--->
 [clause_semantics:_88844,subordinator:[lex:si,pos:sub,argbound:no,mood:subjunctive],subordinate_clause:[si,[illocutionary_force:statement,distance:[0],vg:[selected_reading:lego_read,polarity:pos,cat:vg,pathlist:[p(3,4)],hp:[p(3,4)],gender:_89066,w:0,pos:v,class:tr_cod,type:finite,lex:legere,voice:act,txt:legeris,tense:perfect,kind:std,mood:subjunctive,number:sing,person:2],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0],object:[pathlist:[p(1,2),p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,class:common,sem:[thing,abstract],number:sing,person:3,gender:masc,type:core,lex:liber,lextype:full,case:acc,w:2,constituent_structure:[head:[pathlist:[p(2,3)],pos:noun,txt:librum,lex:liber,case:acc,gender:masc,class:common,ab:no,number:sing,sem:[thing,abstract]],adjp:[cat:adjp,pathlist:[p(1,2)],distance:[0],hp:[p(1,2)],case:acc,number:sing,gender:masc,lex:hic,type:tool,w:1,constituent_structure:hic]]]]],main_clause:[illocutionary_force:statement,distance:[0],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(6,7)],hp:[p(6,7)],gender:_90130,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:ero,tense:future,kind:std,mood:indicative,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[number:sing,gender:or([masc,fem]),case:nom],distance:[0],pathlist:[],case:nom,w:0],predicative:[cat:adjp,pathlist:[p(5,6)],distance:[0],hp:[p(5,6)],case:nom,number:sing,gender:masc,lex:laetus,type:std,w:1,constituent_structure:laetus]]]
@@ -4027,7 +4027,7 @@ cputime : 0.796875
 
 
 [0/si,1/uenias,2/(','),3/laetus,4/sum,endpos(5)]
-cputime : 0.0625
+cputime : 0.046875
 
 5--->
 [clause_semantics:_84832,subordinator:[lex:si,pos:sub,argbound:no,mood:subjunctive],subordinate_clause:[si,[illocutionary_force:statement,distance:[0],vg:[selected_reading:uenio_come,polarity:pos,cat:vg,pathlist:[p(1,2)],hp:[p(1,2)],gender:_85054,w:0,pos:v,class:intr,type:finite,lex:uenire,voice:act,txt:uenias,tense:present,kind:std,mood:subjunctive,number:sing,person:2],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0]]],main_clause:[illocutionary_force:statement,distance:[0],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(4,5)],hp:[p(4,5)],gender:_85538,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:sum,tense:present,kind:std,mood:indicative,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[number:sing,gender:or([masc,fem]),case:nom],distance:[0],pathlist:[],case:nom,w:0],predicative:[cat:adjp,pathlist:[p(3,4)],distance:[0],hp:[p(3,4)],case:nom,number:sing,gender:masc,lex:laetus,type:std,w:1,constituent_structure:laetus]]]
@@ -4097,7 +4097,7 @@ cputime : 0.0625
 
 
 [0/si,1/uenires,2/(','),3/laetus,4/essem,endpos(5)]
-cputime : 0.0625
+cputime : 0.078125
 
 5--->
 [clause_semantics:irrealis_present,subordinator:[lex:si,pos:sub,argbound:no,mood:subjunctive],subordinate_clause:[si,[illocutionary_force:statement,distance:[0],vg:[selected_reading:uenio_come,polarity:pos,cat:vg,pathlist:[p(1,2)],hp:[p(1,2)],gender:_85108,w:0,pos:v,class:intr,type:finite,lex:uenire,voice:act,txt:uenires,tense:imperfect,kind:std,mood:subjunctive,number:sing,person:2],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0]]],main_clause:[illocutionary_force:statement,distance:[0],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(4,5)],hp:[p(4,5)],gender:_85592,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:essem,tense:imperfect,kind:std,mood:subjunctive,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[number:sing,gender:or([masc,fem]),case:nom],distance:[0],pathlist:[],case:nom,w:0],predicative:[cat:adjp,pathlist:[p(3,4)],distance:[0],hp:[p(3,4)],case:nom,number:sing,gender:masc,lex:laetus,type:std,w:1,constituent_structure:laetus]]]
@@ -4168,7 +4168,7 @@ cputime : 0.0625
 
 
 [0/si,1/uenisses,2/(','),3/laetus,4/fuissem,endpos(5)]
-cputime : 0.0625
+cputime : 0.078125
 
 5--->
 [clause_semantics:irrealis_past,subordinator:[lex:si,pos:sub,argbound:no,mood:subjunctive],subordinate_clause:[si,[illocutionary_force:statement,distance:[0],vg:[selected_reading:uenio_come,polarity:pos,cat:vg,pathlist:[p(1,2)],hp:[p(1,2)],gender:_85162,w:0,pos:v,class:intr,type:finite,lex:uenire,kind:std,mood:subjunctive,voice:act,txt:uenisses,tense:pluperfect,number:sing,person:2],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:2,cat:np,index:i(0,0),constraints_to_be_met:[sem:[hum]],distance:[0],pathlist:[],case:nom,w:0]]],main_clause:[illocutionary_force:statement,distance:[0],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(4,5)],hp:[p(4,5)],gender:_85646,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:fuissem,tense:pluperfect,kind:std,mood:subjunctive,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[number:sing,gender:or([masc,fem]),case:nom],distance:[0],pathlist:[],case:nom,w:0],predicative:[cat:adjp,pathlist:[p(3,4)],distance:[0],hp:[p(3,4)],case:nom,number:sing,gender:masc,lex:laetus,type:std,w:1,constituent_structure:laetus]]]
@@ -4461,7 +4461,7 @@ cputime : 0.015625
 
 
 [0/urbem,1/captam,2/hostis,3/diripuit,endpos(4)]
-cputime : 0.140625
+cputime : 0.125
 
 3.99--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:diripio_sack_destroy,polarity:pos,cat:vg,pathlist:[p(3,4)],hp:[p(3,4)],gender:_84300,w:0,pos:v,class:tr_cod,type:finite,lex:diripere,voice:act,txt:diripuit,tense:perfect,kind:std,mood:indicative,number:sing,person:3],subject:[number:sing,gender:masc,pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[hum],class:common,lextype:full,origin:noun,person:3,type:core,lex:hostis,txt:hostis,case:nom,w:1,constituent_structure:hostis],object:[pathlist:[p(0,1),p(1,2)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,class:pc2np,sem:[hum,thing,loc],number:sing,person:3,gender:fem,type:core,lex:urbs,lextype:full,case:acc,w:2,type_pp:ppcentered,constituent_structure:[head:[pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:[hum,thing,loc],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:urbs,txt:urbem,case:acc,w:1,constituent_structure:urbem],participle_clause:[pathlist:[p(1,2)],hp:[p(1,2)],distance:[0],cat:ppclause,w:0,type:ppcentered,number:sing,gender:fem,lex:capio_take,case:acc,constituent_structure:[past_participle,capio_take,[]]]]]]
@@ -4529,7 +4529,7 @@ cputime : 0.140625
 
 
 [0/urbem,1/romam,2/reges,3/habuere,endpos(4)]
-cputime : 0.48437500000000355
+cputime : 0.421875
 
 5.98--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:habeo_consider_as,polarity:pos,cat:vg,pathlist:[p(3,4)],hp:[p(3,4)],gender:_87990,w:0,pos:v,class:tr_cod,type:finite,lex:habere,voice:act,txt:habuere,tense:perfect,kind:std,mood:indicative,number:pl,person:3],subject:[number:pl,gender:masc,pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[hum],class:common,lextype:full,origin:noun,person:3,type:core,lex:rex,txt:reges,case:nom,w:1,constituent_structure:reges],object:[pathlist:[p(0,1)],hp:[p(0,1)],index:i(p(0,1)),distance:[0],cat:np,sem:[hum,thing,loc],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:urbs,txt:urbem,case:acc,w:1,constituent_structure:urbem],object_cplt:[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[city,thing,hum],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:roma,txt:romam,case:acc,w:1,constituent_structure:romam]]
@@ -4588,7 +4588,7 @@ cputime : 0.48437500000000355
 
 
 [0/utinam,1/illum,2/diem,3/uideam,endpos(4)]
-cputime : 0.0625
+cputime : 0.046875
 
 4--->
 [illocutionary_force:wish,[illocutionary_force:statement,distance:[0],vg:[selected_reading:uideo_see,polarity:pos,cat:vg,pathlist:[p(3,4)],hp:[p(3,4)],gender:_85002,w:0,pos:v,class:tr_cod,type:finite,lex:uidere,voice:act,txt:uideam,tense:present,kind:std,mood:subjunctive,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[],distance:[0],pathlist:[],case:nom,w:0],object:[pathlist:[p(1,2),p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,class:common,sem:[time,thing,abstract],number:sing,person:3,gender:or([masc,fem]),type:core,lex:dies,lextype:full,case:acc,w:2,constituent_structure:[head:[pathlist:[p(2,3)],pos:noun,txt:diem,lex:dies,case:acc,gender:or([masc,fem]),class:common,ab:time,number:sing,sem:[time,thing,abstract]],adjp:[cat:adjp,pathlist:[p(1,2)],distance:[0],hp:[p(1,2)],case:acc,number:sing,gender:masc,lex:ille,type:tool,w:1,constituent_structure:ille]]]]]
@@ -4648,7 +4648,7 @@ cputime : 0.0625
 
 
 [0/utinam,1/diues,2/essem,endpos(3)]
-cputime : 0.046875
+cputime : 0.03125
 
 3--->
 [illocutionary_force:regret,[illocutionary_force:statement,distance:[0],vg:[selected_reading:sum_be,polarity:pos,cat:vg,pathlist:[p(2,3)],hp:[p(2,3)],gender:_83046,w:0,pos:v,class:v_esse,type:finite,lex:esse,voice:act,txt:essem,tense:imperfect,kind:std,mood:subjunctive,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[number:sing,gender:or([masc,fem]),case:nom],distance:[0],pathlist:[],case:nom,w:0],predicative:[cat:adjp,pathlist:[p(1,2)],distance:[0],hp:[p(1,2)],case:nom,number:sing,gender:fem,lex:diues,type:std,w:1,constituent_structure:diues]]]
@@ -4816,7 +4816,7 @@ cputime : 0.109375
 
 
 [0/utor,1/memoria,endpos(2)]
-cputime : 0.015625
+cputime : 0.0
 
 2--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:utor_use,polarity:pos,cat:vg,pathlist:[p(0,1)],hp:[p(0,1)],gender:_82052,w:0,pos:v,class:tr_cod_abl,type:finite,lex:uti,voice:act,txt:utor,tense:present,kind:dep,mood:indicative,number:sing,person:1],subject:[source:context_retrievable,number:sing,gender:or([masc,fem]),person:1,cat:np,index:i(0,0),constraints_to_be_met:[],distance:[0],pathlist:[],case:nom,w:0],object_i:[pathlist:[p(1,2)],hp:[p(1,2)],index:i(p(1,2)),distance:[0],cat:np,sem:[quality],class:common,lextype:full,origin:noun,number:sing,person:3,gender:fem,type:core,lex:memoria,txt:memoria,case:abl,w:1,constituent_structure:memoria]]
@@ -4958,7 +4958,7 @@ cputime : 0.03125
 
 
 [0/uicti,1/sunt,2/consules,3/apud,4/cannas,endpos(5)]
-cputime : 0.5
+cputime : 0.484375
 
 21--->
 [illocutionary_force:statement,distance:[0],vg:[selected_reading:uinco_win,polarity:pos,cat:vg,type:finite,pathlist:[p(0,1),p(1,2)],hp:[p(0,1)],lex:uincere,person:3,mood:indicative,tense:perfect,voice:pass,number:pl,gender:masc,w:20],subject:[number:pl,gender:masc,pathlist:[p(2,3)],hp:[p(2,3)],index:i(p(2,3)),distance:[0],cat:np,sem:[hum],class:common,lextype:full,origin:noun,person:3,type:core,lex:consul,txt:consules,case:nom,w:1,constituent_structure:consules],prep_phrase_adjunct_1:[pathlist:[p(3,4),p(4,5)],hp:[p(4,5)],distance:[0],index:i(p(4,5)),case:acc,prep:apud,sem:[city,thing],lex:cannae,w:1,type:core,cat:pp,constituent_structure:[prep:apud,head:[pathlist:[p(4,5)],hp:[p(4,5)],index:i(p(4,5)),distance:[0],cat:np,sem:[city,thing],class:common,lextype:full,origin:noun,number:pl,person:3,gender:fem,type:core,lex:cannae,txt:cannas,case:acc,w:1,constituent_structure:cannas]]]]
@@ -5061,4 +5061,4 @@ cputime : 0.015625
 
 [0/stop,endpos(1)]
 
-TOTAL TIME : 16.515625000000004
+TOTAL TIME : 15.046875
