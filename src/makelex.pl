@@ -2,12 +2,12 @@
 % MAKELEX: building vocabulary file for ALP, A Latin Parser				
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% ALP 200
+% ALP 203
 
-% alp200 changes and additions to be marked by alp200 token
+% alp203 changes and additions to be marked by alp203 token
 
 
-% Latest Update : Feb 2025
+% Latest Update : March 2025
 % © Archibald Michiels
 % amichiels@uliege.be
 
@@ -87,14 +87,15 @@ verb([v(abire,4,xxx,abi,abit)],intr,std).
 verb([v(accedere,3,acced,access,access)],intr,std).
 verb([v(accendere,3,accend,accend,accens)],tr_cod,std).
 verb([v(accipere,5,accip,accep,accept)],tr_cod,std).
-verb([v(adicere,5,adic,adiec,adiect)],tr_cod,std).
-verb([v(adipisci,3,adipisc,adept)],tr_cod,dep).
 verb([v(adducere,3,adduc,addux,adduct)],tr_cod,std).
 verb([v(adesse,3,xxx,adfu,xxx)],intr,std). 
+verb([v(adhibere,2,adhibe,adhibu,adhibit)],tr_cod,std).          
+verb([v(adicere,5,adic,adiec,adiect)],tr_cod,std).
+verb([v(adimere,3,adim,adem,adempt)],tr_cod,std).
+verb([v(adipisci,3,adipisc,adept)],tr_cod,dep).
+verb([v(adiungere,3,adiung,adiunx,adiunct)],tr_cod,std).
 verb([v(aduertere,3,aduert,aduert,aduers)],tr_cod,std).
 verb([v(affligere,3,afflig,afflix,afflict)],tr_cod,std).
-verb([v(adimere,3,adim,adem,adempt)],tr_cod,std).
-verb([v(adhibere,2,adhibe,adhibu,adhibit)],tr_cod,std).          
 verb([v(agere,3,ag,eg,act)],tr_cod,std).
 verb([v(agitare,1,agit,agitau,agitat)],intr,std).
 verb([v(alere,3,al,alu,alt)],tr_cod,std).
@@ -105,18 +106,18 @@ verb([v(angere,3,ang,xxx,xxx)],tr_cod,std).
 verb([v(anteponere,3,antepon,anteposu,anteposit)],tr_cod,std).
 verb([v(aperire,4,aperi,aperu,apert)],tr_cod,std).
 verb([v(appellare,1,appell,appellau,appellat)],tr_cod,std).
+verb([v(appetere,3,appet,appetiu,appetit)],tr_cod,std).
 verb([v(assequi,3,assequ,assecut)],tr_cod,dep).
 verb([v(audere,2,aude,xxx,xxx)],tr_cod,std).
 verb([v(audere,2,xxx,aus)],tr_cod,dep).
-verb([v(augere,2,auge,aux,auct)],tr_cod,std).
 verb([v(audire,4,audi,audiu,audit)],tr_cod,std).
+verb([v(augere,2,auge,aux,auct)],tr_cod,std).
 verb([v(bibere,3,bib,bib,bibit)],tr_cod,std).
 verb([v(cadere,3,cad,cecid,cas)],intr,std).
 verb([v(caedere,3,caed,cecid,caes)],tr_cod,std).
 verb([v(canere,3,can,cecin,cant)],tr_cod,std).
 verb([v(capere,5,cap,cep,capt)],tr_cod,std).
 verb([v(cedere,3,ced,cess,cess)],intr,std).
-verb([v(discedere,3,disced,discess,discess)],intr,std).
 verb([v(celebrare,1,celebr,celebrau,celebrat)],tr_cod,std).
 verb([v(cenare,1,cen,cenau,cenat)],intr,std).
 verb([v(censere,2,cense,censu,cens)],tr_cod,std).
@@ -129,7 +130,10 @@ verb([v(cogere,3,cog,coeg,coact)],tr_cod,std).
 verb([v(cogitare,1,cogit,cogitau,cogitat)],tr_inf,std).
 verb([v(cognoscere,3,cognosc,cognou,cognit)],tr_cod,std).
 verb([v(colere,3,col,colu,cult)],tr_cod,std).
+verb([v(commouere,2,commoue,commou,commot)],tr_cod,std).
 verb([v(communicare,1,communic,communicau,communicat)],tr_cod,std).
+verb([v(commutare,1,commut,commutau,commutat)],tr_cod,std).
+verb([v(comparare,1,compar,comparau,comparat)],tr_cod,std).
 verb([v(complere,2,comple,compleu,complet)],tr_cod,std).
 verb([v(conari,1,con,conat)],tr_cod,dep).
 verb([v(conciliare,1,concili,conciliau,conciliat)],tr_cod_coi,std).
@@ -140,6 +144,8 @@ verb([v(constare,1,const,constau,constat)],intr,std).
 verb([v(consulere,3,consul,consulu,consult)],intr,std).
 verb([v(consultare,1,consult,consultau,consultat)],intr,std).
 verb([v(contemnere,3,contemn,contemps,contempt)],tr_cod,std).
+verb([v(conuenire,4,conueni,conuen,conuent)],intr,std).
+verb([v(conuertere,3,conuert,conuert,conuers)],tr_cod,std).
 verb([v(credere,3,cred,credid,credit)],tr_inf,std).
 verb([v(cupere,5,cup,cupiu,cupit)],tr_cod,std).
 verb([v(curare,1,cur,curau,curat)],intr,std).
@@ -149,26 +155,27 @@ verb([v(debere,2,debe,debu,debut)],tr_cod,std).
 verb([v(declarare,1,declar,declarau,declaratt)],tr_cod,std).
 verb([v(deesse,3,xxx,defu,xxx)],intr,std). 
 verb([v(degenerare,1,degener,degenerau,degenerat)],intr,std).
-verb([v(deligere,3,delig,deleg,delect)],tr_cod,std).
 verb([v(delere,2,dele,deleu,delet)],tr_cod,std).
+verb([v(deligere,3,delig,deleg,delect)],tr_cod,std).
 verb([v(dementare,1,dement,dementau,dementat)],tr_cod,std).
 verb([v(deserere,3,deser,deseru,desert)],tr_cod,std).
 verb([v(desiderare,1,desider,desiderau,desiderat)],tr_cod,std).
 verb([v(desinere,3,desin,desi,desit)],tr_cod,std).
+verb([v(detrahere,3,detrah,detrax,detract)],tr_cod,std).
+verb([v(deuenire,4,deueni,deuen,deuent)],intr,std).
 verb([v(dicere,3,dic,dix,dict)],tr_inf,std).
 verb([v(differre,3,xxx,distul,dislat)],tr_cod,std).
-verb([v(dimicare,1,dimic,dimicau,dimicat)],intr,std).
-verb([v(discere,3,disc,didic,discit)],tr_cod,std).
-verb([v(dissimulare,1,dissimul,dissimulau,dissimulat)],tr_cod,std).
-verb([v(praedicere,3,praedic,praedix,praedict)],tr_inf,std).
 verb([v(diligere,3,dilig,dilex,dilect)],tr_cod,std).
+verb([v(dimicare,1,dimic,dimicau,dimicat)],intr,std).
 verb([v(diripere,5,dirip,diripu,dirept)],tr_cod,std).
+verb([v(discedere,3,disced,discess,discess)],intr,std).
+verb([v(discere,3,disc,didic,discit)],tr_cod,std).
 verb([v(disperire,4,xxx,disperi,disperit)],intr,std).
+verb([v(dissimulare,1,dissimul,dissimulau,dissimulat)],tr_cod,std).
 verb([v(docere,2,doce,docu, doct)],tr_cod_coi,std).
 verb([v(donare,1,don,donau,donat)],tr_cod_coi,std).
 verb([v(dubitare,1,dubit,dubitau,dubitat)],intr,std).
 verb([v(ducere,3,duc,dux,duct)],tr_cod,std).
-verb([v(reducere,3,reduc,redux,reduct)],tr_cod,std).
 verb([v(edere_1,3,ed,ed,es)],tr_cod,std).
 verb([v(edere_2,3,ed,edid,edit)],tr_cod,std).
 verb([v(educere,3,educ,edux,educt)],tr_cod,std).
@@ -181,10 +188,9 @@ verb([v(excipere,5,excip,excep,except)],tr_cod,std).
 verb([v(excludere,3,exclud,exclus,exclus)],tr_cod,std).
 verb([v(exhaurire,4,exhauri,exhaus,exhaust)],tr_cod,std).
 verb([v(existimare,1,existim,existimau,existimat)],tr_inf,std).
+verb([v(expellere,3,expell,expepul,expuls)],tr_cod,std).
 verb([v(exprobrare,1,exprobr,exprobrau,exprobrat)],tr_cod,std).
 verb([v(facere,5,fac,fec,fact)],tr_cod,std).
-verb([v(patefacere,5,patefac,patefec,patefact)],tr_cod,std).
-verb([v(satisfacere,5,satisfac,satisfec,satisfact)],tr_cod,std).
 verb([v(fallere,3,fall,fefell,fals)],tr_cod,std).
 verb([v(ferire,4,feri,xxx,xxx)],tr_cod,std).
 verb([v(ferre,3,xxx,tul,lat)],tr_cod,std).
@@ -214,11 +220,9 @@ verb([v(interdicere,3,interdic,interdix,interdict)],tr_cod_cplt,std).
 verb([v(interficere,5,interfic,interfec,interfect)],tr_cod,std).
 verb([v(inuenire,4,inueni,inuen,inuent)],tr_cod,std).
 verb([v(ire,4,xxx,i,it)],intr,std).
-verb([v(transire,4,xxx,transi,transit)],tr_cod,std).
 verb([v(iubere,2,iube,iuss,iuss)],tr_inf,std).
 verb([v(iudicare,1,iudic,iudicau,iudicat)],tr_inf,std).
 verb([v(iungere,3,iung,iunx,iunct)],tr_cod,std).
-verb([v(adiungere,3,adiung,adiunx,adiunct)],tr_cod,std).
 verb([v(iuuare,1,iuu,iuu,iut)],tr_cod,std).
 verb([v(laetari,1,laet,laetat)],intr,dep).
 verb([v(laudare,1,laud,laudau,laudat)],tr_cod,std).
@@ -241,17 +245,14 @@ verb([v(monere,2,mone,monu,monit)],tr_cod,std).
 verb([v(morari,1,mor,morat)],tr_cod,dep).
 verb([v(mori,5,mor,mortu)],intr,dep).
 verb([v(mouere,2,moue,mou,mot)],tr_cod,std).
-verb([v(commouere,2,commoue,commou,commot)],tr_cod,std).
-verb([v(permouere,2,permoue,permou,permot)],tr_cod,std).
 verb([v(mutare,1,mut,mutau,mutat)],tr_cod,std).
-verb([v(commutare,1,commut,commutau,commutat)],tr_cod,std).
 verb([v(narrare,1,narr,narrau,narrat)],tr_cod,std).
 verb([v(nasci,3,nasc,nat)],intr,dep).
 verb([v(negare,1,neg,negau,negat)],tr_inf,std).
 verb([v(nescire,4,nesci,nesciu,nescit)],tr_inf,std).
 verb([v(niti,3,nit,nis)],intr,dep).
+verb([v(noscere,3,nosc,nou,not)],tr_cod,std).
 verb([v(notare,1,not,notau,notat)],tr_cod,std).
-verb([v(noscere,3,nosc,nou,xxx)],tr_cod,std).
 verb([v(numerare,1,numer,numerau,numerat)],tr_cod,std).
 verb([v(nuntiare,1,nunti,nuntiau,nuntiat)],tr_inf,std).
 verb([v(obiectare,1,obiect,obiectau,obiectat)],tr_cod,std).
@@ -265,38 +266,40 @@ verb([v(occulere,3,occul,occulu,occult)],tr_cod,std).
 verb([v(occupare,1,occup,occupau,occupat)],tr_cod,std).
 verb([v(occurrere,3,occurr,occurr,occurs)],intr,std).
 verb([v(olfacere,5,olfac,olfec,olfact)],tr_cod,std).
-verb([v(oppugnare,1,oppugn,oppugnau,oppugnat)],tr_cod,std).
 verb([v(omittere,3,omitt,omis,omiss)],tr_cod,std).
 verb([v(opprimere,3,opprim,oppress,oppress)],tr_cod,std).
+verb([v(oppugnare,1,oppugn,oppugnau,oppugnat)],tr_cod,std).
 verb([v(optare,1,opt,optau,optat)],tr_cod,std).
 verb([v(orare,1,or,orau,orat)],tr_cod,std).
 verb([v(ordinare,1,ordin,ordinau,ordinat)],tr_cod,std).
 verb([v(ostendere,3,ostend,ostend,ostent)],tr_cod,std).
 verb([v(parare,1,par,parau,parat)],tr_cod,std).
-verb([v(comparare,1,compar,comparau,comparat)],tr_cod,std).
 verb([v(parcere,3,parc,peperc,pars)],tr_cod,std).
+verb([v(patefacere,5,patefac,patefec,patefact)],tr_cod,std).
 verb([v(pati,5,pat,pass)],tr_cod,dep).
 verb([v(pellere,3,pell,pepul,puls)],tr_cod,std).
-verb([v(expellere,3,expell,expepul,expuls)],tr_cod,std).
 verb([v(perdere,3,perd,perdid,perdit)],tr_cod,std).
 verb([v(perficere,5,perfic,perfec,perfect)],tr_cod,std).
 verb([v(perire,4,xxx,peri,perit)],intr,std).
 verb([v(permittere,3,permitt,permis,permiss)],tr_cod_coi,std).
+verb([v(permouere,2,permoue,permou,permot)],tr_cod,std).
 verb([v(perspicere,5,perspic,perspex,perspect)],tr_cod,std).
 verb([v(peruenire,4,peruen,peruen,peruent)],intr,std).
 verb([v(petere,3,pet,petiu,petit)],tr_cod,std).
-verb([v(appetere,3,appet,appetiu,appetit)],tr_cod,std).
 verb([v(placare,1,plac,placau,placat)],tr_cod,std).
 verb([v(placere,2,place,placu,placit)],tr_coi,std).
 verb([v(ponere,3,pon,posu,posit)],tr_cod,std).
+verb([v(porrigere,3,porrig,porrex,porrect)],tr_cod,std).
 verb([v(possidere,2,posside,possed,possess)],tr_cod,std).
 verb([v(postulare,1,postul,postulau,postulat)],tr_cod,std).
 verb([v(potiri,5,pot,potit)],intr,dep).
 verb([v(praebere,2,praebe,praebu,praebit)],tr_cod,std).
+verb([v(praedicere,3,praedic,praedix,praedict)],tr_inf,std).
 verb([v(praestare,1,praest,praestit,praestat)],intr,std).
 verb([v(premere,3,prem,press,press)],tr_cod,std).
 verb([v(procurare,1,procur,procurau,procurat)],tr_cod,std).
 verb([v(proficisci,3,proficisc,profect)],intr,dep).
+verb([v(prouidere,2,prouide,prouid,prouis)],tr_cod,std).
 verb([v(pugnare,1,pugn,pugnau,pugnat)],intr,std).
 verb([v(putare,1,put,putau,putat)],tr_inf,std).
 verb([v(quaerere,3,quaer,quaesiu,quaesit)],tr_cod,std).
@@ -307,20 +310,22 @@ verb([v(recipere,5,recip,recep,recept)],tr_cod,std).
 verb([v(recubare,1,recub,recubau,recubat)],intr,std).
 verb([v(reddere,3,redd,redid,redit)],tr_cod,std).
 verb([v(redire,4,xxx,redi,redit)],intr,std).
+verb([v(reducere,3,reduc,redux,reduct)],tr_cod,std).
 verb([v(referre,3,xxx,rettul,relat)],tr_cod,std).
 verb([v(regnare,1,regn,regnau,regnat)],intr,std).
 verb([v(relinquere,3,relinqu,reliqu,relict)],tr_cod,std).
 verb([v(remanere,2,remane,remans,remans)],intr,std).
 verb([v(renouare,1,renou,renouau,renouat)],tr_cod,std).
 verb([v(repudiare,1,repudi,repudiau,repudiat)],tr_cod,std).
-verb([v(reuocare,1,reuoc,reuocau,reuocat)],tr_cod,std).
 verb([v(reri,2,re,rat)],tr_inf,dep).
 verb([v(resistere,3,resist,restit,xxx)],tr_coi,std).
 verb([v(respondere,2,responde,respond,respons)],tr_cod,std).
 verb([v(restituere,3,restitu,restitu,restitut)],tr_cod,std).
 verb([v(retinere,2,retine,retinu,retent)],tr_cod,std).
+verb([v(reuocare,1,reuoc,reuocau,reuocat)],tr_cod,std).
 verb([v(rogare,1,rog,rogau,rogat)],tr_cod,std).
 verb([v(salutare,1,salut,salutau,salutat)],tr_cod,std).
+verb([v(satisfacere,5,satisfac,satisfec,satisfact)],tr_cod,std).
 verb([v(scire,4,sci,sciu,scit)],tr_inf,std).
 verb([v(scribere,3,scrib,scrips,script)],tr_cod,std).
 verb([v(sedare,1,sed,sedau,sedat)],tr_cod,std).
@@ -338,34 +343,30 @@ verb([v(soluere,3,solu,solu,solut)],tr_cod,std).
 verb([v(sperare,1,sper,sperau,sperat)],tr_cod,std).
 verb([v(stare,1,st,stet,stat)],intr,std).
 verb([v(studere,2,stude,studu,xxx)],tr_cod_dat,std).
-verb([v(sudare,1,sud,sudau,sudat)],intr,std).
 verb([v(subigere,3,subig,subeg,subact)],tr_cod,std).
+verb([v(sudare,1,sud,sudau,sudat)],intr,std).
 verb([v(superare,1,super,superau,superat)],tr_cod,std).
 verb([v(supprimere,3,supprim,suppress,suppress)],tr_cod,std).                % ALP 196
 verb([v(suspendere,3,suspend,suspend,suspens)],tr_cod_coi,std).
 verb([v(tacere,2,tace,tacu,tacit)],intr,std).
 verb([v(tegere,3,teg,tex,tect)],tr_cod,std).
-verb([v(tenere,2,tene,tenu,tent)],tr_cod,std).
 verb([v(temptare,1,tempt,temptau,temptat)],tr_cod,std).
+verb([v(tenere,2,tene,tenu,tent)],tr_cod,std).
 verb([v(tentare,1,tent,tentau,tentat)],tr_cod,std).
 verb([v(tenuare,1,tenu,tenuau,tenuat)],tr_cod,std).
 verb([v(timere,2,time,timu,xxx)],tr_cod,std).
 verb([v(tollere,3,toll,sustul,sublat)],tr_cod,std).
 verb([v(tradere,3,trad,tradid,tradit)],tr_inf,std).
 verb([v(trahere,3,trah,trax,tract)],tr_cod,std).
-verb([v(detrahere,3,detrah,detrax,detract)],tr_cod,std).
+verb([v(transire,4,xxx,transi,transit)],tr_cod,std).
 verb([v(trucidare,1,trucid,trucidau,trucidat)],tr_cod,std).
 verb([v(uacare,1,uac,uacau,uacat)],intr,std).
 verb([v(uenire,4,ueni,uen,uent)],intr,std).
-verb([v(deuenire,4,deueni,deuen,deuent)],intr,std).
-verb([v(conuenire,4,conueni,conuen,conuent)],intr,std).
 verb([v(uereri,2,uere,uerit)],tr_cod,dep).
 verb([v(uersari,1,uers,uersat)],intr,dep).
 verb([v(uertere,3,uert,uert,uers)],tr_cod,std).
-verb([v(conuertere,3,conuert,conuert,conuers)],tr_cod,std).
-verb([v(uidere,2,uide,uid,uis)],tr_cod,std).
-verb([v(prouidere,2,prouide,prouid,prouis)],tr_cod,std).
 verb([v(uesperascere,3,uesperasc,uesperau,xxx)],intr,std).
+verb([v(uidere,2,uide,uid,uis)],tr_cod,std).
 verb([v(uideri,2,uide,uis)],intr,dep).
 verb([v(uincere,3,uinc,uic,uict)],tr_cod,std).
 verb([v(uitare,1,uit,uitau,uitat)],tr_cod,std).
@@ -376,6 +377,26 @@ verb([v(uomere,3,uom,uomu,uomit)],intr,std).
 verb([v(usurpare,1,usurp,usurpau,usurpat)],tr_cod,std).
 verb([v(uti,3,ut,us)],tr_cod_abl,dep).
 
+
+
+
+verb([v(adire,4,xxx,adi,adit)],intr,std).
+verb([v(exire,4,xxx,exi,exit)],intr,std).
+verb([v(subire,4,xxx,subi,subit)],intr,std).
+
+
+verb([v(abesse,3,xxx,abfu,xxx)],intr,std). 
+verb([v(interesse,3,xxx,interfu,xxx)],intr,std). 
+verb([v(superesse,3,xxx,superfu,xxx)],intr,std). 
+ 
+
+verb([v(afferre,3,xxx,attul,allat)],tr_cod,std).
+verb([v(auferre,3,xxx,abstul,ablat)],tr_cod,std).
+verb([v(conferre,3,xxx,contul,collat)],tr_cod,std).
+verb([v(deferre,3,xxx,detul,delat)],tr_cod,std).
+verb([v(differre,3,xxx,distul,dilat)],tr_cod,std).
+verb([v(inferre,3,xxx,intul,illat)],tr_cod,std).
+verb([v(offerre,3,xxx,obtul,oblat)],tr_cod,std).
 
 
 verb([v(aux,posse,possum,potes,potest,possumus,potestis,possunt,
@@ -415,6 +436,7 @@ verb([v(imp,oportet,oportet,oporteat,oportebat,oportebit,oporteret,oportere,opor
 verb([v(imp,paenitet,paenitet,paeniteat,paenitebat,paenitebit,paeniteret,paenitere,paenitu)],vimp,std).
 verb([v(imp,pertinet,pertinet,pertineat,pertinebat,pertinebit,pertineret,pertinere,pertinu)],vimp,std).
 verb([v(imp,placet,placet,placeat,placebat,placebit,placeret,placere,placu)],vimp,std).
+verb([v(imp,libet,libet,libeat,libebat,libebit,liberet,libere,libu)],vimp,std).
 verb([v(imp,licet,licet,liceat,licebat,licebit,liceret,licere,licu)],vimp,std).
 verb([v(imp,iuuat,iuuat,iuuet,iuuabat,iuuabit,iuuaret,iuuare,iuu)],vimp,std).
 verb([v(imp,constat,constat,constet,constabat,constabit,constaret,constare,constit)],vimp,std).
@@ -425,7 +447,121 @@ verb([v(imp,interest,interest,intersit,intererat,intererit,interesset,interesse,
 verb([v(esse,3,xxx,fu,xxx)],v_esse,std).
 
 
-
+verb([v(accidere,3,accid, accid,xxx)],intr,std).
+verb([v(addere,3,add,addid,addit)],tr_cod,std).
+verb([v(adhibere,2,adhibe,adhibu,adhibit)],tr_cod,std).
+verb([v(aduenire,4,adueni,aduen,aduent)],intr,std).
+verb([v(afficere,5,affic,affec,affect)],tr_cod,std).
+verb([v(apparere,2,appare,apparu,xxx)],intr,std).
+verb([v(arbitrari,1,arbitr,arbitrat)],intr,dep).
+verb([v(ardere,2,arde,ars,ars)],tr_cod,std).
+verb([v(ascendere,3,ascend,ascend,ascens)],tr_cod,std).
+verb([v(aspicere,5,aspic,aspex,aspect)],tr_cod,std).
+verb([v(canere,3,can,cecin,cant)],tr_cod,std).
+verb([v(cauere,2,caue,cau,caut)],tr_cod,std).
+verb([v(cernere,3,cern,creu,cret)],tr_cod,std).
+verb([v(certare,1,cert,certau,certat)],intr,std).
+verb([v(cingere,3,cing,cinx,cinct)],tr_cod,std).
+verb([v(colligere,3,collig,colleg,collect)],tr_cod,std).
+verb([v(committere,3,committ,commis,commiss)],tr_cod,std).
+verb([v(componere,3,compon,composu,composit)],tr_cod,std).
+verb([v(concedere,3,conced,concess,concess)],tr_cod,std).
+verb([v(condere,3,cond,condid,condit)],tr_cod,std).
+verb([v(confiteri,2,confite,confess)],tr_cod,dep).
+verb([v(consequi,3,consequ,consecut)],tr_cod,dep).
+verb([v(consistere,3,consist,constit,xxx)],intr,std).
+verb([v(constituere,3,constitu,constitu,constitut)],tr_cod,std).
+verb([v(consumere,3,consum,consumps,consumpt)],tr_cod,std).
+verb([v(continere,2,contine,continu,content)],tr_cod,std).
+verb([v(contingere,3,conting,contig,contact)],tr_cod,std).
+verb([v(corrumpere,3,corrump,corrup, corrupt)],tr_cod,std).
+verb([v(creare,1,cre,creau,creat)],tr_cod,std).
+verb([v(crescere,3,cresc,creu,cret)],intr,std).
+verb([v(currere,3,curr,cucurr,curs)],intr,std).
+verb([v(damnare,1,damn,damnau,damnat)],tr_cod,std).
+verb([v(decernere,3,decern,decreu,decret)],tr_cod,std).
+verb([v(deducere,3,deduc,dedux,deduct)],tr_cod,std).
+verb([v(defendere,3,defend,defens,defens)],tr_cod,std).
+verb([v(deficere,5,defic,defec,defect)],intr,std).
+verb([v(descendere,3,descend,descend,descens)],intr,std).
+verb([v(dimittere,3,dimitt,dimis,dimiss)],tr_cod,std).
+verb([v(diuidere,3,diuid,diuis, diuis)],tr_cod,std).
+verb([v(dolere,2,dole,dolu,xxx)],intr,std).
+verb([v(dormire,4,dormi,dormiu,dormit)],intr,std).
+verb([v(edicere,3,edic,edix,edict)],tr_cod,std).
+verb([v(efficere,5,effic,effec,effect)],tr_cod,std).
+verb([v(effundere,3,effund, effus,effus)],tr_cod,std).
+verb([v(egredi,5,egredi,egress)],intr,dep).
+verb([v(exercere,2,exerce,exercu,exercit)],tr_cod,std).
+verb([v(exigere,3,exig,exeg,exact)],tr_cod,std).
+verb([v(expectare,1,expect,expectau,expectat)],tr_cod,std).
+verb([v(experiri,4,experi,expert)],tr_cod,dep).
+verb([v(fateri,2,fate,fass)],intr,dep).
+verb([v(flere,2,fle,fleu,flet)],tr_cod,std).
+verb([v(fluere,3,flu,flux,fluct)],intr,std).
+verb([v(frui,3,fru,fruct)],intr,dep).
+verb([v(fugare,1,fug,fugau,fugat)],tr_cod,std).
+verb([v(fundere,3,fund,fus,fus)],tr_cod,std).
+verb([v(gignere,3,gign,genu,genit)],tr_cod,std).
+verb([v(iacere,5,iac,iec,iact)],intr,std).
+verb([v(imperare,1,imper,imperau,imperat)],tr_cod,std).
+verb([v(implere,2,imple,impleu,implet)],tr_cod,std).
+verb([v(incidere,3,incid,incid,xxx)],intr,std).
+verb([v(instituere,3,institu,institu,institut)],tr_cod,std).
+verb([v(interrogare,1,interrog,interrogau,interrogat)],tr_cod,std).
+verb([v(intrare,1,intr,intrau,intrat)],tr_cod,std).
+verb([v(irasci,3,irasc,irat)],intr,dep).
+verb([v(iurare,1,iur,iurau,iurat)],intr,std).
+verb([v(laborare,1,labor,laborau,laborat)],intr,std).
+verb([v(laedere,3,laed,laes,laes)],tr_cod,std).
+verb([v(latere,2,late,latu,xxx)],intr,std).
+verb([v(lucere,2,luce,lux,xxx)],intr,std).
+verb([v(merere,2,mere,meru,merit)],tr_cod,std).
+verb([v(mirari,1,mir,mirat)],intr,dep).
+verb([v(nocere,2,noce,nocu,xxx)],intr,std).
+verb([v(oriri,5,ori,ort)],intr,dep).
+verb([v(parere,2,pare,paru,xxx)],intr,std).
+verb([v(parere,5,par,peper,part)],tr_cod,std).
+verb([v(patere,2,pate,patu,xxx)],intr,std).
+verb([v(peccare,1,pecc,peccau,peccat)],intr,std).
+verb([v(pergere,3,perg,perrex,perrect)],intr,std).
+verb([v(pertinere,2,pertine,pertinu,xxx)],intr,std).
+verb([v(portare,1,port,portau,portat)],tr_cod,std).
+verb([v(poscere,3,posc,poposc,xxx)],tr_cod,std).
+% verb([v(praecipere,5,praecip,praecep,praecept)],tr_cod,std). % overgeneration praeceptum entered as noun
+verb([v(precari,1,prec,precat)],intr,dep).
+verb([v(probare,1,prob,probau,probat)],tr_cod,std).
+verb([v(procedere,3,proced,process,process)],intr,std).
+verb([v(prodere,3,prod,prodid,prodit)],tr_cod,std).
+verb([v(promittere,3,promitt,promis,promiss)],tr_cod,std).
+verb([v(properare,1,proper,properau,properat)],intr,std).
+verb([v(proponere,3,propon,proposu,proposit)],tr_cod,std).
+verb([v(quiescere,3,quiesc,quieu,quiet)],intr,std).
+verb([v(recedere,3,reced,recess,recess)],intr,std).
+verb([v(regere,3,reg,rex,rect)],tr_cod,std).
+verb([v(reperire,4,reperi,repper,repert)],tr_cod,std).
+verb([v(repetere,3,repet,repetiu,repetit)],tr_cod,std).
+verb([v(respicere,5,respic,respex,respect)],tr_cod,std).
+verb([v(revertere,3,revert,revert,revers)],tr_cod,std).
+verb([v(ridere,2,ride,ris,ris)],intr,std).
+verb([v(rumpere,3,rump,rup,rupt)],tr_cod,std).
+verb([v(sedere,2,sede,sed,sess)],intr,std).
+verb([v(seruire,4,serui,seruiu,seruit)],intr,std).
+verb([v(sonare,1,son,sonau,sonat)],tr_cod,std).
+verb([v(spargere,3,sparg,spars,spars)],tr_cod,std).
+verb([v(spectare,1,spect,spectau,spectat)],tr_cod,std).
+verb([v(statuere,3,statu,statu,statut)],tr_cod,std).
+verb([v(sumere,3,sum,sumps,sumpt)],tr_cod,std).
+verb([v(surgere,3,surg,surrex,surrect)],intr,std).
+verb([v(suscipere,5,suscip,suscep,suscept)],tr_cod,std).
+verb([v(sustinere,2,sustine,sustinu,sustent)],tr_cod,std).
+verb([v(tangere,3,tang,tetig,tact)],tr_cod,std).
+verb([v(tendere,3,tend,tetend,tens)],tr_cod,std).
+verb([v(terrere,2,terre,terru,territ)],tr_cod,std).
+verb([v(turbare,1,turb,turbau,turbat)],tr_cod,std).
+verb([v(ualere,2,uale,ualu,xxx)],intr,std).
+verb([v(uehere,3,ueh,uex,uect)],tr_cod,std).
+verb([v(uetare,1,uet,uetau,uetat)],tr_cod,std).
 
 
 %%%%%
@@ -467,17 +603,18 @@ adj(uter,utr,a1,tool,n:yes,[xxx,xxx],[]).
 
 
 
-adj(quantus,quant,1,int,[xxx,xxx],[]).
-
 adj(acer,acer,1,std,n:no,[acr,acerrim],[]).
+adj(aeger,aegr,1,std,n:no,[aegr,aegrissim],[]).
 adj(aequus,aequ,1,std,n:no,[aequ,aequissim],[]).
 adj(aestiuus,aestiu,1,std,n:no,[xxx,xxx],[time]).
 adj(aeternus,aetern,1,std,n:no,[xxx,xxx],[]).
+adj(albus,alb,1,std,n:no,[xxx,xxx],[]).
 adj(alienus,alien,1,std,n:no,[alien,alienissim],[]).
 adj(altus,alt,1,std,n:no,[alt,altissim],[]).
 adj(amplus,ampl,1,std,n:no,[ampl,amplissim],[]).
 adj(antiquus,antiqu,1,std,n:hpl,[antiqu,antiquissim],[]).
 adj(anxius,anxi,1,std,n:hpl,[anxi,anxissim],[]).
+adj(aptus,apt,1,std,n:no,[apt,aptissim],[]).
 adj(arduus,ardu,1,std,n:no,[ardu,arduissim],[]).
 adj(argiletanus,argiletan,1,std,n:no,[xxx,xxx],[]).
 adj(asper,asper,1,std,n:no,[asper,asperim],[]).
@@ -487,10 +624,10 @@ adj(bellus,bell,1,std,n:no,[bell,bellissim],[]).
 adj(bonus,bon,1,std,n:hpl,[mel,optim],[]).
 adj(britannicus,britannic,1,std,n:no,[xxx,xxx],[]).
 adj(caecus,caec,1,std,n:hpl,[caec,caecissim],[]).
+adj(candidus,candid,1,std,n:no,[candid,xxx],[]).
 adj(carus,car,1,std,n:hpl,[car,carissim],[]).
+adj(castus,cast,1,std,n:hpl,[cast,castissim],[]).
 adj(certus,cert,1,std,n:no,[cert,certissim],[]).
-adj(incertus,incert,1,std,n:no,[incert,incertissim],[]).
-adj(incertus,incert,1,std,n:no,[incert,incertissim],[]).
 adj(ceterus,ceter,1,std,n:hpl,[xxx,xxx],[]).
 adj(citus,cit,1,std,n:no,[cit,xxx],[]).
 adj(clarus,clar,1,std,n:yes,[clar,clarissim],[]).
@@ -505,6 +642,7 @@ adj(diuinus,diuin,1,std,n:no,[xxx,xxx],[]).
 adj(doctus,doct,1,std,n:yes,[doct,doctissim],[]).
 adj(dubius,dubi,1,std,n:no,[xxx,xxx],[]).
 adj(durus,dur,1,std,n:no,[dur,durissim],[]).
+adj(egregius,egregi,1,std,n:no,[egregi,egregissim],[]).
 adj(euangelicus,euangelic,1,std,n:no,[xxx,xxx],[]).   % ALP 196
 adj(externus,extern,1,std,n:yes,[xxx,xxx],[]).
 adj(extremus,extrem,1,std,n:yes,[xxx,xxx],[]).
@@ -512,22 +650,30 @@ adj(falsus,fals,1,std,n:no,[xxx,xxx],[]).
 adj(famosus,famos,1,std,n:no,[famos,famosissim],[]).
 adj(ferus,fer,1,std,n:no,[feroc,ferocissim],[]).
 adj(fessus,fess,1,std,n:hpl,[xxx,xxx],[]).
+adj(foedus,foed,1,std,n:no,[foed,foedissim],[]).
 adj(formosus,formos,1,std,n:no,[formos,formosissim],[]).
 adj(fortunatus,fortunat,1,std,n:yes,[fortunat,fortunatissim],[]).
 adj(germanicus,germanic,1,std,n:no,[xxx,xxx],[]).
 adj(graecus,graec,1,std,n:no,[xxx,xxx],[]).
 adj(gratus,grat,1,std,n:hpl,[grat,gratissim],[]).
-adj(ingratus,ingrat,1,std,n:hpl,[ingrat,ingratissim],[]).
-adj(pergratus,pergrat,1,std,n:no,[pergrat,pergratissim],[]).
+adj(honestus,honest,1,std,n:hpl,[honest,honestissim],[]).
 adj(humanus,human,1,std,n:no,[human,humanissim],[]).
 adj(ignarus,ignar,1,std,n:hpl,[xxx,xxx],[]).
 adj(immotus,immot,1,std,n:no,[xxx,xxx],[]).
 adj(impudicus,impudic,1,std,n:no,[impudic,impudicissim],[]).
+adj(incertus,incert,1,std,n:no,[incert,incertissim],[]).
+adj(incertus,incert,1,std,n:no,[incert,incertissim],[]).
 adj(incommodus,incommod,1,std,n:no,[incommod,incommodissim],[]).
-adj(irritus,irrit,1,std,n:no,[irrit,irritissim],[]).
+adj(inferus,infer,1,std,n:no,[infer,xxx],[]).
+adj(ingratus,ingrat,1,std,n:hpl,[ingrat,ingratissim],[]).
+adj(ingratus,ingrat,1,std,n:no,[ingrat,ingratissim],[]).
 adj(insanus,insan,1,std,n:no,[insan,insanissim],[]).             % normally n:hpl here set to no : insani feriant sine litora fluctus Verg.
+adj(integer,integr,1,std,n:no,[integr,integrissim],[]).
 adj(inuidus,inuid,1,std,n:hpl,[inuid,inuidissim],[]).
+adj(irritus,irrit,1,std,n:no,[irrit,irritissim],[]).
+adj(iocundus,iocund,1,std,n:hpl,[iocund,iocundissim],[]).
 adj(iucundus,iucund,1,std,n:hpl,[iucund,iucundissim],[]).
+adj(iustus,iust,1,std,n:hpl,[iustt,iustissim],[]).
 adj(laetus,laet,1,std,n:hpl,[laet,laetissim],[]).
 adj(liber,liber,1,std,n:no,[liber,liberrim],[]).
 adj(longus,long,1,std,n:no,[long,longissim],[]).
@@ -539,38 +685,64 @@ adj(mirus,mir,1,std,n:no,[mir,mirissim],[]).
 adj(miser,miser,1,std,n:hpl,[miser,miserrim],[]).
 adj(mortuus,mortu,1,std,n:hpl,[xxx,xxx],[]).
 adj(multus,mult,1,std,n:yes,[xxx,xxx],[]).
+adj(mundus,mund,1,std,n:no,[mund,mundissim],[]).
 adj(niger,nigr,1,std,n:hpl,[nigr,nigrissim],[]).
+adj(nimius,nimi,1,std,n:no,[xxx,xxx],[]).
+adj(notus,not,1,std,n:no,[xxx,xxx],[]).
 adj(nouus,nou,1,std,n:hpl,[recent,recentissim],[]).
 adj(nudus,nud,1,std,n:hpl,[xxx,nudissim],[]).
 adj(obscurus,obscur,1,std,n:no,[obscur,obscurissim],[]).
 adj(onerosus,oneros,1,std,n:no,[oneros,onerosissim],[]).
 adj(paruus,paru,1,std,n:hpl,[min,minim],[]).
+adj(paruulus,paruul,1,std,n:hpl,[xxx,xxx],[]).
 adj(patulus,patul,1,std,n:no,[patul,patulissim],[]).
+adj(pergratus,pergrat,1,std,n:no,[pergrat,pergratissim],[]).
 adj(peritus,perit,1,std,n:hpl,[perit,peritissim],[]).
+adj(perpetuus,perpetu,1,std,n:no,[xxx,xxx],[]).
+adj(pius,pi,1,std,n:no,[xxx,xxx],[]).
 adj(plenus,plen,1,std,n:no,[plen,plenissim],[]).
+adj(posterus,poster,1,std,n:hpl,[poster,xxx],[]).
 adj(praecipuus,praecipu,1,std,n:no,[xxx,xxx],[]).
 adj(primus,prim,1,std,n:yes,[xxx,xxx],[]).
-adj(propinquus,propinqu,1,std,n:yes,[prop,proxim],[]).
+adj(priuatus,priuat,1,std,n:no,[priuat,priuatissim],[]).
+adj(propinquus,propinqu,1,std,n:no,[prop,proxim],[]).
+adj(proprius,propri,1,std,n:no,[xxx,xxx],[]).
 adj(prosper,prosper,1,std,n:hpl,[prosper,prosperrim],[]).
 adj(publicus,public,1,std,n:no,[public,publicissim],[]).
 adj(pulcher,pulchr,1,std,n:hpl,[pulchr,pulcherrim],[]).
+adj(quantus,quant,1,int,[xxx,xxx],[]).
+adj(rarus,rar,1,std,n:no,[rar,rarissim],[]).
 adj(ratus,rat,1,std,n:n,[xxx,xxx],[]).
+adj(rectus,rect,1,std,n:no,[rect,rectissim],[]).
+adj(regius,regi,1,std,n:no,[xxx,xxx],[]).
+adj(reliquus,reliqu,1,std,n:no,[xxx,xxx],[]).
 adj(romanus,roman,1,std,n:no,[xxx,xxx],[]).
 adj(rusticus,rustic,1,std,n:no,[rustic,rusticissim],[]).
 adj(sacer,sacr,1,std,n:n,[sanct,sanctissim],[]).
 adj(saeuus,saeu,1,std,n:hpl,[saeu,saeuissim],[]).
 adj(saluus,salu,1,std,n:hpl,[xxx,xxx],[]).
+adj(sanctus,sanct,1,std,n:hpl,[sanct,sanctissim],[]).
+adj(sanus,san,1,std,n:no,[san,sanissim],[]).
+adj(secundus,secund,1,std,n:no,[xxx,xxx],[]).
+adj(securus,secur,1,std,n:no,[secur,securissim],[]).
 adj(senatorius,senatori,1,std,n:hpl,[xxx,xxx],[]).
 adj(silianus,silian,1,std,n:no,[xxx,xxx],[]).
 adj(summus,summ,1,std,n:n,[xxx,xxx],[]).
+adj(superbus,superb,1,std,n:hpl,[superb,superbissim],[]).
 adj(superuacuus,superuacu,1,std,n:no,[xxx,xxx],[]).
 adj(superus,super,1,std,n:yes,[xxx,xxx],[]).
 adj(supremus,suprem,1,std,n:hpl,[xxx,xxx],[]).
+adj(tardus,tard,1,std,n:no,[tard,tardissim],[]).
 adj(tener,tener,1,std,n:no,[tener,tenerrim],[]).
 adj(tertius,terti,1,std,n:no,[xxx,xxx],[]).
 adj(tutus,tut,1,std,n:no,[tut,tutissim],[]).
 adj(uacuus,uacu,1,std,n:no,[xxx,uacuissim],[]).
+adj(uagus,uag,1,std,n:no,[xxx,xxx],[]).
+adj(ualidus,ualid,1,std,n:no,[ualid,ualidissim],[]).
+adj(uanus,uan,1,std,n:no,[uan,unanissim],[]).
+adj(uarius,uari,1,std,n:hpl,[xxx,xxx],[]).
 adj(uerus,uer,1,std,n:n,[uer,uerissim],[]).
+adj(uicinus,uicin,1,std,n:no,[xxx,xxx],[]).
 adj(uitellianus,uitellian,1,std,n:hpl,[xxx,xxx],[]).
 adj(uiuus,uiu,1,std,n:hpl,[xxx,xxx],[]).
 adj(ultimus,ultim,1,std,n:yes,[xxx,xxx],[]).
@@ -602,31 +774,39 @@ declension_endings(adj,2,
 
 adj(qualis,qual,2,int,n:no,[xxx,xxx],[]).
 
+adj(acer,acr,b2,std,n:no,[acer,acerrim],[]).
 adj(admirabilis,admirabil,2,std,n:no,[admirabil,xxx],[]).
 adj(amabilis,amabil,2,std,n:no,[amabil,amabilissim],[]).
 adj(breuis,breu,2,std,n:no,[breu,breuissim],[]).
+adj(caelestis,caelest,2,std,n:no,[caelest,caelestissim],[]).
 adj(ciuilis,ciuil,2,std,n:no,[xxx,xxx],[]).
-adj(communis,commun,2,std,n:no,[xxx,xxx],[]).
+adj(crudelis,crudel,2,std,n:no,[crudel,crudelissim],[]).
+adj(fidelis,fidel,2,std,n:hpl,[fidel,fidelissim],[]).
 adj(difficilis,difficil,2,std,n:no,[difficil,difficilim],[]).
 adj(diues,diuit,b2,std,n:hpl,[diuit,diuitissim],[]).
 adj(dulcis,dulc,2,std,n:no,[dulc,dulcissim],[]).
 adj(facilis,facil,2,std,n:no,[facil,facillim],[]).
 adj(familiaris,familiar,2,std,n:no,[familiar,familiarissim],[]).
 adj(fatalis,fatal,2,std,n:no,[xxx,xxx],[]).
+adj(fidelis,fidel,2,std,n:hpl,[fidel,fidelissim],[]).
 adj(fortis,fort,2,std,n:no,[fort,fortissim],[]).
 adj(grandis,grand,2,std,n:no,[grand,grandissim],[]).
 adj(grauis,grau,2,std,n:no,[grau,grauissim],[]).
 adj(immortalis,immortal,2,std,n:hpl,[xxx,xxx],[]).
 adj(irritabilis,irritabil,2,std,n:no,[irritabil,irritabilissim],[]).
 adj(leuis,leu,2,std,n:no,[leu,leuissim],[]).
-adj(mortalis,mortal,2,std,n:hpl,[xxx,xxx],[]).
 adj(mollis,moll,2,std,n:no,[moll,mollissim],[]).
+adj(mortalis,mortal,2,std,n:hpl,[xxx,xxx],[]).
+adj(nobilis,nobil,2,std,n:hpl,[nobil,nobilissim],[]).
 adj(pauper,pauper,b2,std,n:hpl,[pauper,pauperrim],[]).
+adj(similis,simil,2,std,n:no,[simil,similissim],[]).
 adj(singularis,singular,2,std,n:no,[singular,singularissim],[]).
+adj(talis,tal,2,std,n:no,[xxx,xxx],[]).
 adj(tristis,trist,2,std,n:no,[trist,tristissim],[]).
 adj(turpis,turp,2,std,n:hpl,[turp,turpissim],[]).
 adj(uenalis,uenal,2,std,n:no,[uenal,uenalissim],[]).
 adj(uetus,ueter,b2,std,n:no,[uetust,ueterrim],[]).
+adj(uolucer,uolucr,b2,std,n:no,[uolucr,uolucrissim],[]).
 adj(utilis,util,2,std,n:no,[util,utilissim],[]).
 
 
@@ -640,13 +820,19 @@ adj(utilis,util,2,std,n:no,[util,utilissim],[]).
 
 
 adj(atrox,atroc,a2,std,n:no,[atroc,atrocissim],[]).
+adj(audax,audac,a2,std,n:hpl,[audac,audacissim],[]).
+adj(celer,celer,a2,std,n:no,[celer,celerrim],[]).
 adj(congruens,congruent,a2,std,n:no,[xxx,xxx],[]).
 adj(constans,constant,a2,std,n:no,[constant,constantissim],[]).
 adj(felix,felic,a2,std,n:yes,[felic,felicissim],[]).
+adj(frequens,frequent,a2,n:no,[frequent,frequentissim],[]).
 adj(ingens,ingent,a2,std,n:no,[ingent,ingentissim],[]).
 adj(par,par,a2,std,n:no,[xxx,xxx],[]).
 adj(potens,potent,a2,std,n:yes,[potent,potentissim],[]).
+adj(praesens,praesent,a2,std,n:hpl,[praesent,praesentissim],[]).
 adj(praestans,praestant,a2,std,n:no,[praestant,praestantissim],[]).
+adj(princeps,princip,a2,std,n:no,[xxx,xxx],[]).
+adj(recens,recent,a2,std,n:no,[recent,recentissim],[]).
 adj(sapiens,sapient,a2,std,n:yes,[sapient,sapientissim],[]).
 adj(sospes,sospit,a2,std,n:no,[xxx,xxx],[]).
 adj(uictrix,uictric,a2,std,n:yes,[xxx,xxx],[]).
@@ -674,6 +860,7 @@ noun(1,fem,anglia,angli,class:common, ab:no, sem:[loc,thing],[]).               
 noun(1,fem,angustiae,angusti,class:common, ab:no, sem:[thing,abstract],[nb:pl]).  % pluralia tantum
 noun(1,fem,anima,anim,class:common, ab:no, sem:[hum,thing,abstract],[]).
 noun(1,fem,aqua,aqu,class:common, ab:no, sem:[thing],[]).
+noun(1,fem,ara,ar,class:common, ab:no, sem:[loc,thing],[]).
 noun(1,fem,asia,asi,class:common, ab:no, sem:[loc,thing],[]).
 noun(1,fem,auaritia,auariti,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,aula,aul,class:common, ab:no, sem:[thing,loc],[]).
@@ -684,22 +871,27 @@ noun(1,fem,causa,caus,class:common, ab:no, sem:[thing, abstract],[]).
 noun(1,fem,charta,chart,class:common, ab:mm, sem:[thing],[]).
 noun(1,fem,colonia,coloni,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,coma,com,class:common, ab:no, sem:[thing],[]).
+noun(1,fem,copia,copi,class:common, ab:mm, sem:[quality],[nb:sg]).
 noun(1,fem,copiae,copi,class:common, ab:mm, sem:[hum],[nb:pl]). % pluralia tantum
 noun(1,fem,corona,coron,class:common, ab:no, sem:[thing],[]).
 noun(1,fem,creatura,creatur,class:common, ab:no, sem:[thing],[]).
+noun(1,fem,culpa,culp,class:common, ab:no, sem:[quality],[]).
 noun(1,fem,cura,cur,class:common, ab:mm, sem:[abstract],[]).
 noun(1,fem,curia,curi,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,dea,de,class:common, ab:no, sem:[hum],[]).
 noun(1,fem,dirae,dir,class:common, ab:mm, sem:[thing],[nb:pl]). % pluralia tantum
+noun(1,fem,disciplina,disciplin,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,discordia,discordi,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,diuitiae,diuiti,class:common, ab:no, sem:[thing],[nb:pl]).  % pluralia tantum
 noun(1,fem,domina,domin,class:common, ab:no, sem:[hum],[]).
 noun(1,fem,ecclesia,ecclesi,class:common, ab:no, sem:[hum, thing,loc],[]).
 noun(1,fem,eloquentia,eloquenti,class:common, ab:mm, sem:[quality],[]).
-noun(1,fem,epistula,epistul,class:common, ab:mm, sem:[thing, abstract],[]).
 noun(1,fem,epistola,epistol,class:common, ab:mm, sem:[thing, abstract],[]).
+noun(1,fem,epistula,epistul,class:common, ab:mm, sem:[thing, abstract],[]).
 noun(1,fem,epulae,epul,class:common, ab:no, sem:[thing,loc],[nb:pl]).  % pluralia tantum
+noun(1,fem,fabula,fabul,class:common, ab:mm, sem:[loc,quality],[]).
 noun(1,fem,fama,fam,class:common, ab:mm, sem:[quality,hum],[]).
+noun(1,fem,familia,famili,class:common, ab:no, sem:[hum],[]).
 noun(1,fem,femina,femin,class:common, ab:no, sem:[hum],[]).
 noun(1,fem,figura,figur,class:common, ab:no, sem:[thing],[]).
 noun(1,fem,filia,fili,class:common, ab:no, sem:[hum],[]).
@@ -719,6 +911,7 @@ noun(1,fem,hora,hor,class:common, ab:no, sem:[time],[]).
 noun(1,fem,ignauia,ignaui,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,impudentia,impudenti,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,iniuria,iniuri,class:common, ab:mm, sem:[quality],[]).
+noun(1,fem,insula,insul,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,inuidia,inuidi,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,ira,ir,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,irreuerentia,irreuerenti,class:common, ab:mm, sem:[quality],[]).
@@ -728,22 +921,28 @@ noun(1,fem,iustitia,iustiti,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,iuuenca,iuuenc,class:common, ab:no, sem:[thing,hum],[]).
 noun(1,fem,lacrima,lacrim,class:common, ab:mm, sem:[thing],[]).
 noun(1,fem,laetitia,laetiti,class:common, ab:mm, sem:[quality],[]).
+noun(1,fem,lingua,lingu,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,litterae,litter,class:common, ab:mm, sem:[thing, abstract],[nb:pl]). % pluralia tantum
+noun(1,fem,luna,lun,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,lutetia,luteti,class:common, ab:no, sem:[city,thing],[nb:sg]).
 noun(1,fem,luxuria,luxuri,class:common, ab:mm, sem:[quality],[]).
+noun(1,fem,materia,materi,class:common, ab:no, sem:[quality],[]).
 noun(1,fem,medulla,medull,class:common, ab:no, sem:[thing],[]).
 noun(1,fem,memoria,memori,class:common, ab:mm, sem:[quality],[]).
+noun(1,fem,mensa,mens,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,minae,min,class:common, ab:mm, sem:[thing, abstract],[nb:pl]). % pluralia tantum
 noun(1,fem,misericordia,misericordi,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,mora,mor,class:common, ab:mm, sem:[abstract],[]).
 noun(1,fem,natura,natur,class:common, ab:no, sem:[abstract, thing],[]).
 noun(1,fem,nuptiae,nupti,class:common, ab:no, sem:[thing, abstract],[nb:pl]). % pluralia tantum
+noun(1,fem,opera,oper,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,pagina,pagin,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,parsimonia,parsimoni,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,patientia,patienti,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,patria,patri,class:common, ab:no, sem:[thing, abstract],[]).
 noun(1,fem,pecunia,pecuni,class:common, ab:mm, sem:[thing],[]).
 noun(1,fem,poena,poen,class:common, ab:mm, sem:[abstract],[]).
+noun(1,fem,porta,port,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,potentia,potenti,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,praeda,praed,class:common, ab:no, sem:[thing],[]).
 noun(1,fem,praetura,praetur,class:common, ab:no, sem:[institution],[]).
@@ -761,9 +960,11 @@ noun(1,fem,sententia,sententi,class:common, ab:mm, sem:[abstract],[]).
 noun(1,fem,serua,seru,class:common, ab:no, sem:[hum, thing],[]).
 noun(1,fem,sicilia,sicili,class:common, ab:no, sem:[country,thing],[nb:sg]).
 noun(1,fem,silua,silu,class:common, ab:no, sem:[thing,loc],[]).
+noun(1,fem,stella,stell,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,superbia,superbi,class:common, ab:mm, sem:[quality],[]).
-noun(1,fem,tabula,tabul,class:common, ab:no, sem:[thing],[]).
 noun(1,fem,taberna,tabern,class:common, ab:no, sem:[thing,loc],[]).
+noun(1,fem,tabula,tabul,class:common, ab:no, sem:[thing],[]).
+noun(1,fem,tenebrae,tenebr,class:common, ab:no, sem:[thing,loc],[nb:pl]).
 noun(1,fem,terra,terr,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,thessalia,thessali,class:common, ab:no, sem:[country,thing],[nb:sg]).
 noun(1,fem,troia,troi,class:common, ab:no, sem:[city,thing],[nb:sg]).
@@ -780,20 +981,22 @@ noun(1,fem,unda,und,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,masc,agricola,agricol,class:common, ab:no, sem:[hum],[]).
 noun(1,masc,belga,belg,class:common, ab:no, sem:[hum],[]).
 noun(1,masc,nauta,naut,class:common, ab:no, sem:[hum],[]).
+noun(1,masc,poeta,poet,class:common, ab:no, sem:[hum],[]).
 
 
 
 
 
-
+% noun(2, masc, bonus, bon,class:common, ab:no,  sem:[hum],[nb:pl]).
+% noun(2, masc, inuidus, inuid,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, alumnus, alumn,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, amicus, amic,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, angulus, angul, class:common, ab:no, sem:[loc,thing],[]).
 noun(2, masc, animus, anim, class:common, ab:mm, sem:[abstract, thing],[]).
 noun(2, masc, annus, ann,class:common, ab:time,  sem:[time, abstract],[]).
-% noun(2, masc, bonus, bon,class:common, ab:no,  sem:[hum],[nb:pl]).
 noun(2, masc, campus, camp,class:common, ab:no,  sem:[thing,loc],[]).
 noun(2, masc, cauus, cau,class:common, ab:loc,  sem:[thing,loc],[]).
+noun(2, masc, cibus, cib, class:common, ab:no, sem:[thing],[]).
 noun(2, masc, coniuratus, coniurat,class:common, ab:no,  sem:[hum],[nb:pl]).
 noun(2, masc, danaus, dana,class:common, ab:no,  sem:[hum],[nb:pl]).
 noun(2, masc, deus, de,class:common, ab:no,  sem:[hum],[]).
@@ -804,10 +1007,11 @@ noun(2, masc, equus, equ,class:common, ab:mm,  sem:[animal, hum],[]).
 noun(2, masc, filius, fili,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, gallus, gall,class:common, ab:no,  sem:[hum],[nb:pl]).
 noun(2, masc, germanus, german,class:common, ab:no,  sem:[hum],[nb:pl]).
+noun(2, masc, gladius, gladi, class:common, ab:mm, sem:[thing],[]).
 noun(2, masc, graecus, graec,class:common, ab:no,  sem:[hum],[nb:pl]).
 noun(2, masc, hortus, hort, class:common, ab:no, sem:[loc,thing],[]).
+noun(2, masc, humus, hum, class:common, ab:no, sem:[thing,loc],[]).
 noun(2, masc, inimicus, inimic,class:common, ab:no,  sem:[hum],[]).
-% noun(2, masc, inuidus, inuid,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, lectus, lect, class:common, ab:no, sem:[loc,thing],[]).
 noun(2, masc, legatus, legat,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, libellus, libell, class:common, ab:no, sem:[abstract, thing],[]).
@@ -819,15 +1023,18 @@ noun(2, masc, morbus, morb, class:common, ab:mm, sem:[abstract, thing],[]).
 noun(2, masc, mundus, mund, class:common, ab:no, sem:[thing,loc],[]).
 noun(2, masc, murus, mur, class:common, ab:no, sem:[thing,loc],[]).
 noun(2, masc, nasus, nas,class:common, ab:no,  sem:[thing],[]).
+noun(2, masc, natus, nat, class:common, ab:no, sem:[hum],[]).
 noun(2, masc, natus, nat,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, numerus, numer,class:common, ab:no,  sem:[abstract],[]).
 noun(2, masc, nuntius, nunti,class:common, ab:mm,  sem:[abstract],[]).     % nuntius meaning message
 noun(2, masc, oculus, ocul, class:common, ab:no, sem:[abstract, thing],[]).
 noun(2, masc, patronus, patron,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, pessimus, pessim,class:common, ab:no,  sem:[hum],[nb:pl]).
+noun(2, masc, pontus, pont, class:common, ab:no, sem:[thing,loc],[]).
 noun(2, masc, populus, popul,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, praefectus, praefect,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, proximus, proxim,class:common, ab:no,  sem:[hum],[]).
+noun(2, masc, reus, re, class:common, ab:no, sem:[hum],[]).
 noun(2, masc, riuus, riu, class:common, ab:no, sem:[thing,loc],[]).
 noun(2, masc, romanus, roman,class:common, ab:no,  sem:[hum],[nb:pl]).
 noun(2, masc, seruus, seru,class:common, ab:no,  sem:[hum, thing],[]).
@@ -836,22 +1043,22 @@ noun(2, masc, somnus, somn,class:common, ab:no,  sem:[thing, abstract],[]).
 noun(2, masc, troianus, troian,class:common, ab:no,  sem:[hum],[nb:pl]).
 noun(2, masc, uentus, uent,class:common, ab:mm,  sem:[thing],[]).
 noun(2, masc, ursus, urs,class:common, ab:no,  sem:[animal,thing],[]).
+noun(2, masc, vulgus, vulg, class:common, ab:no, sem:[hum],[]).
 
 
+noun(er2,masc,ager,agr,class:common,ab:no,sem:[thing,loc],[]).
+noun(er2,masc,arbiter,arbitr,class:common,ab:no,sem:[hum],[]).
+noun(er2,masc,faber,fabr,class:common,ab:no,sem:[hum],[]).
+noun(er2,masc,gener,gener,class:common,ab:no,sem:[hum],[]).
+noun(er2,masc,liber,libr,class:common,ab:no,sem:[thing],[]).
+noun(er2,masc,liberi,liber,class:common,ab:no,sem:[hum],[nb:pl]).
+noun(er2,masc,magister,magistr,class:common,ab:no,sem:[hum],[]).
+noun(er2,masc, minister, ministr,class:common, ab:no,  sem:[hum],[]).
+noun(er2,masc,puer,puer,class:common,ab:no,sem:[hum],[]).
+noun(er2,masc,socer,socer,class:common,ab:no,sem:[hum],[]).
+noun(er2,masc,uesper,uesper,class:common,ab:no,sem:[time],[]).
 
 
-
-noun(2, masc, ager, agr,class:common, ab:no,  sem:[thing,loc],[]).
-noun(2, masc, arbiter, arbitr,class:common, ab:no,  sem:[hum],[]).
-noun(2, masc, faber, fabr,class:common, ab:no,  sem:[hum],[]).
-noun(2, masc, gener, gener,class:common, ab:no,  sem:[hum],[]).
-noun(2, masc, liber, libr,class:common, ab:no,  sem:[thing,abstract],[]).
-noun(2, masc, liberi,liber,class:common, ab:no, sem:[hum],[nb:pl]). % pluralia tantum
-noun(2, masc, magister, magistr,class:common, ab:no,  sem:[hum],[]).
-noun(2, masc, minister, ministr,class:common, ab:no,  sem:[hum],[]).
-noun(2, masc, puer, puer,class:common, ab:no,  sem:[hum],[]).
-noun(2, masc, socer, socer,class:common, ab:no,  sem:[hum],[]).
-noun(2, masc, uesper, uesper,class:common, ab:no,  sem:[time],[]).
 noun(2, masc, uir, uir,class:common, ab:no,  sem:[male],[]).
 noun(2, masc, triumuir, triumuir,class:common, ab:no,  sem:[male],[]).
 noun(2, masc, tresuir, tresuir,class:common, ab:no,  sem:[male],[]).
@@ -864,7 +1071,9 @@ noun(2, fem, populus, popul, class:common, ab:no, sem:[vegetal],[]).
 
 
 noun(2, neuter, aeternum, aetern,class:common, ab:no,  sem:[abstract, time],[nb:sg]).
+noun(2, neuter, aeuum, aeu,class:common, ab:no,  sem:[time,loc],[]).
 noun(2, neuter, arbitrium, arbitri,class:common, ab:mm,  sem:[abstract, thing],[]).
+noun(2, neuter, argentum, argent,class:common, ab:mm,  sem:[thing],[]).
 noun(2, neuter, artificium, artifici,class:common, ab:mm,  sem:[abstract, thing],[]).
 noun(2, neuter, aruum, aru,class:common, ab:no,  sem:[thing,loc],[]).
 noun(2, neuter, astrum, astr,class:common, ab:no,  sem:[thing,loc,abstract],[]).
@@ -873,12 +1082,14 @@ noun(2, neuter, auxilium, auxili,class:common, ab:mm,  sem:[thing, abstract],[])
 noun(2, neuter, bellum, bell,class:common, ab:time,  sem:[thing],[]).
 noun(2, neuter, beneficium, benefici,class:common, ab:mm,  sem:[abstract, thing],[]).
 noun(2, neuter, bonum, bon,class:common, ab:no,  sem:[thing, abstract],[]).
-noun(2, neuter, caelum, cael,class:common, ab:no,  sem:[loc,thing],[]).
+noun(2, neuter, caelum, cael,class:common, ab:loc,  sem:[loc,thing],[]).
 noun(2, neuter, castellum, castell,class:common, ab:loc,  sem:[thing,loc],[]).
 noun(2, neuter, consilium, consili,class:common, ab:mm,  sem:[abstract,hum],[]).
+noun(2, neuter, conuiuium, conuiui,class:common, ab:mm,  sem:[loc,abstract],[]).
+noun(2, neuter, damnum, damn,class:common, ab:mm,  sem:[thing,abstract],[]).
+noun(2, neuter, decretum, decret,class:common, ab:mm,  sem:[thing,abstract],[]).
 noun(2, neuter, desiderium, desideri,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, documentum, document,class:common, ab:no,  sem:[thing,abstract],[]).
-noun(2, neuter, decretum, decret,class:common, ab:mm,  sem:[thing,abstract],[]).
 noun(2, neuter, donum, don,class:common, ab:mm,  sem:[thing],[]).
 noun(2, neuter, edictum, edict,class:common, ab:mm,  sem:[thing,abstract],[]).
 noun(2, neuter, exemplum, exempl,class:common, ab:mm,  sem:[thing,abstract],[]).
@@ -887,11 +1098,16 @@ noun(2, neuter, factum, fact,class:common, ab:no,  sem:[abstract],[]).
 noun(2, neuter, fatum, fat,class:common, ab:no,  sem:[abstract],[]).
 noun(2, neuter, ferrum, ferr,class:common, ab:mm,  sem:[thing,abstract],[]).
 noun(2, neuter, forum, for,class:common, ab:loc,  sem:[thing,loc],[]).
+noun(2, neuter, frumentum, frument,class:common, ab:mm,  sem:[thing],[]).
+noun(2, neuter, gaudium, gaudi,class:common, ab:mm,  sem:[abstract],[]).
+noun(2, neuter, gremium, gremi,class:common, ab:no,  sem:[thing,loc],[]).
 noun(2, neuter, imperium, imperi,class:common, ab:no,  sem:[thing, abstract],[]).
 noun(2, neuter, incitamentum, incitament,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, incommodum, incommod,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, ingenium, ingeni,class:common, ab:mm,  sem:[quality],[]).
 noun(2, neuter, initium, initi,class:common, ab:mm,  sem:[abstract],[]).
+noun(2, neuter, iudicium, iudici,class:common, ab:mm,  sem:[abstract],[]).
+noun(2, neuter, iugum, iug,class:common, ab:mm,  sem:[thing,abstract],[]).
 noun(2, neuter, lugdunum, lugdun,class:common, ab:no,  sem:[city,thing, abstract],[nb:sg]). % only sing
 noun(2, neuter, medium, medi,class:common, ab:no,  sem:[abstract,loc],[]).
 noun(2, neuter, membrum, membr,class:common, ab:no,  sem:[thing],[]).
@@ -908,35 +1124,38 @@ noun(2, neuter, praeceptum, praecept,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, praemium, praemi,class:common, ab:mm,  sem:[thing, abstract],[]).
 noun(2, neuter, praesidium, praesidi,class:common, ab:mm,  sem:[thing, abstract],[]).
 noun(2, neuter, praetorium, praetori,class:common, ab:no,  sem:[hum,thing, abstract,loc],[]).
+noun(2, neuter, pretium, preti,class:common, ab:mm,  sem:[abstract],[]).
+noun(2, neuter, pretium, preti,class:common, ab:mm,  sem:[thing, abstract],[]).
 noun(2, neuter, primordia, primordi,class:common, ab:no,  sem:[abstract],[nb:pl]).		 % pluralia tantum
 noun(2, neuter, principium, principi,class:common, ab:mm,  sem:[abstract],[]).
-noun(2, neuter, promissum, promiss,class:common, ab:mm,  sem:[abstract],[]).
-noun(2, neuter, speculum, specul,class:common, ab:mm,  sem:[hum, thing, loc],[]).
-noun(2, neuter, pretium, preti,class:common, ab:mm,  sem:[thing, abstract],[]).
 noun(2, neuter, probrum, probr,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, proelium, proeli,class:common, ab:mm,  sem:[thing, abstract],[]).
+noun(2, neuter, promissum, promiss,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, regnum, regn,class:common, ab:no,  sem:[thing, abstract],[]).
 noun(2, neuter, sacramentum, sacrament,class:common, ab:mm,  sem:[abstract],[]).
+noun(2, neuter, saeculum, saecul,class:common, ab:no,  sem:[time,abstract,loc],[]).
 noun(2, neuter, saxum, sax,class:common, ab:no,  sem:[thing,loc],[]).
 noun(2, neuter, scrinium, scrini,class:common, ab:loc,  sem:[thing,loc],[]).
 noun(2, neuter, scriptum, script,class:common, ab:mm,  sem:[thing, abstract],[]).     % ALP 196
 noun(2, neuter, scutum, scut,class:common, ab:mm,  sem:[thing],[]).
 noun(2, neuter, senatusconsultum, senatusconsult,class:common, ab:mm,  sem:[abstract],[]).
+noun(2, neuter, sepulcrum, sepulcr,class:common, ab:no,  sem:[loc, thing],[]).
 noun(2, neuter, seruitium, seruiti,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, signum, sign,class:common, ab:mm,  sem:[thing, abstract],[]).
 noun(2, neuter, silentium, silenti,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, solacium, solaci,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, spatium, spati,class:common, ab:no,  sem:[thing, loc],[]).
 noun(2, neuter, spectaculum, spectacul,class:common, ab:mm,  sem:[thing],[]).
+noun(2, neuter, speculum, specul,class:common, ab:mm,  sem:[hum, thing, loc],[]).
 noun(2, neuter, speculum, specul,class:common, ab:mm,  sem:[hum, thing, loc],[]). % hum metaphorically cf. Ovid
 noun(2, neuter, studium, studi,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, subsidium, subsidi,class:common, ab:no,  sem:[abstract],[]).
 noun(2, neuter, supplicium, supplici,class:common, ab:no,  sem:[thing],[]).
 noun(2, neuter, tectum, tect,class:common, ab:no,  sem:[thing, loc],[]).
 noun(2, neuter, telum,tel,class:common, ab:mm,  sem:[thing],[]).
+noun(2, neuter, telum,tel,class:common, ab:mm,  sem:[weapon],[]).
 noun(2, neuter, templum, templ,class:common, ab:no,  sem:[thing, loc],[]).
 noun(2, neuter, tergum, terg,class:common, ab:no,  sem:[thing, loc],[]).
-noun(2, neuter, telum,tel,class:common, ab:mm,  sem:[weapon],[]).
 noun(2, neuter, uelum,uel,class:common, ab:mm,  sem:[thing],[]).
 noun(2, neuter, uenenum,uenen,class:common, ab:mm,  sem:[thing],[]).
 noun(2, neuter, uerbum, uerb,class:common, ab:mm,  sem:[abstract],[]).
@@ -945,6 +1164,9 @@ noun(2, neuter, uestimentum,uestiment,class:common, ab:no,  sem:[thing],[]).
 noun(2, neuter, uinculum, uincul,class:common, ab:mm,  sem:[thing,abstract],[]).
 noun(2, neuter, uinum, uin,class:common, ab:no,  sem:[thing],[]).
 noun(2, neuter, uitium, uiti,class:common, ab:mm,  sem:[quality],[]).
+noun(2, neuter, uotum, uot,class:common, ab:mm,  sem:[abstract],[]).
+
+
 
 noun(2, neuter, arma, arm,class:common, ab:mm,  sem:[weapon],[nb:pl]).  % pluralia tantum
 noun(2, neuter, castra, castr,class:common, ab:loc,  sem:[thing, loc],[nb:pl]).  % pluralia tantum
@@ -956,12 +1178,17 @@ noun(2, neuter, rostra, rostr,class:common, ab:no,  sem:[thing, loc],[nb:pl]).  
 
 
 
+noun(3,masc,aer,aer,um,class:common, ab:no, sem:[loc,thing],[]).
 noun(3,masc,amnis,amn,ium,class:common, ab:no, sem:[thing,loc],[]).
 noun(3,masc,amor,amor,um,class:common, ab:mm, sem:[abstract,hum],[]).
+noun(3,masc,auctor,auctor,um,class:common, ab:no, sem:[hum],[]).
+noun(3,masc,bos,bou,um,class:common, ab:no, sem:[thing],[]).
+noun(3,masc,canis,can,um,class:common, ab:no, sem:[thing],[]).
+noun(3,masc,cinis,ciner,um,class:common, ab:no, sem:[thing],[]).
 noun(3,masc,ciuis,ciu,ium,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,clamor,clamor,um,class:common, ab:mm, sem:[abstract],[]).
+noun(3,masc,color,col,um,class:common, ab:no, sem:[abstract,thing],[]).
 noun(3,masc,consul,consul,um,class:common, ab:no, sem:[hum],[]).
-noun(3,masc,proconsul,proconsul,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,custos,custod,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,defensor,defensor,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,dolor,dolor,um,class:common, ab:mm, sem:[abstract],[]).
@@ -971,11 +1198,14 @@ noun(3,masc,eques,equit,um,class:common, ab:mm, sem:[hum],[]).
 noun(3,masc,error,error,um,class:common, ab:no, sem:[abstract],[]).
 noun(3,masc,fautor,fautor,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,finis,fin,ium,class:common, ab:no, sem:[thing,loc],[]).
+noun(3,masc,flos,flor,um,class:common, ab:no, sem:[thing],[]).
+noun(3,masc,fons,font,um,class:common, ab:no, sem:[loc,thing],[]).
 noun(3,masc,frater,fratr,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,furor,furor,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,masc,gladiator,gladiator,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,homo,homin,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,honor,honor,um,class:common, ab:no, sem:[abstract],[]).
+noun(3,masc,hospes,hospit,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,hostis,host,ium,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,ignis,ign,ium,class:common, ab:mm, sem:[thing],[]).
 noun(3,masc,imperator,imperator,um,class:common, ab:no, sem:[hum],[]).
@@ -1000,10 +1230,12 @@ noun(3,masc,pes,ped,um,class:common, ab:no, sem:[thing, abstract],[]).
 noun(3,masc,piscis,pisc,ium,class:common, ab:no, sem:[thing],[]).     
 noun(3,masc,praetor,praetor,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,princeps,princip,um,class:common, ab:no, sem:[hum],[]).
+noun(3,masc,proconsul,proconsul,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,pudor,pudor,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,masc,quaestor,quaestor,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,rex,reg,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,rumor,rumor,um,class:common, ab:mm, sem:[abstract,thing],[]).
+noun(3,masc,sacerdos,sacerdot,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,saltator,saltator,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,sanguis,sangu,ium,class:common, ab:no, sem:[thing],[]).                                 
 noun(3,masc,senator,senator,um,class:common, ab:no, sem:[hum],[]).
@@ -1013,40 +1245,58 @@ noun(3,masc,sermo,sermon,um,class:common, ab:mm, sem:[thing, abstract],[]).
 noun(3,masc,silex,silic,um,class:common, ab:mm, sem:[thing],[]).
 noun(3,masc,sol,sol,um,class:common, ab:no, sem:[thing, abstract],[nb:sg]).
 noun(3,masc,spectator,spectator,um,class:common, ab:mm, sem:[hum],[]).
+noun(3,masc,testis,test,ium,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,timor,timor,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,masc,uates,uat,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,uictor,uictor,um,class:common, ab:no, sem:[hum],[]).
+noun(3,masc,uolucris,uolucr,um,class:common, ab:no, sem:[thing],[]).
 
 
+
+
+
+
+
+
+% noun(3,fem,fines,fin,ium,class:common, ab:no, sem:[thing, loc],[nb:pl]). % pluralia tantum
 noun(3,fem,actio,action,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,adoptio,adoption,um,class:common, ab:mm, sem:[abstract],[]).
+noun(3,fem,aedes,aed,ium,class:common, ab:no, sem:[thing,loc],[]).
 noun(3,fem,aetas,aetat,um,class:common, ab:no, sem:[abstract],[]).
 noun(3,fem,alpes,alp,ium,class:common, ab:no, sem:[thing, loc],[nb:pl]). % pluralia tantum
 noun(3,fem,arbor,arbor,um,class:common, ab:no, sem:[thing,loc],[]).
 noun(3,fem,ars,art,ium,class:common, ab:mm, sem:[abstract],[]).
+noun(3,fem,arx,arc,um,class:common, ab:no, sem:[thing,loc],[]).
 noun(3,fem,atrocitas,atrocitat,um,class:common, ab:mm, sem:[abstract],[]).
+noun(3,fem,auctoritas,auctoritat,um,class:common, ab:no, sem:[quality],[]).
+noun(3,fem,auis,au,ium,class:common, ab:no, sem:[thing],[]).
 noun(3,fem,auris,aur,ium,class:common, ab:no, sem:[thing],[]).
 noun(3,fem,caedes,caed,ium,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,carthago,carthagin,um,class:common, ab:loc,  sem:[city,thing, abstract],[nb:sg]).
 noun(3,fem,celebritas,celebritat,um,class:common, ab:no, sem:[abstract],[]).
 noun(3,fem,ciuitas,ciuitat,um,class:common, ab:no, sem:[hum,loc],[]).
-noun(3,fem,cohors,cohort,ium,class:common, ab:no, sem:[hum],[]).
 noun(3,fem,clades,clad,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,classis,class,ium,class:common, ab:no, sem:[thing,abstract],[]).
+noun(3,fem,cohors,cohort,ium,class:common, ab:no, sem:[hum],[]).
+noun(3,fem,condicio,condicion,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,coniuratio,coniuration,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,consuetudo,consuetudin,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,cupiditas,cupiditat,um,class:common, ab:mm, sem:[abstract],[]).
+noun(3,fem,cupido,cupidin,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,defensio,defension,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,dignitas,dignitat,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,diuersitas,diuersitat,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,dubitatio,dubitation,um,class:common, ab:mm, sem:[quality],[]).
-noun(3,fem,hereditas,heredit,um,class:common, ab:mm, sem:[abstract,thing],[]).
 noun(3,fem,facultas,facultat,um,class:common, ab:mm, sem:[abstract],[]).
+noun(3,fem,fames,fam,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,fax,fac,um,class:common, ab:mm, sem:[thing],[]).
-% noun(3,fem,fines,fin,ium,class:common, ab:no, sem:[thing, loc],[nb:pl]). % pluralia tantum
+% noun(3,fem,fors,fort,um,class:common, ab:no, sem:[quality],[]). % awful mix with fortis adj
+noun(3,fem,frons,front,um,class:common, ab:no, sem:[thing],[]).
 noun(3,fem,gens,gent,ium,class:common, ab:no, sem:[hum],[]).
+noun(3,fem,hereditas,heredit,um,class:common, ab:mm, sem:[abstract,thing],[]).
 noun(3,fem,hiems,hiem,um,class:common, ab:time, sem:[abstract,time],[]).
 noun(3,fem,illuminatio,illumination,um,class:common, ab:mm, sem:[quality],[]).
+noun(3,fem,imago,imagin,um,class:common, ab:no, sem:[thing,quality],[]).
 noun(3,fem,immortalitas,immortalitat,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,karthago,karthagin,um,class:common, ab:no,  sem:[city,thing, abstract],[nb:sg]).
 noun(3,fem,laus,laud,um,class:common, ab:mm, sem:[abstract],[]).
@@ -1054,14 +1304,17 @@ noun(3,fem,legio,legion,um,class:common, ab:no, sem:[hum, thing],[]).
 noun(3,fem,lex,leg,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,liberalitas,liberalitat,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,libertas,libertat,um,class:common, ab:mm, sem:[quality],[]).
+noun(3,fem,libido,libidin,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,lux,luc,um,class:common, ab:mm, sem:[thing],[]).
 noun(3,fem,magnitudo,magnitudin,um,class:common, ab:no, sem:[abstract],[]).
 noun(3,fem,mater,matr,um,class:common, ab:no, sem:[hum],[]).
 noun(3,fem,mens,ment,ium,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,mors,mort,ium,class:common, ab:mm, sem:[abstract, thing, hum],[]). 
 noun(3,fem,mulier,mulier,um,class:common, ab:no, sem:[female],[]).
+noun(3,fem,multitudo,multitudin,um,class:common, ab:no, sem:[hum, quality],[]).
 noun(3,fem,narratio,narration,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,nauis,nau,ium,class:common, ab:no, sem:[thing,loc],[]).
+noun(3,fem,necessitas,necessitat,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,nobilitas,nobilitat,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,nouitas,nouitat,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,nox,noct,um,class:common, ab:time, sem:[abstract, time],[]).
@@ -1070,18 +1323,19 @@ noun(3,fem,opinio,opinion,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,ops,op,um,class:common, ab:mm, sem:[thing],[]).
 noun(3,fem,oratio,oration,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,pars,part,ium,class:common, ab:no, sem:[abstract, thing, hum, loc],[]).
-noun(3,fem,pax,pac,um,class:common, ab:mm, sem:[quality],[nb:sg]).
 noun(3,fem,paupertas,paupertat,um,class:common, ab:mm, sem:[quality],[]).
+noun(3,fem,pax,pac,um,class:common, ab:mm, sem:[quality],[nb:sg]).
 noun(3,fem,petitio,petition,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,pietas,pietat,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,plebs,pleb,um,class:common, ab:no, sem:[human,abstract],[nb:sg]).
 noun(3,fem,portio,portion,um,class:common, ab:no, sem:[abstract,thing,hum],[]).
 noun(3,fem,potestas,potestat,um,class:common, ab:mm, sem:[quality],[]).
+noun(3,fem,prex,prec,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,proditio,prodition,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,quies,quiet,um,class:common, ab:mm, sem:[abstract],[nb:sg]).
-noun(3,fem,requies,requiet,um,class:common, ab:mm, sem:[abstract],[nb:sg]).
 noun(3,fem,ratio,ration,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,regio,region,um,class:common, ab:no, sem:[thing,loc],[]).
+noun(3,fem,requies,requiet,um,class:common, ab:mm, sem:[abstract],[nb:sg]).
 noun(3,fem,salus,salut,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,sedes,sed,um,class:common, ab:no, sem:[thing,loc,abstract],[]).
 noun(3,fem,societas,societat,um,class:common, ab:no, sem:[quality],[]).
@@ -1089,6 +1343,7 @@ noun(3,fem,sollemnitas,sollemnitat,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,soror,soror,um,class:common, ab:no, sem:[female],[]).
 noun(3,fem,sors,sort,ium,class:common, ab:no, sem:[abstract],[]).
 noun(3,fem,tellus,tellur,um,class:common, ab:no, sem:[thing,loc],[]).
+noun(3,fem,tempestas,tempestat,um,class:common, ab:no, sem:[loc,thing,quality],[]).
 noun(3,fem,trepidatio,trepidation,um,class:common, ab:mm, sem:[quality],[]).
 noun(3,fem,uastitas,uastitat,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,ueritas,ueritat,um,class:common, ab:no, sem:[quality],[]).
@@ -1104,19 +1359,27 @@ noun(3,fem,utilitas,utilitat,um,class:common, ab:no, sem:[quality],[]).
 noun(3,fem,uxor,uxor,um,class:common, ab:no, sem:[female],[]).
 
 
+
+
 noun(3,or([masc,fem]),comes,comit,um,class:common, ab:no, sem:[hum],[]).
 noun(3,or([masc,fem]),coniux,coniug,um,class:common, ab:no, sem:[hum],[]).
+noun(3,or([masc,fem]),coniunx,coniung,um,class:common, ab:no, sem:[hum],[]).
 noun(3,or([masc,fem]),heres,hered,um,class:common, ab:no, sem:[hum],[]).
 noun(3,or([masc,fem]),parens,parent,um,class:common, ab:no, sem:[hum],[]).
 % noun(3,or([masc,fem]),sapiens,sapient,um,class:common, ab:no, sem:[hum],[]).
 
 
 
+noun(3,neuter,aequor,aequor,um,class:common, ab:no, sem:[thing,loc],[]).
+noun(3,neuter,aes,aer,um,class:common, ab:no, sem:[thing],[]).
+noun(3,neuter,aether,aether,um,class:common, ab:no, sem:[loc,thing],[]).
+noun(3,neuter,agmen,agmin,um,class:common, ab:no, sem:[loc,thing],[]).
 noun(3,neuter,animal,animal,ium,class:common, ab:no, sem:[animal,hum],[]).
 noun(3,neuter,caput,capit,um,class:common, ab:no, sem:[thing,hum,abstract],[]).
 noun(3,neuter,carmen,carmin,um,class:common, ab:mm, sem:[thing,abstract],[]).
 noun(3,neuter,cor,cord,um,class:common, ab:no, sem:[thing,abstract],[]).
 noun(3,neuter,corpus,corpor,um,class:common, ab:no, sem:[thing],[]).
+noun(3,neuter,decus,decor,um,class:common, ab:no, sem:[quality],[]).
 noun(3,neuter,dedecus,dedecor,um,class:common, ab:mm, sem:[quality,thing],[]).
 noun(3,neuter,facinus,facinor,um,class:common, ab:no, sem:[abstract],[]).
 noun(3,neuter,flumen,flumin,um,class:common, ab:loc, sem:[thing, loc],[]).
@@ -1128,13 +1391,16 @@ noun(3,neuter,lac,lact,um,class:common, ab:no, sem:[thing],[]).
 noun(3,neuter,latus,later,um,class:common, ab:no, sem:[thing, loc],[]).
 noun(3,neuter,limen,limin,um,class:common, ab:no, sem:[thing, loc],[]).
 noun(3,neuter,litus,litor,um,class:common, ab:no, sem:[thing, loc],[]).
+noun(3,neuter,lumen,lumin,class:common, ab:no, sem:[thing],[]).
 noun(3,neuter,mare,mar,um,class:common, ab:no, sem:[thing, loc],[nb:sg]).
+noun(3,neuter,moenia,moeni,um,class:common, ab:no, sem:[thing,loc],[nb:pl]).
 noun(3,neuter,munus,muner,um,class:common, ab:no, sem:[abstract,thing],[]).
 noun(3,neuter,nemus,nemor,um,class:common, ab:no, sem:[thing, loc],[]).
 noun(3,neuter,nomen,nomin,um,class:common, ab:mm, sem:[thing,abstract],[]).
 noun(3,neuter,numen,numin,um,class:common, ab:mm, sem:[thing,quality],[]).
 noun(3,neuter,opus,oper,um,class:common, ab:mm, sem:[abstract,thing],[]).
 noun(3,neuter,os,or,um,class:common, ab:no, sem:[thing],[]).
+noun(3,neuter,os,oss,ium,class:common, ab:no, sem:[thing],[]).
 noun(3,neuter,pectus,pector,um,class:common, ab:no, sem:[thing],[]).
 noun(3,neuter,pecus,pecor,um,class:common, ab:no, sem:[thing],[]).
 noun(3,neuter,poema,poemat,um,class:common, ab:mm, sem:[thing],[]).
@@ -1149,45 +1415,46 @@ noun(3,neuter,ulnus,ulner,um,class:common, ab:no, sem:[thing,abstract],[]).
 
 
 
-
-
 noun(4,fem,iuuentus,iuuentut,class:common, ab:no, sem:[abstract,time],[]).
 noun(4,fem,manus,man,class:common, ab:mm, sem:[thing],[]).
 noun(4,fem,tribus,trib,class:common, ab:no, sem:[hum],[]).
 
 
 
+
 noun(4,masc,casus,cas,class:common, ab:mm, sem:[thing,abstract],[]).
-noun(4,masc,cursus,curs,class:common, ab:no, sem:[thing,abstract],[]).
 noun(4,masc,consulatus,consulat,class:common, ab:no, sem:[institution,time],[]).
-noun(4,masc,dilectus,dilect,class:common, ab:no, sem:[abstract,time],[]).
+noun(4,masc,currus,curr,class:common, ab:mm, sem:[thing],[]).
+noun(4,masc,cursus,curs,class:common, ab:no, sem:[thing,abstract],[]).
 noun(4,masc,delectus,delect,class:common, ab:no, sem:[abstract,time],[]).
+noun(4,masc,dilectus,dilect,class:common, ab:no, sem:[abstract,time],[]).
 noun(4,masc,euentus,euent,class:common, ab:no, sem:[thing,abstract],[]).
 noun(4,masc,exercitus,exercit,class:common, ab:no, sem:[thing,hum,loc],[]).
 noun(4,masc,fluctus,fluct,class:common, ab:no, sem:[thing,loc],[]).
 noun(4,masc,fructus,fruct,class:common, ab:no, sem:[thing,abstract],[]).
 noun(4,masc,gradus,grad,class:common, ab:no, sem:[thing,abstract],[]).
+noun(4,masc,ictus,ict,class:common, ab:mm, sem:[abstract],[]).
 noun(4,masc,impetus,impet,class:common, ab:mm, sem:[abstract],[]).
 noun(4,masc,metus,met,class:common, ab:mm, sem:[abstract],[]).
 noun(4,masc,risus,ris,class:common, ab:mm, sem:[abstract],[]).
 noun(4,masc,senatus,senat,class:common, ab:no, sem:[hum,institution],[]).
+noun(4,masc,sensus,sens,class:common, ab:mm, sem:[abstract],[]).
+noun(4,masc,sinus,sin,class:common, ab:mm, sem:[thing,loc,abstract],[]).
 noun(4,masc,spiritus,spirit,class:common, ab:mm, sem:[abstract],[]).
 noun(4,masc,sumptus,sumpt,class:common, ab:no, sem:[thing,abstract],[]).
-noun(4,masc,uultus,uult,class:common, ab:no, sem:[thing,abstract],[]).
 noun(4,masc,usus,us,class:common, ab:mm, sem:[thing,abstract],[]).
+noun(4,masc,uultus,uult,class:common, ab:no, sem:[thing,abstract],[]).
 
 
 
-
-
-
+noun(5,fem,acies,aci,class:common, ab:no, sem:[thing,loc],[]).
 noun(5,or([masc,fem]),dies,di,class:common, ab:time, sem:[time, thing, abstract],[]).
 noun(5,fem,effigies,effigi,class:common, ab:no, sem:[thing],[]).
+noun(5,fem,facies,faci,class:common, ab:no, sem:[thing],[]).
 noun(5,fem,fides,fid,class:common, ab:mm, sem:[quality],[nb:sg]).
 noun(5,fem,res,r,class:common, ab:no, sem:[thing, abstract],[]).
 noun(5,fem,species,speci,class:common, ab:mm, sem:[abstract],[]).
 noun(5,fem,spes,sp,class:common, ab:no, sem:[quality],[]).
-
 
 
 
@@ -1219,30 +1486,32 @@ noun(1,masc,murena,muren,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(1,masc,numida,numid,class:proper,ab:no, sem:[male],[nb:pl]).
 noun(1,masc,thrasea,thrase,class:proper,ab:no, sem:[male],[nb:sg]).
 
-
 noun(2,masc,alexander,alexandr,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,antonius,antoni,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,ariouistus,ariouist,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(2,masc,fabullus,fabull,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(2,masc,dionysius,dionysi,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(2,masc,silanus,silan,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(2,masc,marcus,marc,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(2,masc,narcissus,narciss,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(2,masc,britannicus,britannic,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(2,masc,classicus,classic,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(2,masc,meliboeus,meliboe,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,augustinus,augustin,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,britannicus,britannic,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,callistus,callist,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,catullus,catull,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,classicus,classic,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,dionysius,dionysi,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,fabullus,fabull,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,hesperus,hesper,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,homerus,homer,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,marcus,marc,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,meliboeus,meliboe,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,narcissus,narciss,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,petrus,petr,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,silanus,silan,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(2,masc,homerus,homer,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(2,masc,catullus,catull,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(2,masc,callistus,callist,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,theofilus,theofil,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,torquatus,torquat,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,tityrus,tityr,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,uespasianus,uespasian,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,uinius,uini,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,uitellius,uitelli,class:proper,ab:no, sem:[male],[nb:sg]).
 
+noun(3,fem,ceres,cerer,um,class:proper,ab:no, sem:[female],[nb:sg]).
+noun(3,fem,uenus,uener,um,class:proper,ab:no, sem:[female],[nb:sg]).
 
 noun(3,masc,caesar,caesar,um,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(3,masc,cato,caton,um,class:proper,ab:no, sem:[male],[nb:sg]).
@@ -1251,17 +1520,10 @@ noun(3,masc,ciuilis,ciuil,um,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(3,masc,hamilcar,hamilcar,um,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(3,masc,hannibal,hannibal,um,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(3,masc,laco,lacon,um,class:proper,ab:no, sem:[male],[nb:sg]).
-noun(3,masc,nero,neron,um,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(3,masc,macro,macron,um,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(3,masc,nero,neron,um,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(3,masc,otho,othon,um,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(3,masc,pallas,pallant,um,class:proper,ab:no, sem:[male],[nb:sg]).
-
-noun(3,fem,ceres,cerer,um,class:proper,ab:no, sem:[female],[nb:sg]).
-noun(3,fem,uenus,uener,um,class:proper,ab:no, sem:[female],[nb:sg]).
-
-
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1319,6 +1581,7 @@ mkthem :-
  macro_adj_all,         % comparatives and superlatives
  macro_noun_1,		% regina
  macro_noun_2_masc,		% dominus
+ macro_noun_2_masc_er,          % ager, puer
  macro_noun_2_fem,      % fagus 
  macro_noun_2_n,	% templum
  macro_noun_3_mf,	% miles
@@ -6617,6 +6880,66 @@ macro_noun_2_masc.
 
 
 
+
+/*
+noun(er2,masc,ager,agr,class:common,ab:no,sem:[thing,loc],[]).
+noun(er2,masc,liber,libr,class:common,ab:no,sem:[thing],[]).
+noun(er2,masc,puer,puer,class:common,ab:no,sem:[hum],[]).
+*/
+
+macro_noun_2_masc_er :-
+
+noun(er2,masc,Lex,Root,class:Class,Ab,Sem,Box),
+declension_endings(n,2,masc,[_Nmsg,Acmsg,Genmsg,Datmsg,Ablmsg,
+                     Nmpl,Acmpl,Genmpl,Datmpl,Ablmpl]),
+
+
+atom_concat(Root,Acmsg,FAcmsg),
+atom_concat(Root,Genmsg,FGenmsg),
+atom_concat(Root,Datmsg,FDatmsg),
+atom_concat(Root,Ablmsg,FAblmsg),
+atom_concat(Root,Nmpl,FNmpl),
+atom_concat(Root,Acmpl,FAcmpl),
+atom_concat(Root,Genmpl,FGenmpl),
+atom_concat(Root,Datmpl,FDatmpl),
+atom_concat(Root,Ablmpl,FAblmpl),
+
+ifthenelse(constraint([nb:pl],Box),true, 
+% nominative masc sing
+(asserta(lex(Lex,noun,[pos:noun,txt:Lex,lex:Lex, case:nom, gender:masc, class:Class,Ab,number:sing,Sem])),
+% accusative masc sing
+asserta(lex(FAcmsg,noun,[pos:noun,txt:FAcmsg,lex:Lex, case:acc, gender:masc, class:Class,Ab,number:sing,Sem])),
+% genitive masc sing
+asserta(lex(FGenmsg,noun,[pos:noun,txt:FGenmsg,lex:Lex, case:gen, gender:masc, class:Class,Ab,number:sing,Sem])),
+% dative masc sing
+asserta(lex(FDatmsg,noun,[pos:noun,txt:FDatmsg,lex:Lex, case:dat, gender:masc, class:Class,Ab,number:sing,Sem])),
+% ablative masc sing
+asserta(lex(FAblmsg,noun,[pos:noun,txt:FAblmsg,lex:Lex, case:abl, gender:masc, class:Class,Ab,number:sing,Sem])) )),
+
+ifthenelse(constraint([nb:sg],Box),true, 
+
+% nominative masc pl
+(asserta(lex(FNmpl,noun,[pos:noun,txt:FNmpl,lex:Lex, case:nom, gender:masc, class:Class,Ab,number:pl,Sem])),
+% accusative masc pl
+asserta(lex(FAcmpl,noun,[pos:noun,txt:FAcmpl,lex:Lex, case:acc, gender:masc, class:Class,Ab,number:pl,Sem])),
+% genitive  masc pl
+asserta(lex(FGenmpl,noun,[pos:noun,txt:FGenmpl,lex:Lex, case:gen, gender:masc, class:Class,Ab,number:pl,Sem])),
+% dative masc pl
+asserta(lex(FDatmpl,noun,[pos:noun,txt:FDatmpl,lex:Lex, case:dat, gender:masc, class:Class,Ab,number:pl,Sem])),
+% ablative masc pl
+asserta(lex(FAblmpl,noun,[pos:noun,txt:FAblmpl,lex:Lex, case:abl, gender:masc, class:Class,Ab,number:pl,Sem])) )),
+
+fail.
+
+macro_noun_2_masc_er.
+
+
+
+
+
+
+
+
 macro_noun_2_fem :-
 
 noun(2,fem,Lex,Root,class:Class,Ab,Sem,Box),
@@ -6958,9 +7281,9 @@ lex(ipse, prpers,[pos:prpers,txt:ipse,lex:pp2sg,
 lex(te, prpers,[pos:prpers,txt:te,lex:pp2sg,
                  number:sing, person:2, gender:or([masc,fem]),
                  case:acc, sem:[hum]]).
-lex(tui, prpers,[pos:prpers,txt:tui,lex:pp2sg,
-                 number:sing, person:2, gender:or([masc,fem]),
-                 case:gen, sem:[hum]]).
+lex(tui, prpers,[pos:prpers,txt:tui,lex:pp2sg,                           % overgeneration with poss tui !!!!
+               number:sing, person:2, gender:or([masc,fem]),
+               case:gen, sem:[hum]]).
 lex(tibi, prpers,[pos:prpers,txt:tibi,lex:pp2sg,
                  number:sing, person:2, gender:or([masc,fem]),
                  case:dat, sem:[hum]]).
@@ -8792,6 +9115,7 @@ lex(abs,       prep,[lex:ab,      pos:prep, requires:abl,           gerund:no, t
 lex(ad,        prep,[lex:ad,      pos:prep, requires:acc,           gerund:yes,type:pre]).
 lex(ante,      prep,[lex:ante,    pos:prep, requires:acc,           gerund:no, type:pre]).
 lex(apud,      prep,[lex:apud,    pos:prep, requires:acc,           gerund:no, type:pre]).
+lex(circa,      prep,[lex:circa,    pos:prep, requires:acc,           gerund:no, type:pre]).
 lex(circum,      prep,[lex:circum,    pos:prep, requires:acc,           gerund:no, type:or([pre,post])]).
 lex(contra,    prep,[lex:contra,  pos:prep, requires:acc,           gerund:no, type:pre]).
 lex(cum,       prep,[lex:cum,     pos:prep, requires:abl,           gerund:no, type:pre]).
@@ -8816,7 +9140,10 @@ lex(propter,   prep,[lex:propter, pos:prep, requires:acc,           gerund:no, t
 lex(sine,      prep,[lex:sine,    pos:prep, requires:abl,           gerund:no, type:pre]).
 lex(specie,      prep,[lex:specie,    pos:prep, requires:gen,           gerund:yes, type:pre]).
 lex(sub,       prep,[lex:sub,     pos:prep, requires:or([abl,acc]), gerund:no, type:pre]).
+lex(supra,       prep,[lex:supra,     pos:prep, requires:acc,        gerund:no, type:pre]).
 lex(trans,     prep,[lex:trans,   pos:prep, requires:acc,           gerund:no, type:pre]).
+lex(ultra,       prep,[lex:ultra,     pos:prep, requires:acc,        gerund:no, type:pre]).
+
 
 % CAUSA
 
@@ -8842,10 +9169,13 @@ lex(ubi,adv,[lex:ubi,pos:adv,type:int,sem:position]).
 % INT only : quo, unde, quando, quamdiu, quare, cur, quid, quomodo
 %
 
-lex(quo,         adv,[lex:quo,      pos:adv, type:int, sem:direction_to]).
+lex(quo,         adv,[lex:quo,      pos:adv, type:int, sem:or([reason,direction_to])]).
 lex(unde,        adv,[lex:unde,     pos:adv, type:int, sem:direction_from]).
 lex(quando,      adv,[lex:quando,   pos:adv, type:int, sem:when]).
 lex(quamdiu,     adv,[lex:quamdiu,  pos:adv, type:int, sem:duration]).
+lex(quantum,     adv,[lex:quantum,  pos:adv, type:int, sem:quantity]).
+lex(quemadmodum, adv,[lex:quemadmodum, pos:adv, type:int, sem:manner_means]).
+lex(quamobrem, adv, [lex:quamobrem, pos:adv, type:int, sem:reason]).
 lex(cur,         adv,[lex:cur,      pos:adv, type:int, sem:reason]).
 lex(quare,       adv,[lex:quare,    pos:adv, type:int, sem:reason]).
 % lex(quid,        adv,[lex:quid,     pos:adv, type:int, sem:reason]).
@@ -8857,6 +9187,8 @@ lex(quomodo,     adv,[lex:quomodo,  pos:adv, type:int, sem:manner_means]).
 
 lex(adeo,      adv,[lex:adeo,        pos:adv,type:clausal, sem:discourse]).
 lex(adhuc,      adv,[lex:adhuc,        pos:adv,type:vpbound, sem:time]).
+lex(aegre,      adv,[lex:aegre,       pos:adv, type:vpbound, sem:eval]).
+lex(aeque,      adv,[lex:aeque,       pos:adv, type:vpbound, sem:eval]).
 lex(aliquando,      adv,[lex:aliquando,        pos:adv,type:vpbound, sem:time]).
 lex(aliter,    adv,[lex:aliter,      pos:adv,type:clausal, sem:discourse]).
 lex(aperte,    adv,[lex:aperte,      pos:adv,type:clausal, sem:discourse]).
@@ -8865,6 +9197,8 @@ lex(at,    adv,[lex:at,      pos:adv,type:clausal, sem:discourse]).
 lex(autem,    adv,[lex:autem,      pos:adv,type:clausal, sem:discourse]).
 lex(bene,     adv,[lex:bene,       pos:adv,type:vpbound, sem:eval]).
 lex(bis,    adv,[lex:bis,      pos:adv,type:vpbound, sem:time]).
+lex(breuiter,    adv,[lex:breuiter,      pos:adv,type:vpbound, sem:time]).
+lex(celeriter,    adv,[lex:celeriter,      pos:adv,type:vpbound, sem:time]).
 lex(certe,    adv,[lex:certe,      pos:adv,type:clausal, sem:discourse]).
 lex(ceterum,    adv,[lex:ceterum,      pos:adv,type:clausal, sem:discourse]).
 lex(cotidie,   adv,[lex:cotidie,     pos:adv,type:vpbound, sem:time]).
@@ -8878,26 +9212,40 @@ lex(denique,    adv,[lex:denique,      pos:adv,type:clausal, sem:discourse]).
 lex(diligenter, adv,[lex:diligenter,   pos:adv,type:vpbound,  sem:eval]).
 lex(diu,    adv,[lex:diu,      pos:adv,type:vpbound, sem:time]).
 lex(diutissime,    adv,[lex:diutissime,      pos:adv,type:vpbound, sem:time]).
+lex(dulce, adv,[lex:dulce,   pos:adv,type:vpbound,  sem:eval]).
 lex(eo,      adv,[lex:eo,        pos:adv,type:vpbound, sem:place]).
 lex(enim,     adv,[lex:enim,       pos:adv,type:clausal, sem:discourse]).
 lex(ergo,     adv,[lex:ergo,       pos:adv,type:clausal, sem:discourse]).
 lex(etiam,    adv,[lex:etiam,      pos:adv,type:clausal, sem:discourse]).
 lex(facile,    adv,[lex:facile,      pos:adv,type:clausal, sem:discourse]).
+lex(feliciter, adv,[lex:feliciter,   pos:adv,type:vpbound,  sem:eval]).
 lex(fere,    adv,[lex:fere,      pos:adv,type:clausal, sem:discourse]).
+lex(forsitan,    adv,[lex:forsitan,      pos:adv,type:clausal, sem:discourse]).
+lex(fortasse,    adv,[lex:fortasse,      pos:adv,type:clausal, sem:discourse]).
 lex(forte,    adv,[lex:forte,      pos:adv,type:clausal, sem:discourse]).
+lex(frustra, adv,[lex:frustra,   pos:adv,type:vpbound,  sem:eval]).
 lex(grauiter, adv,[lex:grauiter,   pos:adv,type:vpbound,  sem:eval]).
 lex(hic,      adv,[lex:hic,        pos:adv,type:vpbound, sem:place]).
 lex(hinc,      adv,[lex:hinc,        pos:adv,type:vpbound, sem:place]).
+lex(hodie,   adv,[lex:hodie,     pos:adv,type:vpbound, sem:time]).
+lex(huc,      adv,[lex:huc,        pos:adv,type:vpbound, sem:place]).
 lex(iam,      adv,[lex:iam,        pos:adv,type:vpbound, sem:time]).
 lex(iampridem,      adv,[lex:iampridem,        pos:adv,type:vpbound, sem:time]).
 lex(ibi,      adv,[lex:ibi,        pos:adv,type:vpbound, sem:place]).
+lex(ideo,      adv,[lex:ideo,        pos:adv,type:clausal, sem:discourse]).
 lex(igitur,      adv,[lex:igitur,        pos:adv,type:clausal, sem:discourse]).
 lex(illic,      adv,[lex:illic,        pos:adv,type:vpbound, sem:place]).
+lex(illinc,      adv,[lex:illinc,        pos:adv,type:vpbound, sem:place]).
+lex(illuc,      adv,[lex:illuc,        pos:adv,type:vpbound, sem:place]).
+lex(inde,      adv,[lex:inde,        pos:adv,type:vpbound, sem:place]).
 lex(interdiu,      adv,[lex:interdiu,        pos:adv,type:vpbound, sem:time]).
 lex(interdum,      adv,[lex:interdum,        pos:adv,type:vpbound, sem:time]).
+lex(interim,      adv,[lex:interim,        pos:adv,type:vpbound, sem:time]).
 lex(ita,      adv,[lex:ita,        pos:adv,type:clausal, sem:discourse]).
 lex(itaque,      adv,[lex:itaque,        pos:adv,type:clausal, sem:discourse]).
 lex(item,      adv,[lex:item,        pos:adv,type:clausal, sem:discourse]).
+lex(iterum,      adv,[lex:iterum,        pos:adv,type:vpbound, sem:time]).
+lex(longe,   adv,[lex:longe,     pos:adv,type:vpbound, sem:eval]).
 lex(magis,      adv,[lex:magis,        pos:adv,type:clausal, sem:discourse]).
 lex(male,   adv,[lex:male,     pos:adv,type:vpbound, sem:eval]).
 lex(mane,   adv,[lex:mane,     pos:adv,type:vpbound, sem:time]).
@@ -8910,6 +9258,7 @@ lex(mox,      adv,[lex:mox,        pos:adv,type:vpbound, sem:time]).
 lex(nam,      adv,[lex:nam,        pos:adv,type:clausal, sem:discourse]).
 lex(namque,   adv,[lex:namque,     pos:adv,type:clausal, sem:discourse]).
 lex(nimirum, adv,[lex:nimirum,   pos:adv,type:clausal, sem:discourse]).
+lex(nimis,     adv,[lex:nimis,       pos:adv,type:adjbound, sem:eval]).
 lex(nimium,     adv,[lex:nimium,       pos:adv,type:adjbound, sem:eval]).
 lex(nondum,      adv,[lex:nondum,        pos:adv,type:vpbound, sem:time]).
 lex(nonnumquam,     adv,[lex:nonnumquam,       pos:adv,type:vpbound, sem:time]).
@@ -8921,15 +9270,24 @@ lex(nunc,     adv,[lex:nunc,       pos:adv,type:vpbound, sem:time]).
 lex(olim,     adv,[lex:olim,       pos:adv,type:vpbound, sem:time]).
 lex(optime,     adv,[lex:optime,       pos:adv,type:vpbound, sem:eval]).
 lex(paene,   adv,[lex:paene,     pos:adv,type:clausal, sem:eval]).
+lex(parum,   adv,[lex:parum,     pos:adv,type:clausal, sem:eval]).
+lex(paulo,   adv,[lex:paulo,     pos:adv,type:clausal, sem:eval]).
+lex(paulum,   adv,[lex:paulum,     pos:adv,type:clausal, sem:eval]).
 lex(plane,     adv,[lex:plane,       pos:adv,type:vpbound, sem:eval]).
 lex(plerumque,adv,[lex:plerumque,  pos:adv,type:vpbound, sem:time]).
 lex(porro, adv,[lex:porro,   pos:adv,type:clausal, sem:discourse]).
+lex(postea,   adv,[lex:postea,     pos:adv,type:vpbound, sem:time]).
 lex(praecipue,     adv,[lex:praecipue,       pos:adv,type:vpbound, sem:eval]).
+lex(praeterea, adv,[lex:praeterea,   pos:adv,type:clausal, sem:discourse]).
+lex(primum,adv,[lex:primum,  pos:adv,type:vpbound, sem:time]).
+lex(prius,adv,[lex:prius,  pos:adv,type:vpbound, sem:time]).
 lex(procul,      adv,[lex:procul,        pos:adv,type:vpbound, sem:place]).
 lex(profecto, adv,[lex:profecto,   pos:adv,type:clausal, sem:discourse]).
 lex(prope,    adv,[lex:prope,      pos:adv,type:adjbound, sem:eval]).
 lex(propere,    adv,[lex:propere,      pos:adv,type:adjbound, sem:time]).
+lex(protinus,    adv,[lex:protinus,      pos:adv,type:adjbound, sem:time]).
 lex(quidem,   adv,[lex:quidem,     pos:adv,type:clausal, sem:discourse]).
+lex(quin,   adv,[lex:quin,     pos:adv,type:clausal, sem:discourse]).
 lex(quippe,   adv,[lex:quippe,     pos:adv,type:clausal, sem:discourse]).
 lex(quocirca,   adv,[lex:quocirca,     pos:adv,type:clausal, sem:discourse]).
 lex(quondam,    adv,[lex:quondam,      pos:adv,type:vpbound, sem:time]).
@@ -8938,25 +9296,35 @@ lex(recte,     adv,[lex:recte,       pos:adv,type:vpbound, sem:eval]).
 lex(rursus,    adv,[lex:rursus,      pos:adv,type:vpbound, sem:time]).
 lex(saepe,    adv,[lex:saepe,      pos:adv,type:vpbound, sem:time]).
 lex(sane,     adv,[lex:sane,       pos:adv,type:vpbound, sem:eval]).
+lex(sat,   adv,[lex:sat,     pos:adv,type:clausal, sem:eval]).
 lex(satis,   adv,[lex:satis,     pos:adv,type:clausal, sem:eval]).
 lex(scilicet,    adv,[lex:scilicet,      pos:adv,type:clausal, sem:discourse]).
 lex(semel,    adv,[lex:semel,      pos:adv,type:vpbound, sem:time]).
 lex(semper,   adv,[lex:semper,     pos:adv,type:vpbound, sem:time]).
 lex(sic,      adv,[lex:sic,        pos:adv,type:clausal, sem:discourse]).
 lex(simul,      adv,[lex:simul,        pos:adv,type:clausal, sem:discourse]).
+lex(solum,    adv,[lex:solum,      pos:adv,type:clausal, sem:discourse]).
 lex(sponte,   adv,[lex:sponte,     pos:adv,type:clausal, sem:manner_means]).
 lex(statim,    adv,[lex:statim,      pos:adv,type:vpbound, sem:time]).
 lex(tam,   adv,[lex:tam,     pos:adv,type:clausal, sem:discourse]).
 lex(tamen,    adv,[lex:tamen,      pos:adv,type:clausal, sem:discourse]).
 lex(tandem,    adv,[lex:tandem,      pos:adv,type:vpbound, sem:time]).
+lex(tantum,    adv,[lex:tantum,      pos:adv,type:clausal, sem:discourse]).
+lex(tantummodo,    adv,[lex:tantummodo,      pos:adv,type:clausal, sem:discourse]).
 lex(temere,    adv,[lex:temere,      pos:adv,type:vpbound, sem:manner_means]).
+% lex(tot,   adv,[lex:tot,     pos:adv,type:clausal, sem:discourse]).
 lex(tum,      adv,[lex:tum,        pos:adv,type:vpbound, sem:time]).
 lex(tunc,     adv,[lex:tunc,       pos:adv,type:vpbound, sem:time]).
 lex(uel,     adv,[lex:uel,       pos:adv,type:adjbound, sem:eval]).
 lex(uelut,    adv,[lex:uelut,      pos:adv,type:clausal, sem:discourse]).
+lex(uere,   adv,[lex:uere,     pos:adv,type:clausal, sem:discourse]).
 lex(uero,    adv,[lex:uero,      pos:adv,type:clausal, sem:discourse]).
 lex(uix,    adv,[lex:uix,      pos:adv,type:vpbound, sem:time]).
 lex(ultro,    adv,[lex:ultro,      pos:adv,type:vpbound, sem:manner_means]).
+lex(umquam,    adv,[lex:umquam,      pos:adv,type:vpbound, sem:time]).
+lex(unde,      adv,[lex:unde,        pos:adv,type:vpbound, sem:place]).
+lex(undique,      adv,[lex:undique,        pos:adv,type:vpbound, sem:place]).
+lex(usque,      adv,[lex:usque,        pos:adv,type:vpbound, sem:place]).
 lex(uolgo,    adv,[lex:uolgo,      pos:adv,type:vpbound, sem:manner_means]).
 lex(uulgo,    adv,[lex:uulgo,      pos:adv,type:vpbound, sem:manner_means]).
 

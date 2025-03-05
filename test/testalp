@@ -58,8 +58,8 @@ Omnibus regibus quibuscum populus Romanus bellum gessit hunc regem nimirum antep
 Totam opinionem parva nonnumquam commutat aura rumoris.
 % 28 Catullus XIII 13-14.
 Quod tu cum olfacies, deos rogabis totum ut te faciant nasum.
-% 29 Cicero Pro Murena XXXIV 85.
-Versabitur in rostris furor, in curia timor, in foro coniuratio, in Campo exercitus, in agris vastitas.
+% 29 adapted from Cicero Pro Murena XXXIV 85.
+Versabitur in rostris furor, in curia timor, in foro coniuratio, in Campo miles, in agris vastitas.
 % 30 Cicero Pro Murena III 7.
 Huic ego satis facere cupio uosque adhibere arbitros.
 % 31 Cicero Pro Murena XVII 36.
@@ -114,8 +114,8 @@ Dolabella censuit spectaculum gladiatorum celebrandum pecunia eorum qui quaestur
 Romaene me poemata censes scribere posse inter tot curas?
 % 55 Hieronymus Ep LX 19.
 Cotidie morimur et aeternos nos esse credimus.
-% 56 Hieronymus Ep LX 19.
-Cum quo loqui non possumus de eo loqui numquam desinamus.
+% 56 adapted from Hieronymus Ep LX 19.
+Cum qua loqui non possumus de ea loqui numquam desinamus.
 % 57 Iuuenalis Sat 8 244.
 Roma patrem patriae Ciceronem libera dixit.
 % 58 Vergilius Georgica 1 463.
@@ -282,10 +282,37 @@ Quibus rebus confectis omnia propere per nuntios consuli declarantur.
 Illum ingens cura atque laetitia simul occupavere.
 Nam laetabatur intellegens coniuratione patefacta civitatem periculis ereptam esse.
 Porro autem anxius erat.
-% 142 Plini Caecili Secundi Epistularum Libri Decem, II, VI, 10 
+% 142 Plini Caecili Secundi Epistularum Libri Decem, II, VI, 10.
 non est onerosum quo utaris ipse communicare cum pluribus.
 % 143 Tacitus, Historiarum Liber III, XVII, 1.
 Nullum in illa trepidatione Antonius constantis ducis aut fortis militis officium omisit.
+% 144 Tacitus, Historiarum Liber I, LXX, 1.
+Caecina laetum ex Italia nuntium accipit alam Silianam sacramento Vitellii accessisse.
+% 145 and 146 Ovidius Artis Amatoriae Liber II 745-746.
+Ecce rogant tenerae sibi dem praecepta puellae.
+Vos eritis chartae proxima cura meae.
+% 147 Ovidius Artis Amatoriae Liber II 641.
+Parcite praecipue vitia exprobrare puellis.
+% 148 Plautus Trinummus 896.
+me sibi epistulas dedisse dicit.
+% 149 Plautus Poenulus 290.
+nam illa mulier lapidem silicem subigere ut se amet potest.
+% 150 Cato De Agri Cultura Praefatio 2.
+amplissime laudari existimabatur qui ita laudabatur.
+% 151 Ovid Rem 445.
+Grandia per multos tenuantur flumina rivos.
+% 152 and 153 Cicero Ad Fam VII 3 1.
+Si manerem in Italia verebare ne officio deessem.
+Si proficiscerer ad bellum periculum te meum commovebat.
+% 154 all too true.
+Ars longa, vita brevis.
+% 155 Cicero Phil II 104 11.
+Ab hora tertia bibebatur, ludebatur, uomebatur.
+% 156 Catullus LXI 212-215.
+Torquatus volo parvulus matris e gremio suae porrigens teneras manus dulce rideat ad patrem.
+% 157 and 158 Catullus Carmina LXII 20 and 26.
+Hespere, qui caelo fertur crudelior ignis?
+Hespere, qui caelo lucet iocundior ignis?
 stop.
 
 
