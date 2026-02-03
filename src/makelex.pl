@@ -2,12 +2,12 @@
 % MAKELEX: building vocabulary file for ALP, A Latin Parser				
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% ALP 203
+% ALP 204
 
-% alp203 changes and additions to be marked by alp203 token
+% alp204 changes and additions to be marked by alp204 token
 
 
-% Latest Update : March 2025
+% Latest Update : Feb 2026
 % © Archibald Michiels
 % amichiels@uliege.be
 
@@ -280,6 +280,7 @@ verb([v(pati,5,pat,pass)],tr_cod,dep).
 verb([v(pellere,3,pell,pepul,puls)],tr_cod,std).
 verb([v(perdere,3,perd,perdid,perdit)],tr_cod,std).
 verb([v(perficere,5,perfic,perfec,perfect)],tr_cod,std).
+verb([v(perfundere,3,perfund,perfud,perfus)],tr_cod,std).
 verb([v(perire,4,xxx,peri,perit)],intr,std).
 verb([v(permittere,3,permitt,permis,permiss)],tr_cod_coi,std).
 verb([v(permouere,2,permoue,permou,permot)],tr_cod,std).
@@ -374,6 +375,7 @@ verb([v(uiuere,3,uiu,uix,uict)],intr,std).
 verb([v(uocare,1,uoc,uocau,uocat)],tr_cod,std).
 verb([v(uolare,1,uol,uolau,uolat)],intr,std).
 verb([v(uomere,3,uom,uomu,uomit)],intr,std).
+verb([v(urgere,2,urge,urs,xxx)],tr_cod,std).
 verb([v(usurpare,1,usurp,usurpau,usurpat)],tr_cod,std).
 verb([v(uti,3,ut,us)],tr_cod_abl,dep).
 
@@ -676,6 +678,7 @@ adj(iucundus,iucund,1,std,n:hpl,[iucund,iucundissim],[]).
 adj(iustus,iust,1,std,n:hpl,[iustt,iustissim],[]).
 adj(laetus,laet,1,std,n:hpl,[laet,laetissim],[]).
 adj(liber,liber,1,std,n:no,[liber,liberrim],[]).
+adj(liquidus,liquid,1,std,n:no,[liquid,liquidissim],[]).
 adj(longus,long,1,std,n:no,[long,longissim],[]).
 adj(maestus,maest,1,std,n:hpl,[maest,maestissim],[]).
 adj(magnus,magn,1,std,n:n,[ma,maxim],[]).
@@ -790,6 +793,7 @@ adj(familiaris,familiar,2,std,n:no,[familiar,familiarissim],[]).
 adj(fatalis,fatal,2,std,n:no,[xxx,xxx],[]).
 adj(fidelis,fidel,2,std,n:hpl,[fidel,fidelissim],[]).
 adj(fortis,fort,2,std,n:no,[fort,fortissim],[]).
+adj(gracilis,gracil,2,std,n:no,[gracil,gracilissim],[]).
 adj(grandis,grand,2,std,n:no,[grand,grandissim],[]).
 adj(grauis,grau,2,std,n:no,[grau,grauissim],[]).
 adj(immortalis,immortal,2,std,n:hpl,[xxx,xxx],[]).
@@ -856,12 +860,12 @@ noun(1,fem,alexandria,alexandri,class:common, ab:no, sem:[city,thing],[nb:sg]).
 noun(1,fem,amica,amic,class:common, ab:no, sem:[hum],[]).
 noun(1,fem,amicitia,amiciti,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,ancilla,ancill,class:common, ab:no, sem:[hum],[]).
-noun(1,fem,anglia,angli,class:common, ab:no, sem:[loc,thing],[]).                      % ALP 196
+noun(1,fem,anglia,angli,class:common, ab:no, sem:[country,thing],[]).                      % ALP 196
 noun(1,fem,angustiae,angusti,class:common, ab:no, sem:[thing,abstract],[nb:pl]).  % pluralia tantum
 noun(1,fem,anima,anim,class:common, ab:no, sem:[hum,thing,abstract],[]).
 noun(1,fem,aqua,aqu,class:common, ab:no, sem:[thing],[]).
 noun(1,fem,ara,ar,class:common, ab:no, sem:[loc,thing],[]).
-noun(1,fem,asia,asi,class:common, ab:no, sem:[loc,thing],[]).
+noun(1,fem,asia,asi,class:common, ab:no, sem:[country,thing],[]).
 noun(1,fem,auaritia,auariti,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,aula,aul,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,aura,aur,class:common, ab:no, sem:[thing,loc],[]).
@@ -899,12 +903,13 @@ noun(1,fem,flamma,flamm,class:common, ab:no, sem:[thing],[]).
 noun(1,fem,forma,form,class:common, ab:mm, sem:[thing, abstract],[]).
 noun(1,fem,fortuna,fortun,class:common, ab:mm, sem:[abstract,hum],[]).
 noun(1,fem,fuga,fug,class:common, ab:mm, sem:[abstract],[]).
-noun(1,fem,gallia,galli,class:common, ab:no, sem:[loc,thing],[]).
-noun(1,fem,germania,germani,class:common, ab:no, sem:[loc,thing],[]).
+noun(1,fem,gallia,galli,class:common, ab:no, sem:[country,thing],[]).
+noun(1,fem,germania,germani,class:common, ab:no, sem:[country,thing],[]).
 noun(1,fem,gloria,glori,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,grammatica,grammatic,class:common, ab:no, sem:[abstract],[]).
 noun(1,fem,gratia,grati,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,hedera,heder,class:common, ab:no, sem:[thing],[]).
+noun(1,fem,heluetia,helueti,class:common, ab:no, sem:[country,thing],[]). 
 noun(1,fem,hispania,hispani,class:common, ab:no, sem:[country,thing],[]).
 noun(1,fem,historia,histori,class:common, ab:no, sem:[abstract],[]).
 noun(1,fem,hora,hor,class:common, ab:no, sem:[time],[]).
@@ -953,8 +958,9 @@ noun(1,fem,quaestura,quaestur,class:common, ab:no, sem:[thing, institution],[]).
 noun(1,fem,regina,regin,class:common, ab:no, sem:[hum],[]).
 noun(1,fem,ripa,rip,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,roma,rom,class:common, ab:no, sem:[city,thing,hum],[nb:sg]).
+noun(1,fem,rosa,ros,class:common, ab:no, sem:[thing],[]).
 noun(1,fem,sapientia,sapienti,class:common, ab:mm, sem:[quality],[]).
-noun(1,fem,sardinia,sardini,class:common, ab:no, sem:[loc,thing],[nb:sg]).
+noun(1,fem,sardinia,sardini,class:common, ab:no, sem:[country,thing],[nb:sg]).
 noun(1,fem,scientia,scienti,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,sententia,sententi,class:common, ab:mm, sem:[abstract],[]).
 noun(1,fem,serua,seru,class:common, ab:no, sem:[hum, thing],[]).
@@ -973,7 +979,7 @@ noun(1,fem,uia,ui,class:common, ab:mm, sem:[abstract,thing,loc],[]).
 noun(1,fem,uictoria,uictori,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,uita,uit,class:common, ab:no, sem:[thing, abstract,time],[]).
 noun(1,fem,umbra,umbr,class:common, ab:no, sem:[thing,loc],[]).
-noun(1,fem,umbria,umbri,class:common, ab:no, sem:[thing,loc],[nb:sg]).
+noun(1,fem,umbria,umbri,class:common, ab:no, sem:[country,loc],[nb:sg]).
 noun(1,fem,unda,und,class:common, ab:no, sem:[thing,loc],[]).
 
 
@@ -1028,6 +1034,7 @@ noun(2, masc, natus, nat,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, numerus, numer,class:common, ab:no,  sem:[abstract],[]).
 noun(2, masc, nuntius, nunti,class:common, ab:mm,  sem:[abstract],[]).     % nuntius meaning message
 noun(2, masc, oculus, ocul, class:common, ab:no, sem:[abstract, thing],[]).
+noun(2, masc, pagus, pag, class:common, ab:no, sem:[thing,loc],[]).
 noun(2, masc, patronus, patron,class:common, ab:no,  sem:[hum],[]).
 noun(2, masc, pessimus, pessim,class:common, ab:no,  sem:[hum],[nb:pl]).
 noun(2, masc, pontus, pont, class:common, ab:no, sem:[thing,loc],[]).
@@ -1072,6 +1079,7 @@ noun(2, fem, populus, popul, class:common, ab:no, sem:[vegetal],[]).
 
 noun(2, neuter, aeternum, aetern,class:common, ab:no,  sem:[abstract, time],[nb:sg]).
 noun(2, neuter, aeuum, aeu,class:common, ab:no,  sem:[time,loc],[]).
+noun(2, neuter, antrum, antr,class:common, ab:no,  sem:[thing,loc],[]).
 noun(2, neuter, arbitrium, arbitri,class:common, ab:mm,  sem:[abstract, thing],[]).
 noun(2, neuter, argentum, argent,class:common, ab:mm,  sem:[thing],[]).
 noun(2, neuter, artificium, artifici,class:common, ab:mm,  sem:[abstract, thing],[]).
@@ -1109,6 +1117,7 @@ noun(2, neuter, initium, initi,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, iudicium, iudici,class:common, ab:mm,  sem:[abstract],[]).
 noun(2, neuter, iugum, iug,class:common, ab:mm,  sem:[thing,abstract],[]).
 noun(2, neuter, lugdunum, lugdun,class:common, ab:no,  sem:[city,thing, abstract],[nb:sg]). % only sing
+noun(2, neuter, malum, mal,class:common, ab:mm,  sem:[thing],[]).
 noun(2, neuter, medium, medi,class:common, ab:no,  sem:[abstract,loc],[]).
 noun(2, neuter, membrum, membr,class:common, ab:no,  sem:[thing],[]).
 noun(2, neuter, munimentum, muniment,class:common, ab:mm,  sem:[thing,abstract],[]).
@@ -1220,6 +1229,7 @@ noun(3,masc,miles,milit,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,mons,mont,ium,class:common, ab:no, sem:[loc,thing],[]).
 noun(3,masc,mos,mor,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,masc,mus,mur,ium,class:common, ab:no, sem:[thing,hum],[]).
+noun(3,masc,odor,odor,um,class:common, ab:no, sem:[thing],[]).
 noun(3,masc,orator,orator,um,class:common, ab:no, sem:[hum],[]).
 noun(3,masc,orbis,orb,ium,class:common, ab:no, sem:[loc,thing],[]).
 noun(3,masc,ordo,ordin,um,class:common, ab:no, sem:[thing,abstract],[]).
@@ -1476,6 +1486,7 @@ noun(1,fem,lesbia,lesbi,class:proper,ab:no, sem:[female],[nb:sg]).
 noun(1,fem,lollia,lolli,class:proper,ab:no, sem:[female],[nb:sg]).
 noun(1,fem,minerua,mineru,class:proper,ab:no, sem:[female],[nb:sg]).
 noun(1,fem,paulina,paulin,class:proper,ab:no, sem:[female],[nb:sg]).
+noun(1,fem,pyrrha,pyrrh,class:proper,ab:no, sem:[female],[nb:sg]).
 
 noun(1,masc,caecina,caecin,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(1,masc,catilina,catilin,class:proper,ab:no, sem:[male],[nb:sg]).
@@ -9762,6 +9773,7 @@ subclass(X,Y) :- ako(X,Z) , subclass(Z,Y).
 % EXAMPLE:
 
 ako(city,loc).
+ako(country,loc).
 ako(abstract,thing). % this is wrong but helpful
                      % it will get fixed once we have developped an adequate taxonomy
                      % here the taxonomy is inexistent and pure toy

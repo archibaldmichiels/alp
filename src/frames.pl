@@ -4,12 +4,12 @@
 
 % frames.pl
 
-% ALP 202
+% ALP 204
 
-% alp202 changes and additions to be marked by alp202 token
+% alp204 changes and additions to be marked by alp204 token
 
 
-% Latest Update : March 2025
+% Latest Update : Feb 2026
 % © Archibald Michiels
 % amichiels@uliege.be
 
@@ -674,12 +674,7 @@ lexarg(dimittere,
 )]).
 
 
-% DIUIDERE
-lexarg(diuidere,
-       arglist:[ws(diuidere_divise,tr_cod,clause:[],mwuw:0,
-                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
-                      object:[type:np,oblig:yes,constraints:[case:acc]]]
-)]).
+
 
 % EDICERE
 lexarg(edicere,
@@ -2280,6 +2275,14 @@ lexarg(dissimulare,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:np,oblig:yes,constraints:[case:acc]]])]).
 
+% DIUIDERE
+lexarg(diuidere,
+       arglist:[ws(diuidere_divise,tr_cod,clause:[],mwuw:0,
+               args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      object:[type:np,oblig:yes,constraints:[case:acc]],
+                      prep_cplt:[type:pp,oblig:no,constraints:[prep:in, case:acc]] ])]).
+
+
                      
 % DOCERE
 % Credo ancillam grammaticam pueros docere.
@@ -2530,7 +2533,7 @@ lexarg(exprobrare,
  
                ws(facio_make,tr_cod,clause:[],mwuw:0,
               args:[subject:[type:np,oblig:yes,constraints:[]],
-                    object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+                    object:[type:np,oblig:no,constraints:[case:acc]]])]).
 
 	% OLFACERE
           lexarg(olfacere,
@@ -3373,6 +3376,12 @@ lexarg(perficere,
        arglist:[ws(perficio_carry_out,tr_cod,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
                       object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+% PERFUNDERE
+lexarg(perfundere,
+       arglist:[ws(perfundo_drench,tr_cod,clause:[],mwuw:0,
+               args:[subject:[type:np,oblig:yes,constraints:[]],
+                     object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+                     
 % PERIRE
 lexarg(perire,
        arglist:[ws(perire_perish,intr,clause:[],mwuw:0,
@@ -3436,6 +3445,9 @@ lexarg(ponere,
            		    args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
           		          object:[type:np,oblig:yes,constraints:[case:acc]],
                      		  object_i:[type:np,oblig:yes,constraints:[case:dat, sem:[hum]]]])]).
+
+
+
 % PORRIGERE
 lexarg(porrigere,
        arglist:[ws(porrigo_hand_out,tr_cod,clause:[],mwuw:0,
@@ -4268,6 +4280,12 @@ lexarg(uocare,
 lexarg(uomere,
        arglist:[ws(uomo_vomit,intr,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[]]])]).
+
+% URGERE
+lexarg(urgere,
+       arglist:[ws(urgeo_press,tr_cod,clause:[],mwuw:0,
+               args:[subject:[type:np,oblig:yes,constraints:[]],
+                     object:[type:np,oblig:no,constraints:[case:acc]]])]).
                      
 % USURPARE
 lexarg(usurpare,
@@ -4439,10 +4457,35 @@ lexarg(constat,
                args:[arg:[type:pred,oblig:yes,constraints:[type:nonfinite]]])]).
 % DECET
 verb([v(imp,decet,decet,deceat,decebat,decebit,deceret,decere,decu)],vimp,std).
+
 lexarg(decet,
-       arglist:[ws(decet_it_behoves,tr_coi,clause:[],mwuw:0,
-               args:[subject:[type:pred,oblig:yes,constraints:[type:nonfinite_i]],
-                     arg:[type:np,oblig:no,constraints:[case:acc, sem:[hum]]]])]).
+       arglist:[
+
+               ws(decet_it_is_proper,tr_coi,clause:[],mwuw:0,
+               args:[subject:[type:pred,oblig:yes,constraints:[type:nonfinite]]]),
+
+                ws(decet_it_is_proper,tr_coi,clause:[],mwuw:0,
+                args:[subject:[type:pred,oblig:yes,constraints:[type:nonfinite_i]],
+                     arg:[type:np, oblig:no, constraints:[sem:[hum],case:or([dat,acc])] ]]),
+
+  
+                ws(decet_it_is_proper,tr_coi,clause:[],mwuw:0,
+               args:[subject:[type:np,oblig:yes,constraints:[]],
+                     arg:[type:np, oblig:yes,constraints:[case:or([dat,acc]), sem:[hum]] ]])
+  
+               ] ).
+
+% Note that we do not assign a frame where the subject is a non-finite incomplete predication (it lacks a subject) 
+% and the arg is a noun phrase in the accusative,
+% with a human referent.
+% The problem with such treatment is that it does not make clear that the arg is in fact the subject of the non-finite predication; 
+% the arg provides the subject that
+% such predication lacks.
+% We do not have 
+% [0/omnes,1/homines,2/qui,3/de,4/dubiis,5/rebus,6/consultant,7/ab,8/ira,9/atque,10/misericordia,11/* uacuum,12/esse,13/decet,endpos(14)].
+% We need uacuos, an accusative plural; similarly, the arg omnes homines is not a nominative, but an accusative; omnes * uiri is out.
+% The obvious conclusion is that the accusative arg has to be the subject of the infinitive.
+% The frame  has a single arg, an infinitive clause assigned as subject of decet.
 
               
 % FALLIT
@@ -4583,7 +4626,7 @@ lexarg(esse,
                               predicative:[type:np,oblig:yes, 	
                                                                 constraints:[case:C]]]),
 
-                      % number and gender constraints on the predicative np would be too hard -
+                      % gender and nber constraints on the predicative np would be too hard -
                       % the case constraint is the only one to be really binding
                  
 
@@ -4609,9 +4652,25 @@ lexarg(esse,
                                  % if an arg is opened (dative np) for the subject of the gerund,
                                  % we have a case of 'est_alicui_have_to', for which see below
 
+     
+               % Gallia est omnis divisa in partes tres.
+
+                    % could also be a simple passive voice
+                    % passive voice is preferred only if pp and esse are adjacent
+                    % or esse is missing
+                    % gallia divisa in partes tres (a Caesare)  / gallia est divisa / divisa est -> passive
+
+    
+                   ws(sum_be,v_esse,clause:[],mwuw:0,
+                         args:[subject:[type:np,oblig:yes,
+                                                                  constraints:[number:Nb2,gender:Gender2,case:Case2]],
+                               predicative:[type:participle_clause,oblig:yes, 
+                                                                  constraints:[number:Nb2,gender:Gender2,case:Case2]]]),
 
 
-                    % Malum est insanire / quod boni maerebant incitamentum erat / Malum erat quod boni maerebant    
+ 
+
+                   % Malum est insanire / quod boni maerebant incitamentum erat / Malum erat quod boni maerebant    
 
 
                           ws(sum_be,v_esse,clause:[],mwuw:0,
