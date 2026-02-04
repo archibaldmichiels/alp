@@ -1,0 +1,326 @@
+% TEST SENTENCES FOR **ALP** - a parser for a subset of classical Latin syntax.
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
+% 1 Terentianus Maurus De Syll 1286.
+Habent sua fata libelli.
+% 2 Cicero Ad Fam VIII 16 4.
+Me secum in Hispaniam ducit.
+% 3 Tacitus Agricola 2 1 1.
+Dedimus profecto grande patientiae documentum.
+% 4 Cicero Pro Murena VI 13.
+Saltatorem appellat Murenam Cato.
+% 5 adapted from Cicero Pro Murena VI 13.
+Non debes temere consulem populi Romani saltatorem vocare.
+% 6 Terentius Heauton Timorumenos I 77.
+Humani nil a me alienum puto.
+% 7 Tacitus Hist Lib I LXXVI 9.
+Carthaginem ceterae civitates secutae.
+% 8 Tacitus Hist Lib I 19 2.
+Censuerant patres mittendos ad Germanicum exercitum legatos.
+% 9 Ovidius Ars Amatoria 1 42.
+Elige cui dicas : tu mihi sola places.
+% 10 Horatius Carmina 1 5 1 - notice that the whole thing does not sport a single toolword.
+Me tabula sacer votiva paries indicat uvida suspendisse potenti vestimenta maris deo.
+% 11 Martial, 2 78.
+Aestivo serves ubi piscem tempore quaeris?
+% 12 Caesar De Bello Gallico I 9 3 4.
+Cupiditate regni adductus nouis rebus studebat.
+% 13 Tacitus Hist Lib I XXX 3.
+Falluntur quibus luxuria specie liberalitatis imponit.
+% 14 'dubitare quin' in Non-affirmative Contexts (from Cicero, Paradoxa, 6 48 1). 
+Quis igitur dubitet quin in virtute divitiae sint?
+% 15 Cicero Att 4 12 1 5 fragmented main clause.
+Id tu quoniam Macronem tanti facis ignoscas mihi uelim.
+% 16 adapted from Tacitus Hist I 12 2.
+Maturavit ea res consilium Galbae iampridem de adoptione cum proximis agitantis.
+% 17 adapted from Tacitus Hist Lib I 74 3.
+Otho revocatis quos Galba miserat legatis ad utrumque Germanicum exercitum copias misit.
+% 17 bis.
+Revocatis quos Galba miserat legatos.
+% 18 adapted from Cicero Epistulae ad Familiares 9 14 1 1.
+Non dubito quin tu meis praeceptis et consiliis obtemperans praestantissimum te civem et singularem consulem praebeas.
+% 19 adapted from Cicero Pro Murena XXIII.
+Nostrae artes admirabilem utilitatem possident quae nobis studia populi Romani conciliat.
+% 20 adapted from Titus Livius Ab Urbe Condita Liber XXI 8.
+Quies inter labores renovavit corpora animosque ad omnia de integro patienda.
+% 21 Ovidius Ars Amatoria 1 307.
+Crede tamen speculo quod te negat esse iuvencam.
+% 22 adapted from Cicero Phil I I 1.
+Graecum etiam verbum usurpavi quo in sedandis discordiis utitur civitas illa.
+% 23 Tacitus Hist Lib I 39 2.
+Agitasse Laco ignaro Galba de occidendo Vinio dicitur.
+% 24 Tacitus Agricola 2 4 1.
+Memoriam quoque ipsam cum voce perdidissemus si tam in nostra potestate esset oblivisci quam tacere.
+% 25 Cicero De Amicitia 10 1.
+Suis autem incommodis graviter angi non amicum sed se ipsum amantis est.
+% 26 Cicero Pro Murena XV.
+Omnibus regibus quibuscum populus Romanus bellum gessit hunc regem nimirum antepones.
+% 27 Cicero Pro Murena XVII 35.
+Totam opinionem parva nonnumquam commutat aura rumoris.
+% 28 Catullus XIII 13-14.
+Quod tu cum olfacies, deos rogabis totum ut te faciant nasum.
+% 29 adapted from Cicero Pro Murena XXXIV 85.
+Versabitur in rostris furor, in curia timor, in foro coniuratio, in Campo miles, in agris vastitas.
+% 30 Cicero Pro Murena III 7.
+Huic ego satis facere cupio uosque adhibere arbitros.
+% 31 Cicero Pro Murena XVII 36.
+Nihil est incertius uolgo, nihil obscurius uoluntate hominum.
+% 32 Cicero Pro Murena XVIII 37.
+Munus amplissimum quod petitio praeturae desiderarat praetura restituit.
+% 33 adapted from Cicero Pro Murena XXXVIII 16.
+Cogita nonnullorum amicorum studia minui in eos a quibus provincias contemni intellegunt.
+% 34 Cic Ad Fam 1 1 2 10.	 
+Is ceteris in rebus se acerrimum tui defensorem fore ostendit.
+% 35 Tacitus Ann 12 8 1.
+Die nuptiarum Silanus mortem sibi conscivit delecto die augendam ad invidiam.
+% 36 adapted from Cicero Cat I 10.
+Exclusi eos quos tu salutatum miseras.
+% 37 adapted from Cicero Cat I 10.
+Illi venerunt quos ad me venturos esse praedixeram.
+% 38 adapted from Tacitus Hist Lib I 16 3.
+Mihi ac tibi providendum est ne etiam a bonis Nero desideretur.
+% 39 adapted from Tacitus Hist Lib I 44 1.
+Nullam caedem Otho maiore laetitia excepisse dicitur.
+% 40 adapted from Tacitus Hist Lib I 79 1.
+Conversis ad civile bellum animis externa sine cura habebantur.
+% 41 Tacitus Ann 16 34 1 a.
+Arriam tentantem exemplum matris sequi monet retinere vitam.
+% 41 Tacitus Ann 16 34 1 b.
+Arriam monet filiae communi subsidium unicum non adimere.
+% 42 Tacitus Hist Lib I 85 9.
+Vitellianos milites venisse in urbem ad studia partium noscenda plerique credebant.
+% 43 Tacitus Hist Lib I 46 1.
+Omnia deinde arbitrio militum acta.
+% 44 Tacitus Hist Lib I 46 1.
+Praetorii praefectos sibi ipsi legere.
+% 45 Martialis Epigrammata 3 9 2.
+Non scribit cuius carmina nemo legit.
+% 46 Ovidius Ars Amatoria 2 658.
+Nominibus mollire licet mala.
+% 47 Tacitus Ann 14 53 4.
+Una defensio occurrit quod muneribus tuis obniti non debui.
+% 48 Tacitus Ann 14 10 1.
+A Caesare perfecto demum scelere magnitudo eius intellecta est.
+% 49 Horatius Ep 1 xiii 16.
+Ne volgo narres te sudavisse ferendo carmina.
+% 50 Cicero Ad fam xiv 4 5.
+Non vitium nostrum sed virtus nostra nos afflixit.
+% 51 Horatius Sat I 9 59-60.
+Nil sine magno vita labore dedit mortalibus.
+% 52 Horatius Sat II 6 79-81.
+Olim rusticus urbanum murem mus paupere fertur accepisse cavo.
+% 53 Tacitus Ann 11 22 2.
+Dolabella censuit spectaculum gladiatorum celebrandum pecunia eorum qui quaesturam adipiscerentur.
+% 54 adapted from Horatius Ep 2 ii 65-66.
+Romaene me poemata censes scribere posse inter tot curas?
+% 55 Hieronymus Ep LX 19.
+Cotidie morimur et aeternos nos esse credimus.
+% 56 adapted from Hieronymus Ep LX 19.
+Cum qua loqui non possumus de ea loqui numquam desinamus.
+% 57 Iuuenalis Sat 8 244.
+Roma patrem patriae Ciceronem libera dixit.
+% 58 Vergilius Georgica 1 463.
+Solem quis dicere falsum audeat? 
+% 59 Ouidius Amores I 6 34.
+Solus eram si non saevus adesset Amor.
+% 60 Horatius Carm II 3 1-2.
+Aequam memento rebus in arduis servare mentem.
+% 61 Ouidius Ars Am 1 132.
+Haec mihi si dederis commoda miles ero.
+% 62 Peruigilium Veneris 1.
+Cras amet qui numquam amavit.
+% 63 Sallustius Bellum Iugurthinum V 1.
+Superbiae nobilitatis obviam itum est.
+% 64 Sallustius Bellum Iugurthinum XX 5.
+Legatos ad Iugurtham de iniuriis questum misit.
+% 65 Sallustius Bellum Iugurthinum XIV 8.
+Ego eis finibus eiectus sum quos maioribus meis populus Romanus dedit.
+% 66 adapted from Sallustius Bellum Iugurthinum V 1.
+Bellum scripsi quod populus Romanus cum rege Numidarum gessit.
+% 67 Sallustius Bellum Iugurthinum LXXXV 31.
+Ipsa se uirtus satis ostendit.
+% 68 Sallustius Bellum Iugurthinum LXXXV 31.
+Illis artificio opus est ut turpia facta oratione tegant.
+% 69 Sallustius Bellum Iugurthinum LXXXV 14.
+Contemnunt novitatem meam, ego illorum ignaviam.
+% 70 Sallustius Bellum Iugurthinum LXXXV 14.
+Mihi fortuna, illis probra obiectantur.
+% 71 Cicero Pro Murena 84 1.
+Mihi credite, iudices.
+% 72 Vergilius Eclogae 1 46.
+Fortunate senex, ergo tua rura manebunt.
+% 73 Vergilius Eclogae 1 6.
+O Meliboee, deus nobis haec otia fecit.
+% 74 Vergilius Eclogae 1 13.
+Hanc etiam vix, Tityre, duco.
+% 75 Vergilius Eclogae 4 60.
+Incipe, parve puer, risu cognoscere matrem.
+% 76 Vergilius Eclogae 9 43.
+Insani feriant sine litora fluctus.
+% 77 Cicero De Legibus II 1 3.
+Ille sapientissimus vir Ithacam ut videret immortalitatem scribitur repudiasse.
+% 78 Seneca Dialogi 6 26 3 4.
+Cur in domo nostra diutissime lugetur qui felicissime moritur?
+% 79 adapted from Cicero De Legibus II 4 6.
+Vestigia adsunt eorum quos diligimus.
+% 80 Horatius Ep II 2 102.
+Multa fero ut placem genus irritabile vatum.
+% 81 Tacitus Ann XIII 5.
+Ita specie pietatis obviam itum dedecori.
+% 82 Tacitus Ann XIII 15.
+Nero intellecta invidia odium intendit pararique venenum iubet.
+% 83 Tacitus Ann XV 52 1.
+Coniuratis tamen metu permotis placitum maturare caedem.
+% 84 Sallustius Catilinae Coniuratio 1 1 2.
+Omnes homines niti decet ne uitam silentio transeant. 
+% 85 Tacitus Hist Lib I 62 1.
+Mira inter exercitum imperatoremque diversitas.
+% 86 Tacitus Hist Lib I 10 1.
+Oriens adhuc immotus.
+% 87 Tacitus Hist Lib I 9 7.
+In Britannico exercitu nihil irarum.
+% 88 Tacitus Hist Lib I 7 13.
+Venalia cuncta.
+% 89 Tacitus Hist Lib I 7 15.
+Eadem novae aulae mala.
+% 90 Tacitus Hist Lib I 2 13.
+Plenum exiliis mare.
+% 91 PS 27 1.
+Dominus illuminatio mea.
+% 92 Vergilius  Georgica 2 458.
+Fortunatos nimium sua si bona norint agricolas.
+% 93 Catullus Carmina 61 184.
+Iam licet venias, marite.
+% 94 Catullus Carmina 61 94-95.
+Vide ut faces aureas quatiunt comas.
+% 95 Catullus Carmina 72 1.
+Dicebas quondam solum te nosse Catullum.
+% 96 Catullus Carmina 46 6.
+Ad claras Asiae volemus urbes.
+% 97 adapted from Cicero In Cat 1 17 2.
+Servi mei si me metuerent ut te metuunt cives tui domum meam relinquendam putarem.
+% 98 Cicero Att VII 3 4.
+De sua potentia dimicant homines hoc tempore periculo civitatis.
+% 99 Ovidius Tristia 1 9 5.
+Donec eris sospes multos numerabis amicos.
+% 100 Ovidius Tristia 1 9 6.
+Tempora si fuerint nubila solus eris.
+% 101 Seneca Epistulae Morales ad Lucilium 7 1 4.
+Mane leonibus et ursis homines, meridie spectatoribus suis obiiciuntur. 
+% 102 Cicero Pro Rege Deiotaro 30 14-15.
+Nulli parietes nostram salutem, nullae leges, nulla iura custodient. 
+% 103 Tacitus Ann 16 34 1.
+Tum ad Thraseam in hortis agentem quaestor consulis missus vesperascente iam die.
+% 104 Tacitus Hist I 75 1.
+Insidiatores ab Othone in Germaniam, a Vitellio in urbem missi.
+% 105 Tacitus Hist I 11 1.
+Aegyptum copiasque quibus coerceretur equites Romani obtinent loco regum.
+% 106 Martialis Epigr Lib I 3 1-2.
+Argiletanas mauis habitare tabernas cum tibi, parue liber, scrinia nostra vacent.
+% 107 Martialis Epigr Lib I 117 8.
+Quod quaeris propius petas licebit.
+% 108 Propertius El III 25 17.
+Has tibi fatalis cecinit mea pagina diras.
+% 109 Propertius El III 25 18.
+Euentum formae disce timere tuae.
+% 110 adapted from Propertius El III 20 1-2.
+Credis iam tuae meminisse figurae quem uidisti a lecto dare uela tuo.
+% 111 Tacitus Hist IV 1 1.
+Interfecto Vitellio bellum magis desierat quam pax coeperat.
+% 112 Tacitus Ann 13 21 20.
+Vivere ego Britannico potiente rerum poteram?
+% 113 Tacitus Hist I 75 1.
+Ita promissis simul ac minis tentabantur.
+% 114 Tacitus Hist IV 16 1.
+Civilis dolo grassandum ratus incusavit ultro praefectos quod castella deseruissent.
+% 115 Tacitus Hist V 2 1.
+Quoniam famosae urbis supremum diem tradituri sumus congruens videtur primordia eius aperire.
+% 116 Tacitus Hist II 2 1.
+Fuerunt qui accensum desiderio reginae vertisse iter crederent.
+% 117 Tacitus Hist IV 58 2.
+Bellum cum populo Romano vestris se manibus gesturum Classicus sperat.
+% 118 Tacitus Dialogus 27 3 2.
+Cum de antiquis loquaris utere antiqua libertate a qua vel magis degenerauimus quam ab eloquentia.
+% 119 Lucius Annaeus Seneca senior Controversiae 8 1 10.
+I ad illum quem magis amas quam patrem.
+% 120 (120-127 build up Tacitus Hist IV 64 3-4).
+Ut amicitia societasque nostra in aeternum rata sint /
+% 121. 
+postulamus a uobis muros coloniae munimenta servitii detrahatis.
+% 122.
+Etiam fera animalia si clausa teneas virtutis obliviscuntur.
+% 123.
+Romanos omnis in finibus uestris trucidetis.
+% 124.
+Haud facile libertas et domini miscentur.
+% 125.
+Bona interfectorum in medium cedant.
+% 126.
+ne quis occulere quicquam aut segregare causam suam possit /
+% 127.
+Liceat nobis vobisque utramque ripam colere. 
+% 128 (adapted from Tac ANN III 31 4).
+Memorabantur exempla maiorum qui iuventutis irreverentiam gravibus decretis notavissent. 
+% 129 Tac ANN I 42 4.
+Hunc ego nuntium patri laeta omnia aliis e provinciis audienti feram.
+% 130 and 131 Caesar BG 1 XL 1.
+Caesar dixit Ariovistum se consule cupidissime populi Romani amicitiam appetisse.
+% 131.
+cur hunc tam temere quisquam ab officio discessurum iudicaret?
+% 132 and 133 adapted from Cicero Pro Milone 38 104.
+hunc sua quisquam sententia ex hac urbe expellet /
+% 133.
+quem expulsum a vobis omnes urbes ad se vocabunt.
+% 134 Sallustius Bellum Iugurthinum 35 10.
+Urbem venalem et mature perituram si emptorem invenerit.
+% 135 Sallustius Cat xxii 3.
+Nonnulli ficta haec existimabant ab eis qui Ciceronis invidiam leniri credebant atrocitate sceleris.
+% 136 and 137 adapted from Tacitus Annales XII 52 3.
+Laudati qui ob angustias familiares ordine senatorio sponte cederent.
+Moti qui remanendo impudentiam paupertati adicerent.
+% 138 to 141 Sallust, Cat, 46, 1-2.
+Quibus rebus confectis omnia propere per nuntios consuli declarantur.
+Illum ingens cura atque laetitia simul occupavere.
+Nam laetabatur intellegens coniuratione patefacta civitatem periculis ereptam esse.
+Porro autem anxius erat.
+% 142 Plini Caecili Secundi Epistularum Libri Decem, II, VI, 10.
+non est onerosum quo utaris ipse communicare cum pluribus.
+% 143 Tacitus, Historiarum Liber III, XVII, 1.
+Nullum in illa trepidatione Antonius constantis ducis aut fortis militis officium omisit.
+% 144 Tacitus, Historiarum Liber I, LXX, 1.
+Caecina laetum ex Italia nuntium accipit alam Silianam sacramento Vitellii accessisse.
+% 145 and 146 Ovidius Artis Amatoriae Liber II 745-746.
+Ecce rogant tenerae sibi dem praecepta puellae.
+Vos eritis chartae proxima cura meae.
+% 147 Ovidius Artis Amatoriae Liber II 641.
+Parcite praecipue vitia exprobrare puellis.
+% 148 Plautus Trinummus 896.
+me sibi epistulas dedisse dicit.
+% 149 Plautus Poenulus 290.
+nam illa mulier lapidem silicem subigere ut se amet potest.
+% 150 Cato De Agri Cultura Praefatio 2.
+amplissime laudari existimabatur qui ita laudabatur.
+% 151 Ovid Rem 445.
+Grandia per multos tenuantur flumina rivos.
+% 152 and 153 Cicero Ad Fam VII 3 1.
+Si manerem in Italia verebare ne officio deessem.
+Si proficiscerer ad bellum periculum te meum commovebat.
+% 154 all too true.
+Ars longa, vita brevis.
+% 155 Cicero Phil II 104 11.
+Ab hora tertia bibebatur, ludebatur, uomebatur.
+% 156 Catullus LXI 212-215.
+Torquatus volo parvulus matris e gremio suae porrigens teneras manus dulce rideat ad patrem.
+% 157 and 158 Catullus Carmina LXII 20 and 26.
+Hespere, qui caelo fertur crudelior ignis?
+Hespere, qui caelo lucet iocundior ignis?
+% 159 adapted from Horatius' well-known scrambling game Carmina I, 5, 1-3 (see inter alia Ross and Pullum).
+Quis multa in rosa gracilis puer perfusus liquidis odoribus te urget grato sub antro?
+% 160 adapted from Sallustius, De Coniuratione Catilinae, LI, 1.
+Omnes homines qui de rebus dubiis consultant ab ira atque misericordia uacuos esse decet.
+% 161 Cicero Tusc 4, 54.
+Oratorem irasci minime decet.
+% 162 Cicero Div 1.
+Exemplis grandioribus decuit uti.
+stop.
+
+
