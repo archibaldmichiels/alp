@@ -2245,16 +2245,16 @@ lex(iuuentutui, noun, [pos:noun, txt:iuuentutui, lex:iuuentus, case:dat, gender:
 lex(iuuentutus, noun, [pos:noun, txt:iuuentutus, lex:iuuentus, case:gen, gender:fem, class:common, ab:no, number:sing, sem:[abstract, time]]).
 lex(iuuentutum, noun, [pos:noun, txt:iuuentutum, lex:iuuentus, case:acc, gender:fem, class:common, ab:no, number:sing, sem:[abstract, time]]).
 lex(iuuentus, noun, [pos:noun, txt:iuuentus, lex:iuuentus, case:nom, gender:fem, class:common, ab:no, number:sing, sem:[abstract, time]]).
-lex(ulneribus, noun, [pos:noun, txt:ulneribus, lex:ulnus, case:abl, gender:neuter, class:common, ab:no, number:pl, sem:[thing, abstract]]).
-lex(ulneribus, noun, [pos:noun, txt:ulneribus, lex:ulnus, case:dat, gender:neuter, class:common, ab:no, number:pl, sem:[thing, abstract]]).
-lex(ulnerum, noun, [pos:noun, txt:ulnerum, lex:ulnus, case:gen, gender:neuter, class:common, ab:no, number:pl, sem:[thing, abstract]]).
-lex(ulnera, noun, [pos:noun, txt:ulnera, lex:ulnus, case:acc, gender:neuter, class:common, ab:no, number:pl, sem:[thing, abstract]]).
-lex(ulnera, noun, [pos:noun, txt:ulnera, lex:ulnus, case:nom, gender:neuter, class:common, ab:no, number:pl, sem:[thing, abstract]]).
-lex(ulnere, noun, [pos:noun, txt:ulnere, lex:ulnus, case:abl, gender:neuter, class:common, ab:no, number:sing, sem:[thing, abstract]]).
-lex(ulneri, noun, [pos:noun, txt:ulneri, lex:ulnus, case:dat, gender:neuter, class:common, ab:no, number:sing, sem:[thing, abstract]]).
-lex(ulneris, noun, [pos:noun, txt:ulneris, lex:ulnus, case:gen, gender:neuter, class:common, ab:no, number:sing, sem:[thing, abstract]]).
-lex(ulnus, noun, [pos:noun, txt:ulnus, lex:ulnus, case:acc, gender:neuter, class:common, ab:no, number:sing, sem:[thing, abstract]]).
-lex(ulnus, noun, [pos:noun, txt:ulnus, lex:ulnus, case:nom, gender:neuter, class:common, ab:no, number:sing, sem:[thing, abstract]]).
+lex(uulneribus, noun, [pos:noun, txt:uulneribus, lex:uulnus, case:abl, gender:neuter, class:common, ab:no, number:pl, sem:[thing, abstract]]).
+lex(uulneribus, noun, [pos:noun, txt:uulneribus, lex:uulnus, case:dat, gender:neuter, class:common, ab:no, number:pl, sem:[thing, abstract]]).
+lex(uulnerum, noun, [pos:noun, txt:uulnerum, lex:uulnus, case:gen, gender:neuter, class:common, ab:no, number:pl, sem:[thing, abstract]]).
+lex(uulnera, noun, [pos:noun, txt:uulnera, lex:uulnus, case:acc, gender:neuter, class:common, ab:no, number:pl, sem:[thing, abstract]]).
+lex(uulnera, noun, [pos:noun, txt:uulnera, lex:uulnus, case:nom, gender:neuter, class:common, ab:no, number:pl, sem:[thing, abstract]]).
+lex(uulnere, noun, [pos:noun, txt:uulnere, lex:uulnus, case:abl, gender:neuter, class:common, ab:no, number:sing, sem:[thing, abstract]]).
+lex(uulneri, noun, [pos:noun, txt:uulneri, lex:uulnus, case:dat, gender:neuter, class:common, ab:no, number:sing, sem:[thing, abstract]]).
+lex(uulneris, noun, [pos:noun, txt:uulneris, lex:uulnus, case:gen, gender:neuter, class:common, ab:no, number:sing, sem:[thing, abstract]]).
+lex(uulnus, noun, [pos:noun, txt:uulnus, lex:uulnus, case:acc, gender:neuter, class:common, ab:no, number:sing, sem:[thing, abstract]]).
+lex(uulnus, noun, [pos:noun, txt:uulnus, lex:uulnus, case:nom, gender:neuter, class:common, ab:no, number:sing, sem:[thing, abstract]]).
 lex(temporibus, noun, [pos:noun, txt:temporibus, lex:tempus, case:abl, gender:neuter, class:common, ab:no, number:pl, sem:[abstract, time]]).
 lex(temporibus, noun, [pos:noun, txt:temporibus, lex:tempus, case:dat, gender:neuter, class:common, ab:no, number:pl, sem:[abstract, time]]).
 lex(temporum, noun, [pos:noun, txt:temporum, lex:tempus, case:gen, gender:neuter, class:common, ab:no, number:pl, sem:[abstract, time]]).
@@ -2550,6 +2550,16 @@ lex(decori, noun, [pos:noun, txt:decori, lex:decus, case:dat, gender:neuter, cla
 lex(decoris, noun, [pos:noun, txt:decoris, lex:decus, case:gen, gender:neuter, class:common, ab:no, number:sing, sem:[quality]]).
 lex(decus, noun, [pos:noun, txt:decus, lex:decus, case:acc, gender:neuter, class:common, ab:no, number:sing, sem:[quality]]).
 lex(decus, noun, [pos:noun, txt:decus, lex:decus, case:nom, gender:neuter, class:common, ab:no, number:sing, sem:[quality]]).
+lex(criminibus, noun, [pos:noun, txt:criminibus, lex:crimen, case:abl, gender:neuter, class:common, ab:mm, number:pl, sem:[thing, quality]]).
+lex(criminibus, noun, [pos:noun, txt:criminibus, lex:crimen, case:dat, gender:neuter, class:common, ab:mm, number:pl, sem:[thing, quality]]).
+lex(criminum, noun, [pos:noun, txt:criminum, lex:crimen, case:gen, gender:neuter, class:common, ab:mm, number:pl, sem:[thing, quality]]).
+lex(crimina, noun, [pos:noun, txt:crimina, lex:crimen, case:acc, gender:neuter, class:common, ab:mm, number:pl, sem:[thing, quality]]).
+lex(crimina, noun, [pos:noun, txt:crimina, lex:crimen, case:nom, gender:neuter, class:common, ab:mm, number:pl, sem:[thing, quality]]).
+lex(crimine, noun, [pos:noun, txt:crimine, lex:crimen, case:abl, gender:neuter, class:common, ab:mm, number:sing, sem:[thing, quality]]).
+lex(crimini, noun, [pos:noun, txt:crimini, lex:crimen, case:dat, gender:neuter, class:common, ab:mm, number:sing, sem:[thing, quality]]).
+lex(criminis, noun, [pos:noun, txt:criminis, lex:crimen, case:gen, gender:neuter, class:common, ab:mm, number:sing, sem:[thing, quality]]).
+lex(crimen, noun, [pos:noun, txt:crimen, lex:crimen, case:acc, gender:neuter, class:common, ab:mm, number:sing, sem:[thing, quality]]).
+lex(crimen, noun, [pos:noun, txt:crimen, lex:crimen, case:nom, gender:neuter, class:common, ab:mm, number:sing, sem:[thing, quality]]).
 lex(corporibus, noun, [pos:noun, txt:corporibus, lex:corpus, case:abl, gender:neuter, class:common, ab:no, number:pl, sem:[thing]]).
 lex(corporibus, noun, [pos:noun, txt:corporibus, lex:corpus, case:dat, gender:neuter, class:common, ab:no, number:pl, sem:[thing]]).
 lex(corporum, noun, [pos:noun, txt:corporum, lex:corpus, case:gen, gender:neuter, class:common, ab:no, number:pl, sem:[thing]]).
@@ -3495,6 +3505,16 @@ lex(coniurationi, noun, [pos:noun, txt:coniurationi, lex:coniuratio, case:dat, g
 lex(coniurationis, noun, [pos:noun, txt:coniurationis, lex:coniuratio, case:gen, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
 lex(coniurationem, noun, [pos:noun, txt:coniurationem, lex:coniuratio, case:acc, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
 lex(coniuratio, noun, [pos:noun, txt:coniuratio, lex:coniuratio, case:nom, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
+lex(confessionibus, noun, [pos:noun, txt:confessionibus, lex:confessio, case:abl, gender:fem, class:common, ab:mm, number:pl, sem:[abstract]]).
+lex(confessionibus, noun, [pos:noun, txt:confessionibus, lex:confessio, case:dat, gender:fem, class:common, ab:mm, number:pl, sem:[abstract]]).
+lex(confessionum, noun, [pos:noun, txt:confessionum, lex:confessio, case:gen, gender:fem, class:common, ab:mm, number:pl, sem:[abstract]]).
+lex(confessiones, noun, [pos:noun, txt:confessiones, lex:confessio, case:acc, gender:fem, class:common, ab:mm, number:pl, sem:[abstract]]).
+lex(confessiones, noun, [pos:noun, txt:confessiones, lex:confessio, case:nom, gender:fem, class:common, ab:mm, number:pl, sem:[abstract]]).
+lex(confessione, noun, [pos:noun, txt:confessione, lex:confessio, case:abl, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
+lex(confessioni, noun, [pos:noun, txt:confessioni, lex:confessio, case:dat, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
+lex(confessionis, noun, [pos:noun, txt:confessionis, lex:confessio, case:gen, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
+lex(confessionem, noun, [pos:noun, txt:confessionem, lex:confessio, case:acc, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
+lex(confessio, noun, [pos:noun, txt:confessio, lex:confessio, case:nom, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
 lex(condicionibus, noun, [pos:noun, txt:condicionibus, lex:condicio, case:abl, gender:fem, class:common, ab:no, number:pl, sem:[quality]]).
 lex(condicionibus, noun, [pos:noun, txt:condicionibus, lex:condicio, case:dat, gender:fem, class:common, ab:no, number:pl, sem:[quality]]).
 lex(condicionum, noun, [pos:noun, txt:condicionum, lex:condicio, case:gen, gender:fem, class:common, ab:no, number:pl, sem:[quality]]).
@@ -5557,6 +5577,12 @@ lex(silani, noun, [pos:noun, txt:silani, lex:silanus, case:gen, gender:masc, cla
 lex(silanum, noun, [pos:noun, txt:silanum, lex:silanus, case:acc, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
 lex(silane, noun, [pos:noun, txt:silane, lex:silanus, case:voc, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
 lex(silanus, noun, [pos:noun, txt:silanus, lex:silanus, case:nom, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
+lex(quintiano, noun, [pos:noun, txt:quintiano, lex:quintianus, case:abl, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
+lex(quintiano, noun, [pos:noun, txt:quintiano, lex:quintianus, case:dat, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
+lex(quintiani, noun, [pos:noun, txt:quintiani, lex:quintianus, case:gen, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
+lex(quintianum, noun, [pos:noun, txt:quintianum, lex:quintianus, case:acc, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
+lex(quintiane, noun, [pos:noun, txt:quintiane, lex:quintianus, case:voc, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
+lex(quintianus, noun, [pos:noun, txt:quintianus, lex:quintianus, case:nom, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
 lex(petro, noun, [pos:noun, txt:petro, lex:petrus, case:abl, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
 lex(petro, noun, [pos:noun, txt:petro, lex:petrus, case:dat, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
 lex(petri, noun, [pos:noun, txt:petri, lex:petrus, case:gen, gender:masc, class:proper, ab:no, number:sing, sem:[male]]).
@@ -6775,6 +6801,16 @@ lex(morae, noun, [pos:noun, txt:morae, lex:mora, case:dat, gender:fem, class:com
 lex(morae, noun, [pos:noun, txt:morae, lex:mora, case:gen, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
 lex(moram, noun, [pos:noun, txt:moram, lex:mora, case:acc, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
 lex(mora, noun, [pos:noun, txt:mora, lex:mora, case:nom, gender:fem, class:common, ab:mm, number:sing, sem:[abstract]]).
+lex(mollitiis, noun, [pos:noun, txt:mollitiis, lex:mollitia, case:abl, gender:fem, class:common, ab:mm, number:pl, sem:[quality]]).
+lex(mollitiis, noun, [pos:noun, txt:mollitiis, lex:mollitia, case:dat, gender:fem, class:common, ab:mm, number:pl, sem:[quality]]).
+lex(mollitiarum, noun, [pos:noun, txt:mollitiarum, lex:mollitia, case:gen, gender:fem, class:common, ab:mm, number:pl, sem:[quality]]).
+lex(mollitias, noun, [pos:noun, txt:mollitias, lex:mollitia, case:acc, gender:fem, class:common, ab:mm, number:pl, sem:[quality]]).
+lex(mollitiae, noun, [pos:noun, txt:mollitiae, lex:mollitia, case:nom, gender:fem, class:common, ab:mm, number:pl, sem:[quality]]).
+lex(mollitia, noun, [pos:noun, txt:mollitia, lex:mollitia, case:abl, gender:fem, class:common, ab:mm, number:sing, sem:[quality]]).
+lex(mollitiae, noun, [pos:noun, txt:mollitiae, lex:mollitia, case:dat, gender:fem, class:common, ab:mm, number:sing, sem:[quality]]).
+lex(mollitiae, noun, [pos:noun, txt:mollitiae, lex:mollitia, case:gen, gender:fem, class:common, ab:mm, number:sing, sem:[quality]]).
+lex(mollitiam, noun, [pos:noun, txt:mollitiam, lex:mollitia, case:acc, gender:fem, class:common, ab:mm, number:sing, sem:[quality]]).
+lex(mollitia, noun, [pos:noun, txt:mollitia, lex:mollitia, case:nom, gender:fem, class:common, ab:mm, number:sing, sem:[quality]]).
 lex(misericordiis, noun, [pos:noun, txt:misericordiis, lex:misericordia, case:abl, gender:fem, class:common, ab:mm, number:pl, sem:[quality]]).
 lex(misericordiis, noun, [pos:noun, txt:misericordiis, lex:misericordia, case:dat, gender:fem, class:common, ab:mm, number:pl, sem:[quality]]).
 lex(misericordiarum, noun, [pos:noun, txt:misericordiarum, lex:misericordia, case:gen, gender:fem, class:common, ab:mm, number:pl, sem:[quality]]).
@@ -7345,6 +7381,16 @@ lex(copiae, noun, [pos:noun, txt:copiae, lex:copia, case:dat, gender:fem, class:
 lex(copiae, noun, [pos:noun, txt:copiae, lex:copia, case:gen, gender:fem, class:common, ab:mm, number:sing, sem:[quality]]).
 lex(copiam, noun, [pos:noun, txt:copiam, lex:copia, case:acc, gender:fem, class:common, ab:mm, number:sing, sem:[quality]]).
 lex(copia, noun, [pos:noun, txt:copia, lex:copia, case:nom, gender:fem, class:common, ab:mm, number:sing, sem:[quality]]).
+lex(contumeliis, noun, [pos:noun, txt:contumeliis, lex:contumelia, case:abl, gender:fem, class:common, ab:mm, number:pl, sem:[thing, abstract]]).
+lex(contumeliis, noun, [pos:noun, txt:contumeliis, lex:contumelia, case:dat, gender:fem, class:common, ab:mm, number:pl, sem:[thing, abstract]]).
+lex(contumeliarum, noun, [pos:noun, txt:contumeliarum, lex:contumelia, case:gen, gender:fem, class:common, ab:mm, number:pl, sem:[thing, abstract]]).
+lex(contumelias, noun, [pos:noun, txt:contumelias, lex:contumelia, case:acc, gender:fem, class:common, ab:mm, number:pl, sem:[thing, abstract]]).
+lex(contumeliae, noun, [pos:noun, txt:contumeliae, lex:contumelia, case:nom, gender:fem, class:common, ab:mm, number:pl, sem:[thing, abstract]]).
+lex(contumelia, noun, [pos:noun, txt:contumelia, lex:contumelia, case:abl, gender:fem, class:common, ab:mm, number:sing, sem:[thing, abstract]]).
+lex(contumeliae, noun, [pos:noun, txt:contumeliae, lex:contumelia, case:dat, gender:fem, class:common, ab:mm, number:sing, sem:[thing, abstract]]).
+lex(contumeliae, noun, [pos:noun, txt:contumeliae, lex:contumelia, case:gen, gender:fem, class:common, ab:mm, number:sing, sem:[thing, abstract]]).
+lex(contumeliam, noun, [pos:noun, txt:contumeliam, lex:contumelia, case:acc, gender:fem, class:common, ab:mm, number:sing, sem:[thing, abstract]]).
+lex(contumelia, noun, [pos:noun, txt:contumelia, lex:contumelia, case:nom, gender:fem, class:common, ab:mm, number:sing, sem:[thing, abstract]]).
 lex(comis, noun, [pos:noun, txt:comis, lex:coma, case:abl, gender:fem, class:common, ab:no, number:pl, sem:[thing]]).
 lex(comis, noun, [pos:noun, txt:comis, lex:coma, case:dat, gender:fem, class:common, ab:no, number:pl, sem:[thing]]).
 lex(comarum, noun, [pos:noun, txt:comarum, lex:coma, case:gen, gender:fem, class:common, ab:no, number:pl, sem:[thing]]).
@@ -9037,6 +9083,69 @@ lex(irritabilissimi, adj, [pos:adj, txt:irritabilissimi, lex:irritabilis, type:s
 lex(irritabilissimum, adj, [pos:adj, txt:irritabilissimum, lex:irritabilis, type:std, n:no, case:acc, gender:masc, number:sing, degree:sup, sem:[]]).
 lex(irritabilissime, adj, [pos:adj, txt:irritabilissime, lex:irritabilis, type:std, n:no, case:voc, gender:masc, number:sing, degree:sup, sem:[]]).
 lex(irritabilissimus, adj, [pos:adj, txt:irritabilissimus, lex:irritabilis, type:std, n:no, case:nom, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(infamioribus, adj, [pos:adj, txt:infamioribus, lex:infamis, type:std, n:no, case:abl, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(infamioribus, adj, [pos:adj, txt:infamioribus, lex:infamis, type:std, n:no, case:dat, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(infamiorum, adj, [pos:adj, txt:infamiorum, lex:infamis, type:std, n:no, case:gen, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(infamiora, adj, [pos:adj, txt:infamiora, lex:infamis, type:std, n:no, case:acc, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(infamiora, adj, [pos:adj, txt:infamiora, lex:infamis, type:std, n:no, case:nom, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(infamioribus, adj, [pos:adj, txt:infamioribus, lex:infamis, type:std, n:no, case:abl, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(infamioribus, adj, [pos:adj, txt:infamioribus, lex:infamis, type:std, n:no, case:dat, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(infamiorum, adj, [pos:adj, txt:infamiorum, lex:infamis, type:std, n:no, case:gen, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(infamiores, adj, [pos:adj, txt:infamiores, lex:infamis, type:std, n:no, case:acc, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(infamiores, adj, [pos:adj, txt:infamiores, lex:infamis, type:std, n:no, case:nom, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(infamioribus, adj, [pos:adj, txt:infamioribus, lex:infamis, type:std, n:no, case:abl, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(infamioribus, adj, [pos:adj, txt:infamioribus, lex:infamis, type:std, n:no, case:dat, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(infamiorum, adj, [pos:adj, txt:infamiorum, lex:infamis, type:std, n:no, case:gen, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(infamiores, adj, [pos:adj, txt:infamiores, lex:infamis, type:std, n:no, case:acc, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(infamiores, adj, [pos:adj, txt:infamiores, lex:infamis, type:std, n:no, case:nom, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(infamiori, adj, [pos:adj, txt:infamiori, lex:infamis, type:std, n:no, case:abl, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(infamiori, adj, [pos:adj, txt:infamiori, lex:infamis, type:std, n:no, case:dat, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(infamioris, adj, [pos:adj, txt:infamioris, lex:infamis, type:std, n:no, case:gen, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(infamius, adj, [pos:adj, txt:infamius, lex:infamis, type:std, n:no, case:acc, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(infamius, adv, [lex:infamius, pos:adv, type:vpbound, degree:comp, sem:_]).
+lex(infamius, adj, [pos:adj, txt:infamius, lex:infamis, type:std, n:no, case:nom, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(infamiore, adj, [pos:adj, txt:infamiore, lex:infamis, type:std, n:no, case:abl, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(infamiori, adj, [pos:adj, txt:infamiori, lex:infamis, type:std, n:no, case:dat, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(infamioris, adj, [pos:adj, txt:infamioris, lex:infamis, type:std, n:no, case:gen, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(infamiorem, adj, [pos:adj, txt:infamiorem, lex:infamis, type:std, n:no, case:acc, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(infamior, adj, [pos:adj, txt:infamior, lex:infamis, type:std, n:no, case:nom, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(infamiore, adj, [pos:adj, txt:infamiore, lex:infamis, type:std, n:no, case:abl, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(infamiori, adj, [pos:adj, txt:infamiori, lex:infamis, type:std, n:no, case:dat, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(infamioris, adj, [pos:adj, txt:infamioris, lex:infamis, type:std, n:no, case:gen, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(infamiorem, adj, [pos:adj, txt:infamiorem, lex:infamis, type:std, n:no, case:acc, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(infamior, adj, [pos:adj, txt:infamior, lex:infamis, type:std, n:no, case:nom, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(infamissimis, adj, [pos:adj, txt:infamissimis, lex:infamis, type:std, n:no, case:abl, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(infamissime, adv, [lex:infamissime, pos:adv, type:vpbound, degree:sup, sem:manner]).
+lex(infamissimis, adj, [pos:adj, txt:infamissimis, lex:infamis, type:std, n:no, case:dat, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(infamissimorum, adj, [pos:adj, txt:infamissimorum, lex:infamis, type:std, n:no, case:gen, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(infamissima, adj, [pos:adj, txt:infamissima, lex:infamis, type:std, n:no, case:acc, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(infamissima, adj, [pos:adj, txt:infamissima, lex:infamis, type:std, n:no, case:nom, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(infamissimis, adj, [pos:adj, txt:infamissimis, lex:infamis, type:std, n:no, case:abl, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(infamissimis, adj, [pos:adj, txt:infamissimis, lex:infamis, type:std, n:no, case:dat, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(infamissimarum, adj, [pos:adj, txt:infamissimarum, lex:infamis, type:std, n:no, case:gen, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(infamissimas, adj, [pos:adj, txt:infamissimas, lex:infamis, type:std, n:no, case:acc, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(infamissimae, adj, [pos:adj, txt:infamissimae, lex:infamis, type:std, n:no, case:nom, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(infamissimis, adj, [pos:adj, txt:infamissimis, lex:infamis, type:std, n:no, case:abl, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(infamissimis, adj, [pos:adj, txt:infamissimis, lex:infamis, type:std, n:no, case:dat, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(infamissimorum, adj, [pos:adj, txt:infamissimorum, lex:infamis, type:std, n:no, case:gen, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(infamissimos, adj, [pos:adj, txt:infamissimos, lex:infamis, type:std, n:no, case:acc, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(infamissimi, adj, [pos:adj, txt:infamissimi, lex:infamis, type:std, n:no, case:nom, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(infamissimo, adj, [pos:adj, txt:infamissimo, lex:infamis, type:std, n:no, case:abl, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(infamissimo, adj, [pos:adj, txt:infamissimo, lex:infamis, type:std, n:no, case:dat, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(infamissimi, adj, [pos:adj, txt:infamissimi, lex:infamis, type:std, n:no, case:gen, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(infamissimum, adj, [pos:adj, txt:infamissimum, lex:infamis, type:std, n:no, case:acc, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(infamissimum, adj, [pos:adj, txt:infamissimum, lex:infamis, type:std, n:no, case:nom, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(infamissima, adj, [pos:adj, txt:infamissima, lex:infamis, type:std, n:no, case:abl, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(infamissimae, adj, [pos:adj, txt:infamissimae, lex:infamis, type:std, n:no, case:dat, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(infamissimae, adj, [pos:adj, txt:infamissimae, lex:infamis, type:std, n:no, case:gen, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(infamissimam, adj, [pos:adj, txt:infamissimam, lex:infamis, type:std, n:no, case:acc, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(infamissima, adj, [pos:adj, txt:infamissima, lex:infamis, type:std, n:no, case:nom, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(infamissimo, adj, [pos:adj, txt:infamissimo, lex:infamis, type:std, n:no, case:abl, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(infamissimo, adj, [pos:adj, txt:infamissimo, lex:infamis, type:std, n:no, case:dat, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(infamissimi, adj, [pos:adj, txt:infamissimi, lex:infamis, type:std, n:no, case:gen, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(infamissimum, adj, [pos:adj, txt:infamissimum, lex:infamis, type:std, n:no, case:acc, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(infamissime, adj, [pos:adj, txt:infamissime, lex:infamis, type:std, n:no, case:voc, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(infamissimus, adj, [pos:adj, txt:infamissimus, lex:infamis, type:std, n:no, case:nom, gender:masc, number:sing, degree:sup, sem:[]]).
 lex(grauioribus, adj, [pos:adj, txt:grauioribus, lex:grauis, type:std, n:no, case:abl, gender:neuter, number:pl, degree:comp, sem:[]]).
 lex(grauioribus, adj, [pos:adj, txt:grauioribus, lex:grauis, type:std, n:no, case:dat, gender:neuter, number:pl, degree:comp, sem:[]]).
 lex(grauiorum, adj, [pos:adj, txt:grauiorum, lex:grauis, type:std, n:no, case:gen, gender:neuter, number:pl, degree:comp, sem:[]]).
@@ -10612,6 +10721,69 @@ lex(tardissimi, adj, [pos:adj, txt:tardissimi, lex:tardus, type:std, n:no, case:
 lex(tardissimum, adj, [pos:adj, txt:tardissimum, lex:tardus, type:std, n:no, case:acc, gender:masc, number:sing, degree:sup, sem:[]]).
 lex(tardissime, adj, [pos:adj, txt:tardissime, lex:tardus, type:std, n:no, case:voc, gender:masc, number:sing, degree:sup, sem:[]]).
 lex(tardissimus, adj, [pos:adj, txt:tardissimus, lex:tardus, type:std, n:no, case:nom, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(tacitioribus, adj, [pos:adj, txt:tacitioribus, lex:tacitus, type:std, n:no, case:abl, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(tacitioribus, adj, [pos:adj, txt:tacitioribus, lex:tacitus, type:std, n:no, case:dat, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(tacitiorum, adj, [pos:adj, txt:tacitiorum, lex:tacitus, type:std, n:no, case:gen, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(tacitiora, adj, [pos:adj, txt:tacitiora, lex:tacitus, type:std, n:no, case:acc, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(tacitiora, adj, [pos:adj, txt:tacitiora, lex:tacitus, type:std, n:no, case:nom, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(tacitioribus, adj, [pos:adj, txt:tacitioribus, lex:tacitus, type:std, n:no, case:abl, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(tacitioribus, adj, [pos:adj, txt:tacitioribus, lex:tacitus, type:std, n:no, case:dat, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(tacitiorum, adj, [pos:adj, txt:tacitiorum, lex:tacitus, type:std, n:no, case:gen, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(tacitiores, adj, [pos:adj, txt:tacitiores, lex:tacitus, type:std, n:no, case:acc, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(tacitiores, adj, [pos:adj, txt:tacitiores, lex:tacitus, type:std, n:no, case:nom, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(tacitioribus, adj, [pos:adj, txt:tacitioribus, lex:tacitus, type:std, n:no, case:abl, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(tacitioribus, adj, [pos:adj, txt:tacitioribus, lex:tacitus, type:std, n:no, case:dat, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(tacitiorum, adj, [pos:adj, txt:tacitiorum, lex:tacitus, type:std, n:no, case:gen, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(tacitiores, adj, [pos:adj, txt:tacitiores, lex:tacitus, type:std, n:no, case:acc, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(tacitiores, adj, [pos:adj, txt:tacitiores, lex:tacitus, type:std, n:no, case:nom, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(tacitiori, adj, [pos:adj, txt:tacitiori, lex:tacitus, type:std, n:no, case:abl, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(tacitiori, adj, [pos:adj, txt:tacitiori, lex:tacitus, type:std, n:no, case:dat, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(tacitioris, adj, [pos:adj, txt:tacitioris, lex:tacitus, type:std, n:no, case:gen, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(tacitius, adj, [pos:adj, txt:tacitius, lex:tacitus, type:std, n:no, case:acc, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(tacitius, adv, [lex:tacitius, pos:adv, type:vpbound, degree:comp, sem:_]).
+lex(tacitius, adj, [pos:adj, txt:tacitius, lex:tacitus, type:std, n:no, case:nom, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(tacitiore, adj, [pos:adj, txt:tacitiore, lex:tacitus, type:std, n:no, case:abl, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(tacitiori, adj, [pos:adj, txt:tacitiori, lex:tacitus, type:std, n:no, case:dat, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(tacitioris, adj, [pos:adj, txt:tacitioris, lex:tacitus, type:std, n:no, case:gen, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(tacitiorem, adj, [pos:adj, txt:tacitiorem, lex:tacitus, type:std, n:no, case:acc, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(tacitior, adj, [pos:adj, txt:tacitior, lex:tacitus, type:std, n:no, case:nom, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(tacitiore, adj, [pos:adj, txt:tacitiore, lex:tacitus, type:std, n:no, case:abl, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(tacitiori, adj, [pos:adj, txt:tacitiori, lex:tacitus, type:std, n:no, case:dat, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(tacitioris, adj, [pos:adj, txt:tacitioris, lex:tacitus, type:std, n:no, case:gen, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(tacitiorem, adj, [pos:adj, txt:tacitiorem, lex:tacitus, type:std, n:no, case:acc, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(tacitior, adj, [pos:adj, txt:tacitior, lex:tacitus, type:std, n:no, case:nom, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(tacitissimis, adj, [pos:adj, txt:tacitissimis, lex:tacitus, type:std, n:no, case:abl, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(tacitissime, adv, [lex:tacitissime, pos:adv, type:vpbound, degree:sup, sem:manner]).
+lex(tacitissimis, adj, [pos:adj, txt:tacitissimis, lex:tacitus, type:std, n:no, case:dat, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(tacitissimorum, adj, [pos:adj, txt:tacitissimorum, lex:tacitus, type:std, n:no, case:gen, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(tacitissima, adj, [pos:adj, txt:tacitissima, lex:tacitus, type:std, n:no, case:acc, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(tacitissima, adj, [pos:adj, txt:tacitissima, lex:tacitus, type:std, n:no, case:nom, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(tacitissimis, adj, [pos:adj, txt:tacitissimis, lex:tacitus, type:std, n:no, case:abl, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(tacitissimis, adj, [pos:adj, txt:tacitissimis, lex:tacitus, type:std, n:no, case:dat, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(tacitissimarum, adj, [pos:adj, txt:tacitissimarum, lex:tacitus, type:std, n:no, case:gen, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(tacitissimas, adj, [pos:adj, txt:tacitissimas, lex:tacitus, type:std, n:no, case:acc, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(tacitissimae, adj, [pos:adj, txt:tacitissimae, lex:tacitus, type:std, n:no, case:nom, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(tacitissimis, adj, [pos:adj, txt:tacitissimis, lex:tacitus, type:std, n:no, case:abl, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(tacitissimis, adj, [pos:adj, txt:tacitissimis, lex:tacitus, type:std, n:no, case:dat, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(tacitissimorum, adj, [pos:adj, txt:tacitissimorum, lex:tacitus, type:std, n:no, case:gen, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(tacitissimos, adj, [pos:adj, txt:tacitissimos, lex:tacitus, type:std, n:no, case:acc, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(tacitissimi, adj, [pos:adj, txt:tacitissimi, lex:tacitus, type:std, n:no, case:nom, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(tacitissimo, adj, [pos:adj, txt:tacitissimo, lex:tacitus, type:std, n:no, case:abl, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(tacitissimo, adj, [pos:adj, txt:tacitissimo, lex:tacitus, type:std, n:no, case:dat, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(tacitissimi, adj, [pos:adj, txt:tacitissimi, lex:tacitus, type:std, n:no, case:gen, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(tacitissimum, adj, [pos:adj, txt:tacitissimum, lex:tacitus, type:std, n:no, case:acc, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(tacitissimum, adj, [pos:adj, txt:tacitissimum, lex:tacitus, type:std, n:no, case:nom, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(tacitissima, adj, [pos:adj, txt:tacitissima, lex:tacitus, type:std, n:no, case:abl, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(tacitissimae, adj, [pos:adj, txt:tacitissimae, lex:tacitus, type:std, n:no, case:dat, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(tacitissimae, adj, [pos:adj, txt:tacitissimae, lex:tacitus, type:std, n:no, case:gen, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(tacitissimam, adj, [pos:adj, txt:tacitissimam, lex:tacitus, type:std, n:no, case:acc, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(tacitissima, adj, [pos:adj, txt:tacitissima, lex:tacitus, type:std, n:no, case:nom, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(tacitissimo, adj, [pos:adj, txt:tacitissimo, lex:tacitus, type:std, n:no, case:abl, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(tacitissimo, adj, [pos:adj, txt:tacitissimo, lex:tacitus, type:std, n:no, case:dat, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(tacitissimi, adj, [pos:adj, txt:tacitissimi, lex:tacitus, type:std, n:no, case:gen, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(tacitissimum, adj, [pos:adj, txt:tacitissimum, lex:tacitus, type:std, n:no, case:acc, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(tacitissime, adj, [pos:adj, txt:tacitissime, lex:tacitus, type:std, n:no, case:voc, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(tacitissimus, adj, [pos:adj, txt:tacitissimus, lex:tacitus, type:std, n:no, case:nom, gender:masc, number:sing, degree:sup, sem:[]]).
 lex(superbioribus, adj, [pos:adj, txt:superbioribus, lex:superbus, type:std, n:hpl, case:abl, gender:neuter, number:pl, degree:comp, sem:[]]).
 lex(superbioribus, adj, [pos:adj, txt:superbioribus, lex:superbus, type:std, n:hpl, case:dat, gender:neuter, number:pl, degree:comp, sem:[]]).
 lex(superbiorum, adj, [pos:adj, txt:superbiorum, lex:superbus, type:std, n:hpl, case:gen, gender:neuter, number:pl, degree:comp, sem:[]]).
@@ -11431,6 +11603,69 @@ lex(proximi, adj, [pos:adj, txt:proximi, lex:propinquus, type:std, n:no, case:ge
 lex(proximum, adj, [pos:adj, txt:proximum, lex:propinquus, type:std, n:no, case:acc, gender:masc, number:sing, degree:sup, sem:[]]).
 lex(proxime, adj, [pos:adj, txt:proxime, lex:propinquus, type:std, n:no, case:voc, gender:masc, number:sing, degree:sup, sem:[]]).
 lex(proximus, adj, [pos:adj, txt:proximus, lex:propinquus, type:std, n:no, case:nom, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(probrosioribus, adj, [pos:adj, txt:probrosioribus, lex:probrosus, type:std, n:no, case:abl, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(probrosioribus, adj, [pos:adj, txt:probrosioribus, lex:probrosus, type:std, n:no, case:dat, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(probrosiorum, adj, [pos:adj, txt:probrosiorum, lex:probrosus, type:std, n:no, case:gen, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(probrosiora, adj, [pos:adj, txt:probrosiora, lex:probrosus, type:std, n:no, case:acc, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(probrosiora, adj, [pos:adj, txt:probrosiora, lex:probrosus, type:std, n:no, case:nom, gender:neuter, number:pl, degree:comp, sem:[]]).
+lex(probrosioribus, adj, [pos:adj, txt:probrosioribus, lex:probrosus, type:std, n:no, case:abl, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(probrosioribus, adj, [pos:adj, txt:probrosioribus, lex:probrosus, type:std, n:no, case:dat, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(probrosiorum, adj, [pos:adj, txt:probrosiorum, lex:probrosus, type:std, n:no, case:gen, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(probrosiores, adj, [pos:adj, txt:probrosiores, lex:probrosus, type:std, n:no, case:acc, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(probrosiores, adj, [pos:adj, txt:probrosiores, lex:probrosus, type:std, n:no, case:nom, gender:fem, number:pl, degree:comp, sem:[]]).
+lex(probrosioribus, adj, [pos:adj, txt:probrosioribus, lex:probrosus, type:std, n:no, case:abl, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(probrosioribus, adj, [pos:adj, txt:probrosioribus, lex:probrosus, type:std, n:no, case:dat, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(probrosiorum, adj, [pos:adj, txt:probrosiorum, lex:probrosus, type:std, n:no, case:gen, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(probrosiores, adj, [pos:adj, txt:probrosiores, lex:probrosus, type:std, n:no, case:acc, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(probrosiores, adj, [pos:adj, txt:probrosiores, lex:probrosus, type:std, n:no, case:nom, gender:masc, number:pl, degree:comp, sem:[]]).
+lex(probrosiori, adj, [pos:adj, txt:probrosiori, lex:probrosus, type:std, n:no, case:abl, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(probrosiori, adj, [pos:adj, txt:probrosiori, lex:probrosus, type:std, n:no, case:dat, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(probrosioris, adj, [pos:adj, txt:probrosioris, lex:probrosus, type:std, n:no, case:gen, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(probrosius, adj, [pos:adj, txt:probrosius, lex:probrosus, type:std, n:no, case:acc, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(probrosius, adv, [lex:probrosius, pos:adv, type:vpbound, degree:comp, sem:_]).
+lex(probrosius, adj, [pos:adj, txt:probrosius, lex:probrosus, type:std, n:no, case:nom, gender:neuter, number:sing, degree:comp, sem:[]]).
+lex(probrosiore, adj, [pos:adj, txt:probrosiore, lex:probrosus, type:std, n:no, case:abl, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(probrosiori, adj, [pos:adj, txt:probrosiori, lex:probrosus, type:std, n:no, case:dat, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(probrosioris, adj, [pos:adj, txt:probrosioris, lex:probrosus, type:std, n:no, case:gen, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(probrosiorem, adj, [pos:adj, txt:probrosiorem, lex:probrosus, type:std, n:no, case:acc, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(probrosior, adj, [pos:adj, txt:probrosior, lex:probrosus, type:std, n:no, case:nom, gender:fem, number:sing, degree:comp, sem:[]]).
+lex(probrosiore, adj, [pos:adj, txt:probrosiore, lex:probrosus, type:std, n:no, case:abl, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(probrosiori, adj, [pos:adj, txt:probrosiori, lex:probrosus, type:std, n:no, case:dat, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(probrosioris, adj, [pos:adj, txt:probrosioris, lex:probrosus, type:std, n:no, case:gen, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(probrosiorem, adj, [pos:adj, txt:probrosiorem, lex:probrosus, type:std, n:no, case:acc, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(probrosior, adj, [pos:adj, txt:probrosior, lex:probrosus, type:std, n:no, case:nom, gender:masc, number:sing, degree:comp, sem:[]]).
+lex(probrosissimis, adj, [pos:adj, txt:probrosissimis, lex:probrosus, type:std, n:no, case:abl, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(probrosissime, adv, [lex:probrosissime, pos:adv, type:vpbound, degree:sup, sem:manner]).
+lex(probrosissimis, adj, [pos:adj, txt:probrosissimis, lex:probrosus, type:std, n:no, case:dat, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(probrosissimorum, adj, [pos:adj, txt:probrosissimorum, lex:probrosus, type:std, n:no, case:gen, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(probrosissima, adj, [pos:adj, txt:probrosissima, lex:probrosus, type:std, n:no, case:acc, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(probrosissima, adj, [pos:adj, txt:probrosissima, lex:probrosus, type:std, n:no, case:nom, gender:neuter, number:pl, degree:sup, sem:[]]).
+lex(probrosissimis, adj, [pos:adj, txt:probrosissimis, lex:probrosus, type:std, n:no, case:abl, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(probrosissimis, adj, [pos:adj, txt:probrosissimis, lex:probrosus, type:std, n:no, case:dat, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(probrosissimarum, adj, [pos:adj, txt:probrosissimarum, lex:probrosus, type:std, n:no, case:gen, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(probrosissimas, adj, [pos:adj, txt:probrosissimas, lex:probrosus, type:std, n:no, case:acc, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(probrosissimae, adj, [pos:adj, txt:probrosissimae, lex:probrosus, type:std, n:no, case:nom, gender:fem, number:pl, degree:sup, sem:[]]).
+lex(probrosissimis, adj, [pos:adj, txt:probrosissimis, lex:probrosus, type:std, n:no, case:abl, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(probrosissimis, adj, [pos:adj, txt:probrosissimis, lex:probrosus, type:std, n:no, case:dat, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(probrosissimorum, adj, [pos:adj, txt:probrosissimorum, lex:probrosus, type:std, n:no, case:gen, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(probrosissimos, adj, [pos:adj, txt:probrosissimos, lex:probrosus, type:std, n:no, case:acc, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(probrosissimi, adj, [pos:adj, txt:probrosissimi, lex:probrosus, type:std, n:no, case:nom, gender:masc, number:pl, degree:sup, sem:[]]).
+lex(probrosissimo, adj, [pos:adj, txt:probrosissimo, lex:probrosus, type:std, n:no, case:abl, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(probrosissimo, adj, [pos:adj, txt:probrosissimo, lex:probrosus, type:std, n:no, case:dat, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(probrosissimi, adj, [pos:adj, txt:probrosissimi, lex:probrosus, type:std, n:no, case:gen, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(probrosissimum, adj, [pos:adj, txt:probrosissimum, lex:probrosus, type:std, n:no, case:acc, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(probrosissimum, adj, [pos:adj, txt:probrosissimum, lex:probrosus, type:std, n:no, case:nom, gender:neuter, number:sing, degree:sup, sem:[]]).
+lex(probrosissima, adj, [pos:adj, txt:probrosissima, lex:probrosus, type:std, n:no, case:abl, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(probrosissimae, adj, [pos:adj, txt:probrosissimae, lex:probrosus, type:std, n:no, case:dat, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(probrosissimae, adj, [pos:adj, txt:probrosissimae, lex:probrosus, type:std, n:no, case:gen, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(probrosissimam, adj, [pos:adj, txt:probrosissimam, lex:probrosus, type:std, n:no, case:acc, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(probrosissima, adj, [pos:adj, txt:probrosissima, lex:probrosus, type:std, n:no, case:nom, gender:fem, number:sing, degree:sup, sem:[]]).
+lex(probrosissimo, adj, [pos:adj, txt:probrosissimo, lex:probrosus, type:std, n:no, case:abl, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(probrosissimo, adj, [pos:adj, txt:probrosissimo, lex:probrosus, type:std, n:no, case:dat, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(probrosissimi, adj, [pos:adj, txt:probrosissimi, lex:probrosus, type:std, n:no, case:gen, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(probrosissimum, adj, [pos:adj, txt:probrosissimum, lex:probrosus, type:std, n:no, case:acc, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(probrosissime, adj, [pos:adj, txt:probrosissime, lex:probrosus, type:std, n:no, case:voc, gender:masc, number:sing, degree:sup, sem:[]]).
+lex(probrosissimus, adj, [pos:adj, txt:probrosissimus, lex:probrosus, type:std, n:no, case:nom, gender:masc, number:sing, degree:sup, sem:[]]).
 lex(priuatioribus, adj, [pos:adj, txt:priuatioribus, lex:priuatus, type:std, n:no, case:abl, gender:neuter, number:pl, degree:comp, sem:[]]).
 lex(priuatioribus, adj, [pos:adj, txt:priuatioribus, lex:priuatus, type:std, n:no, case:dat, gender:neuter, number:pl, degree:comp, sem:[]]).
 lex(priuatiorum, adj, [pos:adj, txt:priuatiorum, lex:priuatus, type:std, n:no, case:gen, gender:neuter, number:pl, degree:comp, sem:[]]).
@@ -16759,6 +16994,38 @@ lex(irritabili, adj, [pos:adj, txt:irritabili, lex:irritabilis, type:std, n:no, 
 lex(irritabilis, adj, [pos:adj, txt:irritabilis, lex:irritabilis, type:std, n:no, case:gen, gender:masc, number:sing, degree:pos, sem:[]]).
 lex(irritabilem, adj, [pos:adj, txt:irritabilem, lex:irritabilis, type:std, n:no, case:acc, gender:masc, number:sing, degree:pos, sem:[]]).
 lex(irritabilis, adj, [pos:adj, txt:irritabilis, lex:irritabilis, type:std, n:no, case:nom, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(infamibus, adj, [pos:adj, txt:infamibus, lex:infamis, type:std, n:no, case:abl, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(infamibus, adj, [pos:adj, txt:infamibus, lex:infamis, type:std, n:no, case:dat, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(infamium, adj, [pos:adj, txt:infamium, lex:infamis, type:std, n:no, case:gen, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(infamia, adj, [pos:adj, txt:infamia, lex:infamis, type:std, n:no, case:acc, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(infamia, adj, [pos:adj, txt:infamia, lex:infamis, type:std, n:no, case:nom, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(infamibus, adj, [pos:adj, txt:infamibus, lex:infamis, type:std, n:no, case:abl, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(infamibus, adj, [pos:adj, txt:infamibus, lex:infamis, type:std, n:no, case:dat, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(infamium, adj, [pos:adj, txt:infamium, lex:infamis, type:std, n:no, case:gen, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(infamis, adj, [pos:adj, txt:infamis, lex:infamis, type:std, n:no, case:acc, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(infames, adj, [pos:adj, txt:infames, lex:infamis, type:std, n:no, case:acc, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(infames, adj, [pos:adj, txt:infames, lex:infamis, type:std, n:no, case:nom, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(infamibus, adj, [pos:adj, txt:infamibus, lex:infamis, type:std, n:no, case:abl, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(infamibus, adj, [pos:adj, txt:infamibus, lex:infamis, type:std, n:no, case:dat, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(infamium, adj, [pos:adj, txt:infamium, lex:infamis, type:std, n:no, case:gen, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(infamis, adj, [pos:adj, txt:infamis, lex:infamis, type:std, n:no, case:acc, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(infames, adj, [pos:adj, txt:infames, lex:infamis, type:std, n:no, case:acc, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(infames, adj, [pos:adj, txt:infames, lex:infamis, type:std, n:no, case:nom, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(infami, adj, [pos:adj, txt:infami, lex:infamis, type:std, n:no, case:abl, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(infami, adj, [pos:adj, txt:infami, lex:infamis, type:std, n:no, case:dat, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(infamis, adj, [pos:adj, txt:infamis, lex:infamis, type:std, n:no, case:gen, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(infame, adj, [pos:adj, txt:infame, lex:infamis, type:std, n:no, case:acc, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(infame, adj, [pos:adj, txt:infame, lex:infamis, type:std, n:no, case:nom, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(infami, adj, [pos:adj, txt:infami, lex:infamis, type:std, n:no, case:abl, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(infami, adj, [pos:adj, txt:infami, lex:infamis, type:std, n:no, case:dat, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(infamis, adj, [pos:adj, txt:infamis, lex:infamis, type:std, n:no, case:gen, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(infamem, adj, [pos:adj, txt:infamem, lex:infamis, type:std, n:no, case:acc, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(infamis, adj, [pos:adj, txt:infamis, lex:infamis, type:std, n:no, case:nom, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(infami, adj, [pos:adj, txt:infami, lex:infamis, type:std, n:no, case:abl, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(infami, adj, [pos:adj, txt:infami, lex:infamis, type:std, n:no, case:dat, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(infamis, adj, [pos:adj, txt:infamis, lex:infamis, type:std, n:no, case:gen, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(infamem, adj, [pos:adj, txt:infamem, lex:infamis, type:std, n:no, case:acc, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(infamis, adj, [pos:adj, txt:infamis, lex:infamis, type:std, n:no, case:nom, gender:masc, number:sing, degree:pos, sem:[]]).
 lex(immortalibus, adj, [pos:adj, txt:immortalibus, lex:immortalis, type:std, n:hpl, case:abl, gender:neuter, number:pl, degree:pos, sem:[]]).
 lex(immortalibus, adj, [pos:adj, txt:immortalibus, lex:immortalis, type:std, n:hpl, case:dat, gender:neuter, number:pl, degree:pos, sem:[]]).
 lex(immortalium, adj, [pos:adj, txt:immortalium, lex:immortalis, type:std, n:hpl, case:gen, gender:neuter, number:pl, degree:pos, sem:[]]).
@@ -18377,6 +18644,37 @@ lex(tardi, adj, [pos:adj, txt:tardi, lex:tardus, type:std, n:no, case:gen, gende
 lex(tardum, adj, [pos:adj, txt:tardum, lex:tardus, type:std, n:no, case:acc, gender:masc, number:sing, degree:pos, sem:[]]).
 lex(tarde, adj, [pos:adj, txt:tarde, lex:tardus, type:std, n:no, case:voc, gender:masc, number:sing, degree:pos, sem:[]]).
 lex(tardus, adj, [pos:adj, txt:tardus, lex:tardus, type:std, n:no, case:nom, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(tacitis, adj, [pos:adj, txt:tacitis, lex:tacitus, type:std, n:no, case:abl, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(tacitis, adj, [pos:adj, txt:tacitis, lex:tacitus, type:std, n:no, case:dat, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(tacitorum, adj, [pos:adj, txt:tacitorum, lex:tacitus, type:std, n:no, case:gen, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(tacita, adj, [pos:adj, txt:tacita, lex:tacitus, type:std, n:no, case:acc, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(tacita, adj, [pos:adj, txt:tacita, lex:tacitus, type:std, n:no, case:nom, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(tacitis, adj, [pos:adj, txt:tacitis, lex:tacitus, type:std, n:no, case:abl, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(tacitis, adj, [pos:adj, txt:tacitis, lex:tacitus, type:std, n:no, case:dat, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(tacitarum, adj, [pos:adj, txt:tacitarum, lex:tacitus, type:std, n:no, case:gen, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(tacitas, adj, [pos:adj, txt:tacitas, lex:tacitus, type:std, n:no, case:acc, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(tacitae, adj, [pos:adj, txt:tacitae, lex:tacitus, type:std, n:no, case:nom, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(tacitis, adj, [pos:adj, txt:tacitis, lex:tacitus, type:std, n:no, case:abl, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(tacitis, adj, [pos:adj, txt:tacitis, lex:tacitus, type:std, n:no, case:dat, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(tacitorum, adj, [pos:adj, txt:tacitorum, lex:tacitus, type:std, n:no, case:gen, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(tacitos, adj, [pos:adj, txt:tacitos, lex:tacitus, type:std, n:no, case:acc, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(taciti, adj, [pos:adj, txt:taciti, lex:tacitus, type:std, n:no, case:nom, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(tacito, adj, [pos:adj, txt:tacito, lex:tacitus, type:std, n:no, case:abl, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(tacito, adj, [pos:adj, txt:tacito, lex:tacitus, type:std, n:no, case:dat, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(taciti, adj, [pos:adj, txt:taciti, lex:tacitus, type:std, n:no, case:gen, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(tacitum, adj, [pos:adj, txt:tacitum, lex:tacitus, type:std, n:no, case:acc, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(tacitum, adj, [pos:adj, txt:tacitum, lex:tacitus, type:std, n:no, case:nom, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(tacita, adj, [pos:adj, txt:tacita, lex:tacitus, type:std, n:no, case:abl, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(tacitae, adj, [pos:adj, txt:tacitae, lex:tacitus, type:std, n:no, case:dat, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(tacitae, adj, [pos:adj, txt:tacitae, lex:tacitus, type:std, n:no, case:gen, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(tacitam, adj, [pos:adj, txt:tacitam, lex:tacitus, type:std, n:no, case:acc, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(tacita, adj, [pos:adj, txt:tacita, lex:tacitus, type:std, n:no, case:nom, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(tacito, adj, [pos:adj, txt:tacito, lex:tacitus, type:std, n:no, case:abl, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(tacito, adj, [pos:adj, txt:tacito, lex:tacitus, type:std, n:no, case:dat, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(taciti, adj, [pos:adj, txt:taciti, lex:tacitus, type:std, n:no, case:gen, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(tacitum, adj, [pos:adj, txt:tacitum, lex:tacitus, type:std, n:no, case:acc, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(tacite, adj, [pos:adj, txt:tacite, lex:tacitus, type:std, n:no, case:voc, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(tacitus, adj, [pos:adj, txt:tacitus, lex:tacitus, type:std, n:no, case:nom, gender:masc, number:sing, degree:pos, sem:[]]).
 lex(supremis, adj, [pos:adj, txt:supremis, lex:supremus, type:std, n:hpl, case:abl, gender:neuter, number:pl, degree:pos, sem:[]]).
 lex(supremis, adj, [pos:adj, txt:supremis, lex:supremus, type:std, n:hpl, case:dat, gender:neuter, number:pl, degree:pos, sem:[]]).
 lex(supremorum, adj, [pos:adj, txt:supremorum, lex:supremus, type:std, n:hpl, case:gen, gender:neuter, number:pl, degree:pos, sem:[]]).
@@ -19180,6 +19478,37 @@ lex(propinqui, adj, [pos:adj, txt:propinqui, lex:propinquus, type:std, n:no, cas
 lex(propinquum, adj, [pos:adj, txt:propinquum, lex:propinquus, type:std, n:no, case:acc, gender:masc, number:sing, degree:pos, sem:[]]).
 lex(propinque, adj, [pos:adj, txt:propinque, lex:propinquus, type:std, n:no, case:voc, gender:masc, number:sing, degree:pos, sem:[]]).
 lex(propinquus, adj, [pos:adj, txt:propinquus, lex:propinquus, type:std, n:no, case:nom, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(probrosis, adj, [pos:adj, txt:probrosis, lex:probrosus, type:std, n:no, case:abl, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(probrosis, adj, [pos:adj, txt:probrosis, lex:probrosus, type:std, n:no, case:dat, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(probrosorum, adj, [pos:adj, txt:probrosorum, lex:probrosus, type:std, n:no, case:gen, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(probrosa, adj, [pos:adj, txt:probrosa, lex:probrosus, type:std, n:no, case:acc, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(probrosa, adj, [pos:adj, txt:probrosa, lex:probrosus, type:std, n:no, case:nom, gender:neuter, number:pl, degree:pos, sem:[]]).
+lex(probrosis, adj, [pos:adj, txt:probrosis, lex:probrosus, type:std, n:no, case:abl, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(probrosis, adj, [pos:adj, txt:probrosis, lex:probrosus, type:std, n:no, case:dat, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(probrosarum, adj, [pos:adj, txt:probrosarum, lex:probrosus, type:std, n:no, case:gen, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(probrosas, adj, [pos:adj, txt:probrosas, lex:probrosus, type:std, n:no, case:acc, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(probrosae, adj, [pos:adj, txt:probrosae, lex:probrosus, type:std, n:no, case:nom, gender:fem, number:pl, degree:pos, sem:[]]).
+lex(probrosis, adj, [pos:adj, txt:probrosis, lex:probrosus, type:std, n:no, case:abl, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(probrosis, adj, [pos:adj, txt:probrosis, lex:probrosus, type:std, n:no, case:dat, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(probrosorum, adj, [pos:adj, txt:probrosorum, lex:probrosus, type:std, n:no, case:gen, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(probrosos, adj, [pos:adj, txt:probrosos, lex:probrosus, type:std, n:no, case:acc, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(probrosi, adj, [pos:adj, txt:probrosi, lex:probrosus, type:std, n:no, case:nom, gender:masc, number:pl, degree:pos, sem:[]]).
+lex(probroso, adj, [pos:adj, txt:probroso, lex:probrosus, type:std, n:no, case:abl, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(probroso, adj, [pos:adj, txt:probroso, lex:probrosus, type:std, n:no, case:dat, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(probrosi, adj, [pos:adj, txt:probrosi, lex:probrosus, type:std, n:no, case:gen, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(probrosum, adj, [pos:adj, txt:probrosum, lex:probrosus, type:std, n:no, case:acc, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(probrosum, adj, [pos:adj, txt:probrosum, lex:probrosus, type:std, n:no, case:nom, gender:neuter, number:sing, degree:pos, sem:[]]).
+lex(probrosa, adj, [pos:adj, txt:probrosa, lex:probrosus, type:std, n:no, case:abl, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(probrosae, adj, [pos:adj, txt:probrosae, lex:probrosus, type:std, n:no, case:dat, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(probrosae, adj, [pos:adj, txt:probrosae, lex:probrosus, type:std, n:no, case:gen, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(probrosam, adj, [pos:adj, txt:probrosam, lex:probrosus, type:std, n:no, case:acc, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(probrosa, adj, [pos:adj, txt:probrosa, lex:probrosus, type:std, n:no, case:nom, gender:fem, number:sing, degree:pos, sem:[]]).
+lex(probroso, adj, [pos:adj, txt:probroso, lex:probrosus, type:std, n:no, case:abl, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(probroso, adj, [pos:adj, txt:probroso, lex:probrosus, type:std, n:no, case:dat, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(probrosi, adj, [pos:adj, txt:probrosi, lex:probrosus, type:std, n:no, case:gen, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(probrosum, adj, [pos:adj, txt:probrosum, lex:probrosus, type:std, n:no, case:acc, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(probrose, adj, [pos:adj, txt:probrose, lex:probrosus, type:std, n:no, case:voc, gender:masc, number:sing, degree:pos, sem:[]]).
+lex(probrosus, adj, [pos:adj, txt:probrosus, lex:probrosus, type:std, n:no, case:nom, gender:masc, number:sing, degree:pos, sem:[]]).
 lex(priuatis, adj, [pos:adj, txt:priuatis, lex:priuatus, type:std, n:no, case:abl, gender:neuter, number:pl, degree:pos, sem:[]]).
 lex(priuatis, adj, [pos:adj, txt:priuatis, lex:priuatus, type:std, n:no, case:dat, gender:neuter, number:pl, degree:pos, sem:[]]).
 lex(priuatorum, adj, [pos:adj, txt:priuatorum, lex:priuatus, type:std, n:no, case:gen, gender:neuter, number:pl, degree:pos, sem:[]]).
@@ -23995,6 +24324,130 @@ lex(utere, v, [pos:v, class:tr_cod_abl, type:finite, lex:uti, voice:act, txt:ute
 lex(utendo, v, [pos:v, class:tr_cod_abl, type:gerund, lex:uti, txt:utendo, kind:std, mood:gerund, person:3, case:abl]).
 lex(utendi, v, [pos:v, class:tr_cod_abl, type:gerund, lex:uti, txt:utendi, kind:std, mood:gerund, person:3, case:gen]).
 lex(utendum, v, [pos:v, class:tr_cod_abl, type:gerund, lex:uti, txt:utendum, kind:std, mood:gerund, person:3, case:acc]).
+lex(ulturis, p_f, [pos:p_f, txt:ulturis, case:abl, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturis, p_f, [pos:p_f, txt:ulturis, case:dat, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturorum, p_f, [pos:p_f, txt:ulturorum, case:gen, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ultura, p_f, [pos:p_f, txt:ultura, case:acc, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ultura, p_f, [pos:p_f, txt:ultura, case:nom, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturis, p_f, [pos:p_f, txt:ulturis, case:abl, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturis, p_f, [pos:p_f, txt:ulturis, case:dat, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturarum, p_f, [pos:p_f, txt:ulturarum, case:gen, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturas, p_f, [pos:p_f, txt:ulturas, case:acc, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturae, p_f, [pos:p_f, txt:ulturae, case:nom, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturis, p_f, [pos:p_f, txt:ulturis, case:abl, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturis, p_f, [pos:p_f, txt:ulturis, case:dat, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturorum, p_f, [pos:p_f, txt:ulturorum, case:gen, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturos, p_f, [pos:p_f, txt:ulturos, case:acc, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturi, p_f, [pos:p_f, txt:ulturi, case:nom, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturo, p_f, [pos:p_f, txt:ulturo, case:abl, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturo, p_f, [pos:p_f, txt:ulturo, case:dat, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturi, p_f, [pos:p_f, txt:ulturi, case:gen, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturum, p_f, [pos:p_f, txt:ulturum, case:acc, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturum, p_f, [pos:p_f, txt:ulturum, case:nom, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ultura, p_f, [pos:p_f, txt:ultura, case:abl, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturae, p_f, [pos:p_f, txt:ulturae, case:dat, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturae, p_f, [pos:p_f, txt:ulturae, case:gen, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturam, p_f, [pos:p_f, txt:ulturam, case:acc, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ultura, p_f, [pos:p_f, txt:ultura, case:nom, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturo, p_f, [pos:p_f, txt:ulturo, case:abl, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturo, p_f, [pos:p_f, txt:ulturo, case:dat, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturi, p_f, [pos:p_f, txt:ulturi, case:gen, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturum, p_f, [pos:p_f, txt:ulturum, case:acc, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulturus, p_f, [pos:p_f, txt:ulturus, case:nom, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:p_f, kind:dep, mood:participle, person:3]).
+lex(ulta, p_p, [pos:p_p, txt:ulta, case:acc, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ulta, p_p, [pos:p_p, txt:ulta, case:nom, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ultas, p_p, [pos:p_p, txt:ultas, case:acc, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ultae, p_p, [pos:p_p, txt:ultae, case:nom, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ultos, p_p, [pos:p_p, txt:ultos, case:acc, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ulti, p_p, [pos:p_p, txt:ulti, case:nom, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ultum, p_p, [pos:p_p, txt:ultum, case:acc, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ultum, p_p, [pos:p_p, txt:ultum, case:nom, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ultam, p_p, [pos:p_p, txt:ultam, case:acc, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ulta, p_p, [pos:p_p, txt:ulta, case:nom, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ultum, p_p, [pos:p_p, txt:ultum, case:acc, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ultus, p_p, [pos:p_p, txt:ultus, case:nom, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:p_p, kind:dep, mood:participle, person:3]).
+lex(ultum, v, [pos:v, class:tr_cod, type:supine, lex:ulcisci, txt:ultum, kind:dep, mood:supine, person:3, case:_]).
+lex(ulciscentibus, p_pr, [pos:p_pr, txt:ulciscentibus, case:abl, gender:_, number:pl, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulciscentibus, p_pr, [pos:p_pr, txt:ulciscentibus, case:dat, gender:_, number:pl, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulciscentium, p_pr, [pos:p_pr, txt:ulciscentium, case:gen, gender:_, number:pl, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulciscentia, p_pr, [pos:p_pr, txt:ulciscentia, case:acc, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulciscentia, p_pr, [pos:p_pr, txt:ulciscentia, case:nom, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulciscentes, p_pr, [pos:p_pr, txt:ulciscentes, case:acc, gender:or([masc, fem]), number:pl, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulciscentes, p_pr, [pos:p_pr, txt:ulciscentes, case:nom, gender:or([masc, fem]), number:pl, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulciscente, p_pr, [pos:p_pr, txt:ulciscente, case:abl, gender:_, number:sing, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3, typeabl:e]).
+lex(ulciscenti, p_pr, [pos:p_pr, txt:ulciscenti, case:abl, gender:_, number:sing, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3, typeabl:i]).
+lex(ulciscenti, p_pr, [pos:p_pr, txt:ulciscenti, case:dat, gender:_, number:sing, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulciscentis, p_pr, [pos:p_pr, txt:ulciscentis, case:gen, gender:_, number:sing, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulciscentem, p_pr, [pos:p_pr, txt:ulciscentem, case:acc, gender:or([masc, fem]), number:sing, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulciscens, p_pr, [pos:p_pr, txt:ulciscens, case:acc, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulciscens, p_pr, [pos:p_pr, txt:ulciscens, case:nom, gender:_, number:sing, lex:ulcisci, class:tr_cod, type:p_pr, kind:dep, mood:participle, person:3]).
+lex(ulcisci, v, [pos:v, class:tr_cod, type:nonfinite, lex:ulcisci, voice:act, txt:ulcisci, tense:present, kind:dep, mood:infinitive, number:_, person:_]).
+lex(ulciscemini, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscemini, tense:future, kind:dep, mood:indicative, number:pl, person:2]).
+lex(ulciscemur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscemur, tense:future, kind:dep, mood:indicative, number:pl, person:1]).
+lex(ulcisceris, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulcisceris, tense:future, kind:dep, mood:indicative, number:sing, person:2]).
+lex(ulciscar, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscar, tense:future, kind:dep, mood:indicative, number:sing, person:1]).
+lex(ulciscentur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscentur, tense:future, kind:dep, mood:indicative, number:pl, person:3]).
+lex(ulciscetur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscetur, tense:future, kind:dep, mood:indicative, number:sing, person:3]).
+lex(ulcisceremini, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulcisceremini, tense:imperfect, kind:dep, mood:subjunctive, number:pl, person:2]).
+lex(ulcisceremur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulcisceremur, tense:imperfect, kind:dep, mood:subjunctive, number:pl, person:1]).
+lex(ulciscereris, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscereris, tense:imperfect, kind:dep, mood:subjunctive, number:sing, person:2]).
+lex(ulciscerer, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscerer, tense:imperfect, kind:dep, mood:subjunctive, number:sing, person:1]).
+lex(ulciscerentur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscerentur, tense:imperfect, kind:dep, mood:subjunctive, number:pl, person:3]).
+lex(ulcisceretur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulcisceretur, tense:imperfect, kind:dep, mood:subjunctive, number:sing, person:3]).
+lex(ulciscebamini, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscebamini, tense:imperfect, kind:dep, mood:indicative, number:pl, person:2]).
+lex(ulciscebamur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscebamur, tense:imperfect, kind:dep, mood:indicative, number:pl, person:1]).
+lex(ulciscbare, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscbare, tense:imperfect, kind:dep, mood:indicative, number:sing, person:2]).
+lex(ulciscebaris, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscebaris, tense:imperfect, kind:dep, mood:indicative, number:sing, person:2]).
+lex(ulciscebar, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscebar, tense:imperfect, kind:dep, mood:indicative, number:sing, person:1]).
+lex(ulciscebantur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscebantur, tense:imperfect, kind:dep, mood:indicative, number:pl, person:3]).
+lex(ulciscebatur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscebatur, tense:imperfect, kind:dep, mood:indicative, number:sing, person:3]).
+lex(ulciscamini, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscamini, tense:present, kind:dep, mood:subjunctive, number:pl, person:2]).
+lex(ulciscamur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscamur, tense:present, kind:dep, mood:subjunctive, number:pl, person:1]).
+lex(ulciscaris, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscaris, tense:present, kind:dep, mood:subjunctive, number:sing, person:2]).
+lex(ulciscar, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscar, tense:present, kind:dep, mood:subjunctive, number:sing, person:1]).
+lex(ulciscantur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscantur, tense:present, kind:dep, mood:subjunctive, number:pl, person:3]).
+lex(ulciscatur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscatur, tense:present, kind:dep, mood:subjunctive, number:sing, person:3]).
+lex(ulciscimini, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscimini, tense:present, kind:dep, mood:indicative, number:pl, person:2]).
+lex(ulciscimur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscimur, tense:present, kind:dep, mood:indicative, number:pl, person:1]).
+lex(ulcisceris, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulcisceris, tense:present, kind:dep, mood:indicative, number:sing, person:2]).
+lex(ulciscor, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscor, tense:present, kind:dep, mood:indicative, number:sing, person:1]).
+lex(ulciscuntur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscuntur, tense:present, kind:dep, mood:indicative, number:pl, person:3]).
+lex(ulciscitur, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscitur, tense:present, kind:dep, mood:indicative, number:sing, person:3]).
+lex(ulciscimini, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscimini, tense:present, kind:dep, mood:imperative, number:pl, person:2]).
+lex(ulciscere, v, [pos:v, class:tr_cod, type:finite, lex:ulcisci, voice:act, txt:ulciscere, tense:present, kind:dep, mood:imperative, number:sing, person:2]).
+lex(ulciscendis, gdiv, [pos:gdiv, txt:ulciscendis, case:abl, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendis, gdiv, [pos:gdiv, txt:ulciscendis, case:dat, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendorum, gdiv, [pos:gdiv, txt:ulciscendorum, case:gen, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscenda, gdiv, [pos:gdiv, txt:ulciscenda, case:acc, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscenda, gdiv, [pos:gdiv, txt:ulciscenda, case:nom, gender:neuter, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendis, gdiv, [pos:gdiv, txt:ulciscendis, case:abl, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendis, gdiv, [pos:gdiv, txt:ulciscendis, case:dat, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendarum, gdiv, [pos:gdiv, txt:ulciscendarum, case:gen, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendas, gdiv, [pos:gdiv, txt:ulciscendas, case:acc, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendae, gdiv, [pos:gdiv, txt:ulciscendae, case:nom, gender:fem, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendis, gdiv, [pos:gdiv, txt:ulciscendis, case:abl, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendis, gdiv, [pos:gdiv, txt:ulciscendis, case:dat, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendorum, gdiv, [pos:gdiv, txt:ulciscendorum, case:gen, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendos, gdiv, [pos:gdiv, txt:ulciscendos, case:acc, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendi, gdiv, [pos:gdiv, txt:ulciscendi, case:nom, gender:masc, number:pl, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendo, gdiv, [pos:gdiv, txt:ulciscendo, case:abl, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendo, gdiv, [pos:gdiv, txt:ulciscendo, case:dat, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendi, gdiv, [pos:gdiv, txt:ulciscendi, case:gen, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendum, gdiv, [pos:gdiv, txt:ulciscendum, case:acc, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendum, gdiv, [pos:gdiv, txt:ulciscendum, case:nom, gender:neuter, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscenda, gdiv, [pos:gdiv, txt:ulciscenda, case:abl, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendae, gdiv, [pos:gdiv, txt:ulciscendae, case:dat, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendae, gdiv, [pos:gdiv, txt:ulciscendae, case:gen, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendam, gdiv, [pos:gdiv, txt:ulciscendam, case:acc, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscenda, gdiv, [pos:gdiv, txt:ulciscenda, case:nom, gender:fem, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendo, gdiv, [pos:gdiv, txt:ulciscendo, case:abl, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendo, gdiv, [pos:gdiv, txt:ulciscendo, case:dat, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendi, gdiv, [pos:gdiv, txt:ulciscendi, case:gen, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendum, gdiv, [pos:gdiv, txt:ulciscendum, case:acc, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendus, gdiv, [pos:gdiv, txt:ulciscendus, case:nom, gender:masc, number:sing, lex:ulcisci, class:tr_cod, type:gdiv, kind:dep, mood:gerund, person:3]).
+lex(ulciscendo, v, [pos:v, class:tr_cod, type:gerund, lex:ulcisci, txt:ulciscendo, kind:std, mood:gerund, person:3, case:abl]).
+lex(ulciscendi, v, [pos:v, class:tr_cod, type:gerund, lex:ulcisci, txt:ulciscendi, kind:std, mood:gerund, person:3, case:gen]).
+lex(ulciscendum, v, [pos:v, class:tr_cod, type:gerund, lex:ulcisci, txt:ulciscendum, kind:std, mood:gerund, person:3, case:acc]).
 lex(uisuris, p_f, [pos:p_f, txt:uisuris, case:abl, gender:neuter, number:pl, lex:uideri, class:intr, type:p_f, kind:dep, mood:participle, person:3]).
 lex(uisuris, p_f, [pos:p_f, txt:uisuris, case:dat, gender:neuter, number:pl, lex:uideri, class:intr, type:p_f, kind:dep, mood:participle, person:3]).
 lex(uisurorum, p_f, [pos:p_f, txt:uisurorum, case:gen, gender:neuter, number:pl, lex:uideri, class:intr, type:p_f, kind:dep, mood:participle, person:3]).
@@ -82436,6 +82889,221 @@ lex(dislato, p_p, [pos:p_p, txt:dislato, case:dat, gender:masc, number:sing, lex
 lex(dislati, p_p, [pos:p_p, txt:dislati, case:gen, gender:masc, number:sing, lex:differre, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
 lex(dislatum, p_p, [pos:p_p, txt:dislatum, case:acc, gender:masc, number:sing, lex:differre, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
 lex(dislatus, p_p, [pos:p_p, txt:dislatus, case:nom, gender:masc, number:sing, lex:differre, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamaturis, p_f, [pos:p_f, txt:diffamaturis, case:abl, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturis, p_f, [pos:p_f, txt:diffamaturis, case:dat, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturorum, p_f, [pos:p_f, txt:diffamaturorum, case:gen, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamatura, p_f, [pos:p_f, txt:diffamatura, case:acc, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamatura, p_f, [pos:p_f, txt:diffamatura, case:nom, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturis, p_f, [pos:p_f, txt:diffamaturis, case:abl, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturis, p_f, [pos:p_f, txt:diffamaturis, case:dat, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturarum, p_f, [pos:p_f, txt:diffamaturarum, case:gen, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturas, p_f, [pos:p_f, txt:diffamaturas, case:acc, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturae, p_f, [pos:p_f, txt:diffamaturae, case:nom, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturis, p_f, [pos:p_f, txt:diffamaturis, case:abl, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturis, p_f, [pos:p_f, txt:diffamaturis, case:dat, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturorum, p_f, [pos:p_f, txt:diffamaturorum, case:gen, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturos, p_f, [pos:p_f, txt:diffamaturos, case:acc, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturi, p_f, [pos:p_f, txt:diffamaturi, case:nom, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturo, p_f, [pos:p_f, txt:diffamaturo, case:abl, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturo, p_f, [pos:p_f, txt:diffamaturo, case:dat, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturi, p_f, [pos:p_f, txt:diffamaturi, case:gen, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturum, p_f, [pos:p_f, txt:diffamaturum, case:acc, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturum, p_f, [pos:p_f, txt:diffamaturum, case:nom, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamatura, p_f, [pos:p_f, txt:diffamatura, case:abl, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturae, p_f, [pos:p_f, txt:diffamaturae, case:dat, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturae, p_f, [pos:p_f, txt:diffamaturae, case:gen, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturam, p_f, [pos:p_f, txt:diffamaturam, case:acc, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamatura, p_f, [pos:p_f, txt:diffamatura, case:nom, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturo, p_f, [pos:p_f, txt:diffamaturo, case:abl, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturo, p_f, [pos:p_f, txt:diffamaturo, case:dat, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturi, p_f, [pos:p_f, txt:diffamaturi, case:gen, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturum, p_f, [pos:p_f, txt:diffamaturum, case:acc, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamaturus, p_f, [pos:p_f, txt:diffamaturus, case:nom, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(diffamauisse, v, [pos:v, class:tr_cod, type:nonfinite, lex:diffamare, voice:act, txt:diffamauisse, tense:past, kind:std, mood:infinitive, number:_, person:_]).
+lex(diffamauissetis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauissetis, tense:pluperfect, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(diffamauissemus, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauissemus, tense:pluperfect, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(diffamauisses, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, kind:std, mood:subjunctive, voice:act, txt:diffamauisses, tense:pluperfect, number:sing, person:2]).
+lex(diffamauissem, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauissem, tense:pluperfect, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(diffamauissent, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauissent, tense:pluperfect, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(diffamauisset, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauisset, tense:pluperfect, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(diffamaueritis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamaueritis, tense:perfect, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(diffamauerimus, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauerimus, tense:perfect, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(diffamaueris, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamaueris, tense:perfect, kind:std, mood:subjunctive, number:sing, person:2]).
+lex(diffamauerim, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauerim, tense:perfect, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(diffamauerint, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauerint, tense:perfect, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(diffamauerit, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauerit, tense:perfect, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(diffamaueritis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamaueritis, tense:future_perfect, kind:std, mood:indicative, number:pl, person:2]).
+lex(diffamauerimus, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauerimus, tense:future_perfect, kind:std, mood:indicative, number:pl, person:1]).
+lex(diffamaueris, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamaueris, tense:future_perfect, kind:std, mood:indicative, number:sing, person:2]).
+lex(diffamauero, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauero, tense:future_perfect, kind:std, mood:indicative, number:sing, person:1]).
+lex(diffamauerint, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauerint, tense:future_perfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(diffamauerit, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauerit, tense:future_perfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffamaueratis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamaueratis, tense:pluperfect, kind:std, mood:indicative, number:pl, person:2]).
+lex(diffamaueramus, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamaueramus, tense:pluperfect, kind:std, mood:indicative, number:pl, person:1]).
+lex(diffamaueras, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, kind:std, mood:indicative, voice:act, txt:diffamaueras, tense:pluperfect, number:sing, person:2]).
+lex(diffamaueram, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamaueram, tense:pluperfect, kind:std, mood:indicative, number:sing, person:1]).
+lex(diffamauerant, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauerant, tense:pluperfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(diffamauerat, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauerat, tense:pluperfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffamauistis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauistis, tense:perfect, kind:std, mood:indicative, number:pl, person:2]).
+lex(diffamauimus, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauimus, tense:perfect, kind:std, mood:indicative, number:pl, person:1]).
+lex(diffamauisti, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauisti, tense:perfect, kind:std, mood:indicative, number:sing, person:2]).
+lex(diffamaui, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamaui, tense:perfect, kind:std, mood:indicative, number:sing, person:1]).
+lex(diffamauere, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauere, tense:perfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(diffamauerunt, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauerunt, tense:perfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(diffamauit, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamauit, tense:perfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffamatum, v, [pos:v, class:tr_cod, type:supine, lex:diffamare, txt:diffamatum, kind:std, mood:supine, person:3, case:_]).
+lex(diffamare, v, [pos:v, class:tr_cod, type:nonfinite, lex:diffamare, voice:act, txt:diffamare, tense:present, kind:std, mood:infinitive, number:_, person:_]).
+lex(diffamantibus, p_pr, [pos:p_pr, txt:diffamantibus, case:abl, gender:_, number:pl, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamantibus, p_pr, [pos:p_pr, txt:diffamantibus, case:dat, gender:_, number:pl, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamantium, p_pr, [pos:p_pr, txt:diffamantium, case:gen, gender:_, number:pl, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamantia, p_pr, [pos:p_pr, txt:diffamantia, case:acc, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamantia, p_pr, [pos:p_pr, txt:diffamantia, case:nom, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamantes, p_pr, [pos:p_pr, txt:diffamantes, case:acc, gender:or([masc, fem]), number:pl, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamantes, p_pr, [pos:p_pr, txt:diffamantes, case:nom, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamantes, p_pr, [pos:p_pr, txt:diffamantes, case:nom, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamante, p_pr, [pos:p_pr, txt:diffamante, case:abl, gender:_, number:sing, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3, typeabl:e]).
+lex(diffamanti, p_pr, [pos:p_pr, txt:diffamanti, case:abl, gender:_, number:sing, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3, typeabl:i]).
+lex(diffamanti, p_pr, [pos:p_pr, txt:diffamanti, case:dat, gender:_, number:sing, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamantis, p_pr, [pos:p_pr, txt:diffamantis, case:gen, gender:_, number:sing, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamantem, p_pr, [pos:p_pr, txt:diffamantem, case:acc, gender:or([masc, fem]), number:sing, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamans, p_pr, [pos:p_pr, txt:diffamans, case:acc, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamans, p_pr, [pos:p_pr, txt:diffamans, case:nom, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamans, p_pr, [pos:p_pr, txt:diffamans, case:nom, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamans, p_pr, [pos:p_pr, txt:diffamans, case:nom, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(diffamanto, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamanto, tense:future, kind:std, mood:imperative, number:pl, person:3]).
+lex(diffamato, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamato, tense:future, kind:std, mood:imperative, number:sing, person:3]).
+lex(diffamatote, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamatote, tense:future, kind:std, mood:imperative, number:pl, person:2]).
+lex(diffamato, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamato, tense:future, kind:std, mood:imperative, number:sing, person:2]).
+lex(diffamate, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamate, tense:present, kind:std, mood:imperative, number:pl, person:2]).
+lex(diffama, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffama, tense:present, kind:std, mood:imperative, number:sing, person:2]).
+lex(diffamabitis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabitis, tense:future, kind:std, mood:indicative, number:pl, person:2]).
+lex(diffamabimus, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabimus, tense:future, kind:std, mood:indicative, number:pl, person:1]).
+lex(diffamabis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabis, tense:future, kind:std, mood:indicative, number:sing, person:2]).
+lex(diffamabo, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabo, tense:future, kind:std, mood:indicative, number:sing, person:1]).
+lex(diffamabunt, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabunt, tense:future, kind:std, mood:indicative, number:pl, person:3]).
+lex(diffamabit, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabit, tense:future, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffamaretis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamaretis, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(diffamaremus, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamaremus, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(diffamares, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamares, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:2]).
+lex(diffamarem, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamarem, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(diffamarent, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamarent, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(diffamaret, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamaret, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(diffamabatis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabatis, tense:imperfect, kind:std, mood:indicative, number:pl, person:2]).
+lex(diffamabamus, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabamus, tense:imperfect, kind:std, mood:indicative, number:pl, person:1]).
+lex(diffamabas, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabas, tense:imperfect, kind:std, mood:indicative, number:sing, person:2]).
+lex(diffamabam, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabam, tense:imperfect, kind:std, mood:indicative, number:sing, person:1]).
+lex(diffamabant, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabant, tense:imperfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(diffamabat, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamabat, tense:imperfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffametis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffametis, tense:present, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(diffamemus, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamemus, tense:present, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(diffames, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffames, tense:present, kind:std, mood:subjunctive, number:sing, person:2]).
+lex(diffamem, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamem, tense:present, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(diffament, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffament, tense:present, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(diffamet, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamet, tense:present, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(diffamatis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamatis, tense:present, kind:std, mood:indicative, number:pl, person:2]).
+lex(diffamamus, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamamus, tense:present, kind:std, mood:indicative, number:pl, person:1]).
+lex(diffamas, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamas, tense:present, kind:std, mood:indicative, number:sing, person:2]).
+lex(diffamo, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamo, tense:present, kind:std, mood:indicative, number:sing, person:1]).
+lex(diffamant, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamant, tense:present, kind:std, mood:indicative, number:pl, person:3]).
+lex(diffamat, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:act, txt:diffamat, tense:present, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffamando, v, [pos:v, class:tr_cod, type:gerund, lex:diffamare, txt:diffamando, kind:std, mood:gerund, person:3, case:abl]).
+lex(diffamandi, v, [pos:v, class:tr_cod, type:gerund, lex:diffamare, txt:diffamandi, kind:std, mood:gerund, person:3, case:gen]).
+lex(diffamandum, v, [pos:v, class:tr_cod, type:gerund, lex:diffamare, txt:diffamandum, kind:std, mood:gerund, person:3, case:acc]).
+lex(diffamabatur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:middle, txt:diffamabatur, tense:imperfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffamabitur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:middle, txt:diffamabitur, tense:future, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffametur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:middle, txt:diffametur, tense:present, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(diffamatur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:middle, txt:diffamatur, tense:present, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffamatis, p_p, [pos:p_p, txt:diffamatis, case:abl, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatis, p_p, [pos:p_p, txt:diffamatis, case:dat, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatorum, p_p, [pos:p_p, txt:diffamatorum, case:gen, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamata, p_p, [pos:p_p, txt:diffamata, case:acc, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamata, p_p, [pos:p_p, txt:diffamata, case:nom, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatis, p_p, [pos:p_p, txt:diffamatis, case:abl, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatis, p_p, [pos:p_p, txt:diffamatis, case:dat, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatarum, p_p, [pos:p_p, txt:diffamatarum, case:gen, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatas, p_p, [pos:p_p, txt:diffamatas, case:acc, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatae, p_p, [pos:p_p, txt:diffamatae, case:nom, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatis, p_p, [pos:p_p, txt:diffamatis, case:abl, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatis, p_p, [pos:p_p, txt:diffamatis, case:dat, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatorum, p_p, [pos:p_p, txt:diffamatorum, case:gen, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatos, p_p, [pos:p_p, txt:diffamatos, case:acc, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamati, p_p, [pos:p_p, txt:diffamati, case:nom, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamato, p_p, [pos:p_p, txt:diffamato, case:abl, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamato, p_p, [pos:p_p, txt:diffamato, case:dat, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamati, p_p, [pos:p_p, txt:diffamati, case:gen, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatum, p_p, [pos:p_p, txt:diffamatum, case:acc, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatum, p_p, [pos:p_p, txt:diffamatum, case:nom, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamata, p_p, [pos:p_p, txt:diffamata, case:abl, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatae, p_p, [pos:p_p, txt:diffamatae, case:dat, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatae, p_p, [pos:p_p, txt:diffamatae, case:gen, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatam, p_p, [pos:p_p, txt:diffamatam, case:acc, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamata, p_p, [pos:p_p, txt:diffamata, case:nom, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamato, p_p, [pos:p_p, txt:diffamato, case:abl, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamato, p_p, [pos:p_p, txt:diffamato, case:dat, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamati, p_p, [pos:p_p, txt:diffamati, case:gen, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatum, p_p, [pos:p_p, txt:diffamatum, case:acc, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamatus, p_p, [pos:p_p, txt:diffamatus, case:nom, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(diffamabimini, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamabimini, tense:future, kind:std, mood:indicative, number:pl, person:2]).
+lex(diffamabimur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamabimur, tense:future, kind:std, mood:indicative, number:pl, person:1]).
+lex(diffamaberis, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamaberis, tense:future, kind:std, mood:indicative, number:sing, person:2]).
+lex(diffamabor, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamabor, tense:future, kind:std, mood:indicative, number:sing, person:1]).
+lex(diffamabuntur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamabuntur, tense:future, kind:std, mood:indicative, number:pl, person:3]).
+lex(diffamabitur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamabitur, tense:future, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffamari, v, [pos:v, class:tr_cod, type:nonfinite, lex:diffamare, voice:pass, txt:diffamari, tense:present, kind:std, mood:infinitive, number:_, person:_]).
+lex(diffamaremini, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamaremini, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(diffamaremur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamaremur, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(diffamareris, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamareris, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:2]).
+lex(diffamarer, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamarer, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(diffamarentur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamarentur, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(diffamaretur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamaretur, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(diffamabamini, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamabamini, tense:imperfect, kind:std, mood:indicative, number:pl, person:2]).
+lex(diffamabamur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamabamur, tense:imperfect, kind:std, mood:indicative, number:pl, person:1]).
+lex(diffamabaris, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamabaris, tense:imperfect, kind:std, mood:indicative, number:sing, person:2]).
+lex(diffamabar, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamabar, tense:imperfect, kind:std, mood:indicative, number:sing, person:1]).
+lex(diffamabantur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamabantur, tense:imperfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(diffamabatur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamabatur, tense:imperfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffamemini, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamemini, tense:present, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(diffamemur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamemur, tense:present, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(diffameris, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffameris, tense:present, kind:std, mood:subjunctive, number:sing, person:2]).
+lex(diffamer, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamer, tense:present, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(diffamentur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamentur, tense:present, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(diffametur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffametur, tense:present, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(diffamamini, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamamini, tense:present, kind:std, mood:indicative, number:pl, person:2]).
+lex(diffamamur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamamur, tense:present, kind:std, mood:indicative, number:pl, person:1]).
+lex(diffamaris, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamaris, tense:present, kind:std, mood:indicative, number:sing, person:2]).
+lex(diffamor, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamor, tense:present, kind:std, mood:indicative, number:sing, person:1]).
+lex(diffamantur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamantur, tense:present, kind:std, mood:indicative, number:pl, person:3]).
+lex(diffamatur, v, [pos:v, class:tr_cod, type:finite, lex:diffamare, voice:pass, txt:diffamatur, tense:present, kind:std, mood:indicative, number:sing, person:3]).
+lex(diffamandis, gdiv, [pos:gdiv, txt:diffamandis, case:abl, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandis, gdiv, [pos:gdiv, txt:diffamandis, case:dat, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandorum, gdiv, [pos:gdiv, txt:diffamandorum, case:gen, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamanda, gdiv, [pos:gdiv, txt:diffamanda, case:acc, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamanda, gdiv, [pos:gdiv, txt:diffamanda, case:nom, gender:neuter, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandis, gdiv, [pos:gdiv, txt:diffamandis, case:abl, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandis, gdiv, [pos:gdiv, txt:diffamandis, case:dat, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandarum, gdiv, [pos:gdiv, txt:diffamandarum, case:gen, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandas, gdiv, [pos:gdiv, txt:diffamandas, case:acc, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandae, gdiv, [pos:gdiv, txt:diffamandae, case:nom, gender:fem, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandis, gdiv, [pos:gdiv, txt:diffamandis, case:abl, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandis, gdiv, [pos:gdiv, txt:diffamandis, case:dat, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandorum, gdiv, [pos:gdiv, txt:diffamandorum, case:gen, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandos, gdiv, [pos:gdiv, txt:diffamandos, case:acc, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandi, gdiv, [pos:gdiv, txt:diffamandi, case:nom, gender:masc, number:pl, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamando, gdiv, [pos:gdiv, txt:diffamando, case:abl, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamando, gdiv, [pos:gdiv, txt:diffamando, case:dat, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandi, gdiv, [pos:gdiv, txt:diffamandi, case:gen, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandum, gdiv, [pos:gdiv, txt:diffamandum, case:acc, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandum, gdiv, [pos:gdiv, txt:diffamandum, case:nom, gender:neuter, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamanda, gdiv, [pos:gdiv, txt:diffamanda, case:abl, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandae, gdiv, [pos:gdiv, txt:diffamandae, case:dat, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandae, gdiv, [pos:gdiv, txt:diffamandae, case:gen, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandam, gdiv, [pos:gdiv, txt:diffamandam, case:acc, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamanda, gdiv, [pos:gdiv, txt:diffamanda, case:nom, gender:fem, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamando, gdiv, [pos:gdiv, txt:diffamando, case:abl, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamando, gdiv, [pos:gdiv, txt:diffamando, case:dat, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandi, gdiv, [pos:gdiv, txt:diffamandi, case:gen, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandum, gdiv, [pos:gdiv, txt:diffamandum, case:acc, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(diffamandus, gdiv, [pos:gdiv, txt:diffamandus, case:nom, gender:masc, number:sing, lex:diffamare, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
 lex(dicturis, p_f, [pos:p_f, txt:dicturis, case:abl, gender:neuter, number:pl, lex:dicere, class:tr_inf, type:p_f, kind:std, mood:participle, person:3]).
 lex(dicturis, p_f, [pos:p_f, txt:dicturis, case:dat, gender:neuter, number:pl, lex:dicere, class:tr_inf, type:p_f, kind:std, mood:participle, person:3]).
 lex(dicturorum, p_f, [pos:p_f, txt:dicturorum, case:gen, gender:neuter, number:pl, lex:dicere, class:tr_inf, type:p_f, kind:std, mood:participle, person:3]).
@@ -95903,6 +96571,221 @@ lex(adhibendo, gdiv, [pos:gdiv, txt:adhibendo, case:dat, gender:masc, number:sin
 lex(adhibendi, gdiv, [pos:gdiv, txt:adhibendi, case:gen, gender:masc, number:sing, lex:adhibere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
 lex(adhibendum, gdiv, [pos:gdiv, txt:adhibendum, case:acc, gender:masc, number:sing, lex:adhibere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
 lex(adhibendus, gdiv, [pos:gdiv, txt:adhibendus, case:nom, gender:masc, number:sing, lex:adhibere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adficturis, p_f, [pos:p_f, txt:adficturis, case:abl, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturis, p_f, [pos:p_f, txt:adficturis, case:dat, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturorum, p_f, [pos:p_f, txt:adficturorum, case:gen, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adfictura, p_f, [pos:p_f, txt:adfictura, case:acc, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adfictura, p_f, [pos:p_f, txt:adfictura, case:nom, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturis, p_f, [pos:p_f, txt:adficturis, case:abl, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturis, p_f, [pos:p_f, txt:adficturis, case:dat, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturarum, p_f, [pos:p_f, txt:adficturarum, case:gen, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturas, p_f, [pos:p_f, txt:adficturas, case:acc, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturae, p_f, [pos:p_f, txt:adficturae, case:nom, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturis, p_f, [pos:p_f, txt:adficturis, case:abl, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturis, p_f, [pos:p_f, txt:adficturis, case:dat, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturorum, p_f, [pos:p_f, txt:adficturorum, case:gen, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturos, p_f, [pos:p_f, txt:adficturos, case:acc, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturi, p_f, [pos:p_f, txt:adficturi, case:nom, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturo, p_f, [pos:p_f, txt:adficturo, case:abl, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturo, p_f, [pos:p_f, txt:adficturo, case:dat, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturi, p_f, [pos:p_f, txt:adficturi, case:gen, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturum, p_f, [pos:p_f, txt:adficturum, case:acc, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturum, p_f, [pos:p_f, txt:adficturum, case:nom, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adfictura, p_f, [pos:p_f, txt:adfictura, case:abl, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturae, p_f, [pos:p_f, txt:adficturae, case:dat, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturae, p_f, [pos:p_f, txt:adficturae, case:gen, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturam, p_f, [pos:p_f, txt:adficturam, case:acc, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adfictura, p_f, [pos:p_f, txt:adfictura, case:nom, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturo, p_f, [pos:p_f, txt:adficturo, case:abl, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturo, p_f, [pos:p_f, txt:adficturo, case:dat, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturi, p_f, [pos:p_f, txt:adficturi, case:gen, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturum, p_f, [pos:p_f, txt:adficturum, case:acc, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adficturus, p_f, [pos:p_f, txt:adficturus, case:nom, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:p_f, kind:std, mood:participle, person:3]).
+lex(adfinxisse, v, [pos:v, class:tr_cod, type:nonfinite, lex:adfingere, voice:act, txt:adfinxisse, tense:past, kind:std, mood:infinitive, number:_, person:_]).
+lex(adfinxissetis, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxissetis, tense:pluperfect, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(adfinxissemus, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxissemus, tense:pluperfect, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(adfinxisses, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, kind:std, mood:subjunctive, voice:act, txt:adfinxisses, tense:pluperfect, number:sing, person:2]).
+lex(adfinxissem, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxissem, tense:pluperfect, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(adfinxissent, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxissent, tense:pluperfect, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(adfinxisset, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxisset, tense:pluperfect, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(adfinxeritis, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxeritis, tense:perfect, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(adfinxerimus, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxerimus, tense:perfect, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(adfinxeris, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxeris, tense:perfect, kind:std, mood:subjunctive, number:sing, person:2]).
+lex(adfinxerim, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxerim, tense:perfect, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(adfinxerint, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxerint, tense:perfect, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(adfinxerit, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxerit, tense:perfect, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(adfinxeritis, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxeritis, tense:future_perfect, kind:std, mood:indicative, number:pl, person:2]).
+lex(adfinxerimus, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxerimus, tense:future_perfect, kind:std, mood:indicative, number:pl, person:1]).
+lex(adfinxeris, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxeris, tense:future_perfect, kind:std, mood:indicative, number:sing, person:2]).
+lex(adfinxero, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxero, tense:future_perfect, kind:std, mood:indicative, number:sing, person:1]).
+lex(adfinxerint, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxerint, tense:future_perfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(adfinxerit, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxerit, tense:future_perfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfinxeratis, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxeratis, tense:pluperfect, kind:std, mood:indicative, number:pl, person:2]).
+lex(adfinxeramus, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxeramus, tense:pluperfect, kind:std, mood:indicative, number:pl, person:1]).
+lex(adfinxeras, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, kind:std, mood:indicative, voice:act, txt:adfinxeras, tense:pluperfect, number:sing, person:2]).
+lex(adfinxeram, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxeram, tense:pluperfect, kind:std, mood:indicative, number:sing, person:1]).
+lex(adfinxerant, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxerant, tense:pluperfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(adfinxerat, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxerat, tense:pluperfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfinxistis, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxistis, tense:perfect, kind:std, mood:indicative, number:pl, person:2]).
+lex(adfinximus, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinximus, tense:perfect, kind:std, mood:indicative, number:pl, person:1]).
+lex(adfinxisti, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxisti, tense:perfect, kind:std, mood:indicative, number:sing, person:2]).
+lex(adfinxi, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxi, tense:perfect, kind:std, mood:indicative, number:sing, person:1]).
+lex(adfinxere, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxere, tense:perfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(adfinxerunt, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxerunt, tense:perfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(adfinxit, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinxit, tense:perfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfictum, v, [pos:v, class:tr_cod, type:supine, lex:adfingere, txt:adfictum, kind:std, mood:supine, person:3, case:_]).
+lex(adfingere, v, [pos:v, class:tr_cod, type:nonfinite, lex:adfingere, voice:act, txt:adfingere, tense:present, kind:std, mood:infinitive, number:_, person:_]).
+lex(adfingentibus, p_pr, [pos:p_pr, txt:adfingentibus, case:abl, gender:_, number:pl, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingentibus, p_pr, [pos:p_pr, txt:adfingentibus, case:dat, gender:_, number:pl, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingentium, p_pr, [pos:p_pr, txt:adfingentium, case:gen, gender:_, number:pl, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingentia, p_pr, [pos:p_pr, txt:adfingentia, case:acc, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingentia, p_pr, [pos:p_pr, txt:adfingentia, case:nom, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingentes, p_pr, [pos:p_pr, txt:adfingentes, case:acc, gender:or([masc, fem]), number:pl, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingentes, p_pr, [pos:p_pr, txt:adfingentes, case:nom, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingentes, p_pr, [pos:p_pr, txt:adfingentes, case:nom, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingente, p_pr, [pos:p_pr, txt:adfingente, case:abl, gender:_, number:sing, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3, typeabl:e]).
+lex(adfingenti, p_pr, [pos:p_pr, txt:adfingenti, case:abl, gender:_, number:sing, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3, typeabl:i]).
+lex(adfingenti, p_pr, [pos:p_pr, txt:adfingenti, case:dat, gender:_, number:sing, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingentis, p_pr, [pos:p_pr, txt:adfingentis, case:gen, gender:_, number:sing, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingentem, p_pr, [pos:p_pr, txt:adfingentem, case:acc, gender:or([masc, fem]), number:sing, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingens, p_pr, [pos:p_pr, txt:adfingens, case:acc, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingens, p_pr, [pos:p_pr, txt:adfingens, case:nom, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingens, p_pr, [pos:p_pr, txt:adfingens, case:nom, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingens, p_pr, [pos:p_pr, txt:adfingens, case:nom, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:p_pr, kind:std, mood:participle, person:3]).
+lex(adfingunto, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingunto, tense:future, kind:std, mood:imperative, number:pl, person:3]).
+lex(adfingito, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingito, tense:future, kind:std, mood:imperative, number:sing, person:3]).
+lex(adfingitote, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingitote, tense:future, kind:std, mood:imperative, number:pl, person:2]).
+lex(adfingito, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingito, tense:future, kind:std, mood:imperative, number:sing, person:2]).
+lex(adfingite, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingite, tense:present, kind:std, mood:imperative, number:pl, person:2]).
+lex(adfinge, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinge, tense:present, kind:std, mood:imperative, number:sing, person:2]).
+lex(adfingetis, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingetis, tense:future, kind:std, mood:indicative, number:pl, person:2]).
+lex(adfingemus, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingemus, tense:future, kind:std, mood:indicative, number:pl, person:1]).
+lex(adfinges, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinges, tense:future, kind:std, mood:indicative, number:sing, person:2]).
+lex(adfingam, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingam, tense:future, kind:std, mood:indicative, number:sing, person:1]).
+lex(adfingent, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingent, tense:future, kind:std, mood:indicative, number:pl, person:3]).
+lex(adfinget, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfinget, tense:future, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfingeretis, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingeretis, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(adfingeremus, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingeremus, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(adfingeres, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingeres, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:2]).
+lex(adfingerem, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingerem, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(adfingerent, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingerent, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(adfingeret, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingeret, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(adfingebatis, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingebatis, tense:imperfect, kind:std, mood:indicative, number:pl, person:2]).
+lex(adfingebamus, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingebamus, tense:imperfect, kind:std, mood:indicative, number:pl, person:1]).
+lex(adfingebas, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingebas, tense:imperfect, kind:std, mood:indicative, number:sing, person:2]).
+lex(adfingebam, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingebam, tense:imperfect, kind:std, mood:indicative, number:sing, person:1]).
+lex(adfingebant, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingebant, tense:imperfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(adfingebat, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingebat, tense:imperfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfingatis, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingatis, tense:present, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(adfingamus, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingamus, tense:present, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(adfingas, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingas, tense:present, kind:std, mood:subjunctive, number:sing, person:2]).
+lex(adfingam, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingam, tense:present, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(adfingant, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingant, tense:present, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(adfingat, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingat, tense:present, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(adfingitis, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingitis, tense:present, kind:std, mood:indicative, number:pl, person:2]).
+lex(adfingimus, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingimus, tense:present, kind:std, mood:indicative, number:pl, person:1]).
+lex(adfingis, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingis, tense:present, kind:std, mood:indicative, number:sing, person:2]).
+lex(adfingo, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingo, tense:present, kind:std, mood:indicative, number:sing, person:1]).
+lex(adfingunt, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingunt, tense:present, kind:std, mood:indicative, number:pl, person:3]).
+lex(adfingit, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:act, txt:adfingit, tense:present, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfingendo, v, [pos:v, class:tr_cod, type:gerund, lex:adfingere, txt:adfingendo, kind:std, mood:gerund, person:3, case:abl]).
+lex(adfingendi, v, [pos:v, class:tr_cod, type:gerund, lex:adfingere, txt:adfingendi, kind:std, mood:gerund, person:3, case:gen]).
+lex(adfingendum, v, [pos:v, class:tr_cod, type:gerund, lex:adfingere, txt:adfingendum, kind:std, mood:gerund, person:3, case:acc]).
+lex(adfingebatur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:middle, txt:adfingebatur, tense:imperfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfingetur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:middle, txt:adfingetur, tense:future, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfingatur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:middle, txt:adfingatur, tense:present, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(adfingitur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:middle, txt:adfingitur, tense:present, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfictis, p_p, [pos:p_p, txt:adfictis, case:abl, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictis, p_p, [pos:p_p, txt:adfictis, case:dat, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictorum, p_p, [pos:p_p, txt:adfictorum, case:gen, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adficta, p_p, [pos:p_p, txt:adficta, case:acc, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adficta, p_p, [pos:p_p, txt:adficta, case:nom, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictis, p_p, [pos:p_p, txt:adfictis, case:abl, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictis, p_p, [pos:p_p, txt:adfictis, case:dat, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictarum, p_p, [pos:p_p, txt:adfictarum, case:gen, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictas, p_p, [pos:p_p, txt:adfictas, case:acc, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictae, p_p, [pos:p_p, txt:adfictae, case:nom, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictis, p_p, [pos:p_p, txt:adfictis, case:abl, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictis, p_p, [pos:p_p, txt:adfictis, case:dat, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictorum, p_p, [pos:p_p, txt:adfictorum, case:gen, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictos, p_p, [pos:p_p, txt:adfictos, case:acc, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adficti, p_p, [pos:p_p, txt:adficti, case:nom, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adficto, p_p, [pos:p_p, txt:adficto, case:abl, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adficto, p_p, [pos:p_p, txt:adficto, case:dat, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adficti, p_p, [pos:p_p, txt:adficti, case:gen, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictum, p_p, [pos:p_p, txt:adfictum, case:acc, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictum, p_p, [pos:p_p, txt:adfictum, case:nom, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adficta, p_p, [pos:p_p, txt:adficta, case:abl, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictae, p_p, [pos:p_p, txt:adfictae, case:dat, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictae, p_p, [pos:p_p, txt:adfictae, case:gen, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictam, p_p, [pos:p_p, txt:adfictam, case:acc, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adficta, p_p, [pos:p_p, txt:adficta, case:nom, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adficto, p_p, [pos:p_p, txt:adficto, case:abl, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adficto, p_p, [pos:p_p, txt:adficto, case:dat, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adficti, p_p, [pos:p_p, txt:adficti, case:gen, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictum, p_p, [pos:p_p, txt:adfictum, case:acc, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfictus, p_p, [pos:p_p, txt:adfictus, case:nom, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:p_p, kind:std, mood:participle, person:3]).
+lex(adfingemini, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingemini, tense:future, kind:std, mood:indicative, number:pl, person:2]).
+lex(adfingemur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingemur, tense:future, kind:std, mood:indicative, number:pl, person:1]).
+lex(adfingeris, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingeris, tense:future, kind:std, mood:indicative, number:sing, person:2]).
+lex(adfingar, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingar, tense:future, kind:std, mood:indicative, number:sing, person:1]).
+lex(adfingentur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingentur, tense:future, kind:std, mood:indicative, number:pl, person:3]).
+lex(adfingetur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingetur, tense:future, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfingi, v, [pos:v, class:tr_cod, type:nonfinite, lex:adfingere, voice:pass, txt:adfingi, tense:present, kind:std, mood:infinitive, number:_, person:_]).
+lex(adfingeremini, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingeremini, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(adfingeremur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingeremur, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(adfingereris, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingereris, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:2]).
+lex(adfingerer, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingerer, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(adfingerentur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingerentur, tense:imperfect, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(adfingeretur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingeretur, tense:imperfect, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(adfingebamini, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingebamini, tense:imperfect, kind:std, mood:indicative, number:pl, person:2]).
+lex(adfingebamur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingebamur, tense:imperfect, kind:std, mood:indicative, number:pl, person:1]).
+lex(adfingebaris, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingebaris, tense:imperfect, kind:std, mood:indicative, number:sing, person:2]).
+lex(adfingebar, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingebar, tense:imperfect, kind:std, mood:indicative, number:sing, person:1]).
+lex(adfingebantur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingebantur, tense:imperfect, kind:std, mood:indicative, number:pl, person:3]).
+lex(adfingebatur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingebatur, tense:imperfect, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfingamini, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingamini, tense:present, kind:std, mood:subjunctive, number:pl, person:2]).
+lex(adfingamur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingamur, tense:present, kind:std, mood:subjunctive, number:pl, person:1]).
+lex(adfingaris, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingaris, tense:present, kind:std, mood:subjunctive, number:sing, person:2]).
+lex(adfingar, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingar, tense:present, kind:std, mood:subjunctive, number:sing, person:1]).
+lex(adfingantur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingantur, tense:present, kind:std, mood:subjunctive, number:pl, person:3]).
+lex(adfingatur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingatur, tense:present, kind:std, mood:subjunctive, number:sing, person:3]).
+lex(adfingimini, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingimini, tense:present, kind:std, mood:indicative, number:pl, person:2]).
+lex(adfingimur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingimur, tense:present, kind:std, mood:indicative, number:pl, person:1]).
+lex(adfingeris, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingeris, tense:present, kind:std, mood:indicative, number:sing, person:2]).
+lex(adfingor, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingor, tense:present, kind:std, mood:indicative, number:sing, person:1]).
+lex(adfinguntur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfinguntur, tense:present, kind:std, mood:indicative, number:pl, person:3]).
+lex(adfingitur, v, [pos:v, class:tr_cod, type:finite, lex:adfingere, voice:pass, txt:adfingitur, tense:present, kind:std, mood:indicative, number:sing, person:3]).
+lex(adfingendis, gdiv, [pos:gdiv, txt:adfingendis, case:abl, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendis, gdiv, [pos:gdiv, txt:adfingendis, case:dat, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendorum, gdiv, [pos:gdiv, txt:adfingendorum, case:gen, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingenda, gdiv, [pos:gdiv, txt:adfingenda, case:acc, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingenda, gdiv, [pos:gdiv, txt:adfingenda, case:nom, gender:neuter, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendis, gdiv, [pos:gdiv, txt:adfingendis, case:abl, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendis, gdiv, [pos:gdiv, txt:adfingendis, case:dat, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendarum, gdiv, [pos:gdiv, txt:adfingendarum, case:gen, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendas, gdiv, [pos:gdiv, txt:adfingendas, case:acc, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendae, gdiv, [pos:gdiv, txt:adfingendae, case:nom, gender:fem, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendis, gdiv, [pos:gdiv, txt:adfingendis, case:abl, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendis, gdiv, [pos:gdiv, txt:adfingendis, case:dat, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendorum, gdiv, [pos:gdiv, txt:adfingendorum, case:gen, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendos, gdiv, [pos:gdiv, txt:adfingendos, case:acc, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendi, gdiv, [pos:gdiv, txt:adfingendi, case:nom, gender:masc, number:pl, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendo, gdiv, [pos:gdiv, txt:adfingendo, case:abl, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendo, gdiv, [pos:gdiv, txt:adfingendo, case:dat, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendi, gdiv, [pos:gdiv, txt:adfingendi, case:gen, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendum, gdiv, [pos:gdiv, txt:adfingendum, case:acc, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendum, gdiv, [pos:gdiv, txt:adfingendum, case:nom, gender:neuter, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingenda, gdiv, [pos:gdiv, txt:adfingenda, case:abl, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendae, gdiv, [pos:gdiv, txt:adfingendae, case:dat, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendae, gdiv, [pos:gdiv, txt:adfingendae, case:gen, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendam, gdiv, [pos:gdiv, txt:adfingendam, case:acc, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingenda, gdiv, [pos:gdiv, txt:adfingenda, case:nom, gender:fem, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendo, gdiv, [pos:gdiv, txt:adfingendo, case:abl, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendo, gdiv, [pos:gdiv, txt:adfingendo, case:dat, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendi, gdiv, [pos:gdiv, txt:adfingendi, case:gen, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendum, gdiv, [pos:gdiv, txt:adfingendum, case:acc, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
+lex(adfingendus, gdiv, [pos:gdiv, txt:adfingendus, case:nom, gender:masc, number:sing, lex:adfingere, class:tr_cod, type:gdiv, kind:std, mood:gerund, person:3]).
 lex(adfuisse, v, [pos:v, class:intr, type:nonfinite, lex:adesse, voice:act, txt:adfuisse, tense:past, kind:std, mood:infinitive, number:_, person:_]).
 lex(adfuissetis, v, [pos:v, class:intr, type:finite, lex:adesse, voice:act, txt:adfuissetis, tense:pluperfect, kind:std, mood:subjunctive, number:pl, person:2]).
 lex(adfuissemus, v, [pos:v, class:intr, type:finite, lex:adesse, voice:act, txt:adfuissemus, tense:pluperfect, kind:std, mood:subjunctive, number:pl, person:1]).
@@ -97895,6 +98778,8 @@ lex(aliqua, prindef, [pos:prindef, txt:aliqua, lex:aliquis, gender:fem, case:nom
 lex(aliquid, prindef, [pos:prindef, txt:aliquid, lex:aliquis, gender:neuter, case:nom, number:sing, person:3, sem:[thing, abstract], function:[subject]]).
 lex(aliquid, prindef, [pos:prindef, txt:aliquid, lex:aliquis, gender:neuter, case:acc, number:sing, person:3, sem:[thing, abstract], function:[subject]]).
 lex(aliquid, prindef, [pos:prindef, txt:aliquid, lex:aliquis, gender:neuter, case:acc, number:sing, person:3, sem:[thing, abstract], function:[object]]).
+lex(alicuius, prindef, [pos:prindef, txt:alicuius, lex:aliquis, gender:or([masc, fem]), case:gen, number:sing, person:3, sem:[hum], function:[noun_cplt]]).
+lex(alicui, prindef, [pos:prindef, txt:alicui, lex:aliquis, gender:or([masc, fem]), case:dat, number:sing, person:3, sem:[hum], function:[i_object]]).
 lex(quis, print, [pos:print, txt:quis, lex:quis, gender:or([masc, fem]), case:nom, number:sing, person:3, sem:[hum], function:[subject]]).
 lex(quid, print, [pos:print, txt:quid, lex:quis, gender:neuter, case:nom, number:sing, person:3, sem:[thing, abstract], function:[subject]]).
 lex(quid, print, [pos:print, txt:quid, lex:quis, gender:neuter, case:acc, number:sing, person:3, sem:[thing, abstract], function:[subject]]).
@@ -98093,6 +98978,7 @@ lex(illuc, adv, [lex:illuc, pos:adv, type:vpbound, sem:place]).
 lex(inde, adv, [lex:inde, pos:adv, type:vpbound, sem:place]).
 lex(interdiu, adv, [lex:interdiu, pos:adv, type:vpbound, sem:time]).
 lex(interdum, adv, [lex:interdum, pos:adv, type:vpbound, sem:time]).
+lex(interea, adv, [lex:interea, pos:adv, type:vpbound, sem:time]).
 lex(interim, adv, [lex:interim, pos:adv, type:vpbound, sem:time]).
 lex(ita, adv, [lex:ita, pos:adv, type:clausal, sem:discourse]).
 lex(itaque, adv, [lex:itaque, pos:adv, type:clausal, sem:discourse]).

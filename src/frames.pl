@@ -4,13 +4,13 @@
 
 % frames.pl
 
-% ALP 204
+% ALP 205
 
-% alp204 changes and additions to be marked by alp204 token
+% alp205 changes and additions to be marked by alp205 token
 
 
 % Latest Update : Feb 2026
-% © Archibald Michiels
+% ï¿½ Archibald Michiels
 % amichiels@uliege.be
 
 % a SWI-Prolog program 
@@ -66,7 +66,7 @@ $ 257 : "Coepi prend la voix de l'infinitif avec lequel il se construit".
 
 Marius Lavency (VSVS, $ 285)  is more cautious:
 "Les verbes coepisse, 'commencer', desisse, 'cesser', prennent des formes passives
-lorsque l'infinitif qui les complète est lui-même passif."
+lorsque l'infinitif qui les complï¿½te est lui-mï¿½me passif."
 
 The treatment proposed here seems adequate for PARSING purposes (in a generator it would overgenerate, as a parsing component
 it allows the 'active' reading of coepi to be maintained). I don't know that the following is interpretable if a passive VOICE is
@@ -304,6 +304,7 @@ verb([v(uideri,2,uide,uis)],intr,dep).
 verb([v(uincere,3,uinc,uic,uict)],tr_cod,std).
 verb([v(uitare,1,uit,uitau,uitat)],tr_cod,std).
 verb([v(uiuere,3,uiu,uix,uict)],intr,std).
+verb([v(ulcisci,3,ulcisc,ult)],tr_cod,dep).
 verb([v(uocare,1,uoc,uocau,uocat)],tr_cod,std).
 verb([v(uolare,1,uol,uolau,uolat)],intr,std).
 verb([v(usurpare,1,usurp,usurpau,usurpat)],tr_cod,std).
@@ -1376,6 +1377,17 @@ lexarg(addere,
               ws(adsum_be_present,intr,clause:[],mwuw:0,
                 args:[subject:[type:np,oblig:yes,constraints:[]],
                       prep_cplt:[type:pp,oblig:no,constraints:[prep:in]]])]).
+
+
+% ADFINGERE
+lexarg(adfingere,
+       arglist:[ws(adfingo_impute,tr_cod_coi,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      i_object:[type:np,oblig:no,case:dat,constraints:[case:dat, sem:[hum]]],
+                      object:[type:np,oblig:yes,constraints:[case:acc, sem:[abstract,thing]]]])]).
+
+
+
 % ADHIBERE
 lexarg(adhibere,
        arglist:[ws(adhibeo_use,tr_cod,clause:[],mwuw:0,
@@ -2222,6 +2234,11 @@ lexarg(dicere,
                       i_object:[type:np,oblig:no,case:dat,constraints:[case:dat, sem:[hum]]],
                       object:[type:pred,oblig:yes,constraints:[type:nonfinite]]])]).
 
+% DIFFAMARE
+lexarg(diffamare,
+       arglist:[ws(diffamo_slander,tr_cod,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      object:[type:np,oblig:yes,constraints:[case:acc, sem:[hum]]]])]).
 
 % DIFFERRE
 lexarg(differre,
@@ -3186,7 +3203,7 @@ lexarg(obiicere,
                       object:[type:np,oblig:yes,constraints:[case:acc]]])]).
 
 % OBLIUISCI
-% Non obliviscar sermones tuos - Pascal, Mémorial
+% Non obliviscar sermones tuos - Pascal, Mï¿½morial
 % Oblita est periculi ancilla fortior dominis multis
 % Obliuiscitur rex reginam epistulas longas scripsisse ancillae Marci.
 lexarg(obliuisci,
@@ -4228,8 +4245,16 @@ lexarg(uitare,
 % Vixit vitam longam beatamque.
 lexarg(uiuere,
        arglist:[ws(uiuo_live,intr,clause:[],mwuw:0,
-                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                args:[subject:[type:np,oblig:yes,constraints:[]],
                       object:[type:np,oblig:no,constraints:[lex:uita,case:acc]]])]).
+
+% ULCISCI
+% contumeliam ultum ibat
+lexarg(ulcisci,
+       arglist:[ws(ulciscor_avenge,tr_cod,clause:[],mwuw:0,
+                args:[subject:[type:np,oblig:yes,constraints:[sem:[hum]]],
+                      object:[type:np,oblig:yes,constraints:[case:acc]]])]).
+
 
 % UOCARE
 % Nauta rationes puellae in dubium uocat.
@@ -4586,6 +4611,10 @@ lexarg(placet,
 		arg:[type:np,oblig:no,constraints:[case:dat, sem:[hum]]]]),
 
                ws(placet_it_be_decided_to,tr_coi,clause:[],mwuw:0,
+               args:[subject:[type:pred,oblig:yes,constraints:[type:nonfinite]]  ,
+		arg:[type:np,oblig:no,constraints:[case:dat, sem:[hum]]]]),
+
+               ws(placet_it_be_decided_to,tr_coi,clause:[],mwuw:0,
                args:[subject:[type:pred,oblig:yes,constraints:[type:finite,gap:[],mood:subjunctive,argbound:yes,subordinator:ut]],
 		arg:[type:np,oblig:no,constraints:[case:dat, sem:[hum]]]])]).
 
@@ -4832,6 +4861,9 @@ lexarg(cupidus,
 
 lexarg(incertus,
       arg:[type:pred,oblig:no,constraints:[type:finite,gap:[],mood:subjunctive]]).
+
+lexarg(infamis,
+      arg:[type:np,oblig:no,constraints:[case:abl]]).
 
 lexarg(peritus,
       arg:[type:np,oblig:no,constraints:[case:gen]]).

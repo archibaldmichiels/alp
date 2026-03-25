@@ -2,13 +2,13 @@
 % MAKELEX: building vocabulary file for ALP, A Latin Parser				
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% ALP 204
+% ALP 205
 
-% alp204 changes and additions to be marked by alp204 token
+% alp205 changes and additions to be marked by alp205 token
 
 
 % Latest Update : Feb 2026
-% © Archibald Michiels
+% ï¿½ Archibald Michiels
 % amichiels@uliege.be
 
 % a SWI-Prolog program 
@@ -89,6 +89,7 @@ verb([v(accendere,3,accend,accend,accens)],tr_cod,std).
 verb([v(accipere,5,accip,accep,accept)],tr_cod,std).
 verb([v(adducere,3,adduc,addux,adduct)],tr_cod,std).
 verb([v(adesse,3,xxx,adfu,xxx)],intr,std). 
+verb([v(adfingere,3,adfing,adfinx,adfict)],tr_cod,std).
 verb([v(adhibere,2,adhibe,adhibu,adhibit)],tr_cod,std).          
 verb([v(adicere,5,adic,adiec,adiect)],tr_cod,std).
 verb([v(adimere,3,adim,adem,adempt)],tr_cod,std).
@@ -164,6 +165,7 @@ verb([v(desinere,3,desin,desi,desit)],tr_cod,std).
 verb([v(detrahere,3,detrah,detrax,detract)],tr_cod,std).
 verb([v(deuenire,4,deueni,deuen,deuent)],intr,std).
 verb([v(dicere,3,dic,dix,dict)],tr_inf,std).
+verb([v(diffamare,1,diffam,diffamau,diffamat)],tr_cod,std).
 verb([v(differre,3,xxx,distul,dislat)],tr_cod,std).
 verb([v(diligere,3,dilig,dilex,dilect)],tr_cod,std).
 verb([v(dimicare,1,dimic,dimicau,dimicat)],intr,std).
@@ -372,6 +374,7 @@ verb([v(uideri,2,uide,uis)],intr,dep).
 verb([v(uincere,3,uinc,uic,uict)],tr_cod,std).
 verb([v(uitare,1,uit,uitau,uitat)],tr_cod,std).
 verb([v(uiuere,3,uiu,uix,uict)],intr,std).
+verb([v(ulcisci,3,ulcisc,ult)],tr_cod,dep).
 verb([v(uocare,1,uoc,uocau,uocat)],tr_cod,std).
 verb([v(uolare,1,uol,uolau,uolat)],intr,std).
 verb([v(uomere,3,uom,uomu,uomit)],intr,std).
@@ -708,6 +711,7 @@ adj(posterus,poster,1,std,n:hpl,[poster,xxx],[]).
 adj(praecipuus,praecipu,1,std,n:no,[xxx,xxx],[]).
 adj(primus,prim,1,std,n:yes,[xxx,xxx],[]).
 adj(priuatus,priuat,1,std,n:no,[priuat,priuatissim],[]).
+adj(probrosus,probros,1,std,n:no,[probros,probrosissim],[]).
 adj(propinquus,propinqu,1,std,n:no,[prop,proxim],[]).
 adj(proprius,propri,1,std,n:no,[xxx,xxx],[]).
 adj(prosper,prosper,1,std,n:hpl,[prosper,prosperrim],[]).
@@ -735,6 +739,7 @@ adj(superbus,superb,1,std,n:hpl,[superb,superbissim],[]).
 adj(superuacuus,superuacu,1,std,n:no,[xxx,xxx],[]).
 adj(superus,super,1,std,n:yes,[xxx,xxx],[]).
 adj(supremus,suprem,1,std,n:hpl,[xxx,xxx],[]).
+adj(tacitus,tacit,1,std,n:no,[tacit,tacitissim],[]).
 adj(tardus,tard,1,std,n:no,[tard,tardissim],[]).
 adj(tener,tener,1,std,n:no,[tener,tenerrim],[]).
 adj(tertius,terti,1,std,n:no,[xxx,xxx],[]).
@@ -797,6 +802,7 @@ adj(gracilis,gracil,2,std,n:no,[gracil,gracilissim],[]).
 adj(grandis,grand,2,std,n:no,[grand,grandissim],[]).
 adj(grauis,grau,2,std,n:no,[grau,grauissim],[]).
 adj(immortalis,immortal,2,std,n:hpl,[xxx,xxx],[]).
+adj(infamis,infam,2,std,n:no,[infam,infamissim],[]).
 adj(irritabilis,irritabil,2,std,n:no,[irritabil,irritabilissim],[]).
 adj(leuis,leu,2,std,n:no,[leu,leuissim],[]).
 adj(mollis,moll,2,std,n:no,[moll,mollissim],[]).
@@ -875,6 +881,7 @@ noun(1,fem,causa,caus,class:common, ab:no, sem:[thing, abstract],[]).
 noun(1,fem,charta,chart,class:common, ab:mm, sem:[thing],[]).
 noun(1,fem,colonia,coloni,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,coma,com,class:common, ab:no, sem:[thing],[]).
+noun(1,fem,contumelia,contumeli,class:common, ab:mm, sem:[thing, abstract],[]).
 noun(1,fem,copia,copi,class:common, ab:mm, sem:[quality],[nb:sg]).
 noun(1,fem,copiae,copi,class:common, ab:mm, sem:[hum],[nb:pl]). % pluralia tantum
 noun(1,fem,corona,coron,class:common, ab:no, sem:[thing],[]).
@@ -937,6 +944,7 @@ noun(1,fem,memoria,memori,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,mensa,mens,class:common, ab:no, sem:[thing,loc],[]).
 noun(1,fem,minae,min,class:common, ab:mm, sem:[thing, abstract],[nb:pl]). % pluralia tantum
 noun(1,fem,misericordia,misericordi,class:common, ab:mm, sem:[quality],[]).
+noun(1,fem,mollitia,molliti,class:common, ab:mm, sem:[quality],[]).
 noun(1,fem,mora,mor,class:common, ab:mm, sem:[abstract],[]).
 noun(1,fem,natura,natur,class:common, ab:no, sem:[abstract, thing],[]).
 noun(1,fem,nuptiae,nupti,class:common, ab:no, sem:[thing, abstract],[nb:pl]). % pluralia tantum
@@ -1289,6 +1297,7 @@ noun(3,fem,clades,clad,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,classis,class,ium,class:common, ab:no, sem:[thing,abstract],[]).
 noun(3,fem,cohors,cohort,ium,class:common, ab:no, sem:[hum],[]).
 noun(3,fem,condicio,condicion,um,class:common, ab:no, sem:[quality],[]).
+noun(3,fem,confessio,confession,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,coniuratio,coniuration,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,consuetudo,consuetudin,um,class:common, ab:mm, sem:[abstract],[]).
 noun(3,fem,cupiditas,cupiditat,um,class:common, ab:mm, sem:[abstract],[]).
@@ -1389,6 +1398,7 @@ noun(3,neuter,caput,capit,um,class:common, ab:no, sem:[thing,hum,abstract],[]).
 noun(3,neuter,carmen,carmin,um,class:common, ab:mm, sem:[thing,abstract],[]).
 noun(3,neuter,cor,cord,um,class:common, ab:no, sem:[thing,abstract],[]).
 noun(3,neuter,corpus,corpor,um,class:common, ab:no, sem:[thing],[]).
+noun(3,neuter,crimen,crimin,um,class:common, ab:mm, sem:[thing,quality],[]).
 noun(3,neuter,decus,decor,um,class:common, ab:no, sem:[quality],[]).
 noun(3,neuter,dedecus,dedecor,um,class:common, ab:mm, sem:[quality,thing],[]).
 noun(3,neuter,facinus,facinor,um,class:common, ab:no, sem:[abstract],[]).
@@ -1421,7 +1431,7 @@ noun(3,neuter,sidus,sider,um,class:common, ab:no, sem:[thing],[]).
 noun(3,neuter,tegmen,tegmin,um,class:common, ab:no, sem:[thing, loc],[]).
 noun(3,neuter,tempora,tempor,um,class:common, ab:no, sem:[thing],[nb:pl]).
 noun(3,neuter,tempus,tempor,um,class:common, ab:no, sem:[abstract,time],[]).
-noun(3,neuter,ulnus,ulner,um,class:common, ab:no, sem:[thing,abstract],[]).
+noun(3,neuter,uulnus,uulner,um,class:common, ab:no, sem:[thing,abstract],[]).
 
 
 
@@ -1513,6 +1523,7 @@ noun(2,masc,marcus,marc,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,meliboeus,meliboe,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,narcissus,narciss,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,petrus,petr,class:proper,ab:no, sem:[male],[nb:sg]).
+noun(2,masc,quintianus,quintian,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,silanus,silan,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,theofilus,theofil,class:proper,ab:no, sem:[male],[nb:sg]).
 noun(2,masc,torquatus,torquat,class:proper,ab:no, sem:[male],[nb:sg]).
@@ -8889,6 +8900,19 @@ lex(aliquid, prindef, [pos:prindef, txt:aliquid, lex:aliquis,gender:neuter,
                     function:[object]]).
 
 
+lex(alicuius, prindef, [pos:prindef, txt:alicuius, lex:aliquis,gender:or([masc,fem]),
+                    case:gen, number:sing,person:3,sem:[hum],
+                    function:[noun_cplt]]).
+
+
+
+lex(alicui, prindef, [pos:prindef, txt:alicui, lex:aliquis,gender:or([masc,fem]),
+                    case:dat, number:sing,person:3,sem:[hum],
+                    function:[i_object]]).
+
+
+
+
 % quis quid interrogative
 %
 
@@ -9251,6 +9275,7 @@ lex(illuc,      adv,[lex:illuc,        pos:adv,type:vpbound, sem:place]).
 lex(inde,      adv,[lex:inde,        pos:adv,type:vpbound, sem:place]).
 lex(interdiu,      adv,[lex:interdiu,        pos:adv,type:vpbound, sem:time]).
 lex(interdum,      adv,[lex:interdum,        pos:adv,type:vpbound, sem:time]).
+lex(interea,      adv,[lex:interea,        pos:adv,type:vpbound, sem:time]).
 lex(interim,      adv,[lex:interim,        pos:adv,type:vpbound, sem:time]).
 lex(ita,      adv,[lex:ita,        pos:adv,type:clausal, sem:discourse]).
 lex(itaque,      adv,[lex:itaque,        pos:adv,type:clausal, sem:discourse]).
